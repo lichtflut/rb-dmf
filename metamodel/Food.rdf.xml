@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+        xmlns:common="http://rb.lichtflut.de/common#"
+        xmlns:food="http://rb.lichtflut.de/common/food/"
+        xmlns:rb="http://rb.lichtflut.de/system#"
+        xmlns:aras="http://arastreju.org/kernel#"
+        xmlns:owl="http://www.w3.org/2002/07/owl#"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <!-- TYPES -->
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/common/food/FoodProduct">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/common/food/FoodCategory">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/common/food/Recipe">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:Description>
+
+    <!-- PROPERTIES -->
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/common/food/hasSuperCategory">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasParentNode"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/common/food/hasSubCategory"/>
+        <rdfs:label>has super category</rdfs:label>
+        <rb:hasFieldLabel>Super category</rb:hasFieldLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/common/food/hasSubCategory">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasParentNode"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/common/food/hasSuperCategory"/>
+        <rdfs:label>has sub category</rdfs:label>
+        <rb:hasFieldLabel>Sub categories</rb:hasFieldLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/common/food/hasIngredients">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#contains"/>
+        <rdfs:label>has ingredients</rdfs:label>
+        <rb:hasFieldLabel>Ingredients</rb:hasFieldLabel>
+    </rdf:Description>
+
+</rdf:RDF>

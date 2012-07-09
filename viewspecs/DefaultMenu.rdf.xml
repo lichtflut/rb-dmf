@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:aras="http://arastreju.org/kernel#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:common="http://rb.lichtflut.de/common#"
+	xmlns:system="http://rb.lichtflut.de/system#">
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/view-specifications#DefaultMenu">
+		<system:hasMenuItem rdf:resource="http://rb.lichtflut.de/view-specifications#PeopleDashboardMenuItem"/>
+		<system:hasMenuItem rdf:resource="http://rb.lichtflut.de/view-specifications#OrganizationsDashboardMenuItem"/>
+		<system:hasMenuItem rdf:resource="http://rb.lichtflut.de/view-specifications#SystemsDashboardMenuItem"/>
+        <system:hasMenuItem rdf:resource="http://rb.lichtflut.de/view-specifications#PlacesDashboardMenuItem"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/view-specifications#PeopleDashboardMenuItem">
+		<system:showsPerspective rdf:resource="http://rb.lichtflut.de/view-specifications#PeoplePerspective"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/system#MenuItem"/>
+		<common:hasName>People</common:hasName>
+		<aras:hasSerialNumber>1</aras:hasSerialNumber>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/view-specifications#OrganizationsDashboardMenuItem">
+		<system:showsPerspective rdf:resource="http://rb.lichtflut.de/view-specifications#OrganizationPerspective"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/system#MenuItem"/>
+		<common:hasName>Organizations</common:hasName>
+		<aras:hasSerialNumber>2</aras:hasSerialNumber>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/view-specifications#SystemsDashboardMenuItem">
+		<system:showsPerspective rdf:resource="http://rb.lichtflut.de/view-specifications#EAMPerspective"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/system#MenuItem"/>
+		<common:hasName>Systems</common:hasName>
+		<aras:hasSerialNumber>3</aras:hasSerialNumber>
+	</rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/view-specifications#PlacesDashboardMenuItem">
+        <system:showsPerspective rdf:resource="http://rb.lichtflut.de/view-specifications#PlacesPerspective"/>
+        <rdf:type rdf:resource="http://rb.lichtflut.de/system#MenuItem"/>
+        <common:hasName>Places</common:hasName>
+        <aras:hasSerialNumber>4</aras:hasSerialNumber>
+    </rdf:Description>
+	
+</rdf:RDF>

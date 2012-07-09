@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns3:RDF
+	xmlns:ns1="http://rb.lichtflut.de/eam#"
+	xmlns:ns2="http://arastreju.org/kernel#"
+	xmlns:ns3="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:ns4="http://rb.lichtflut.de/common#"
+	xmlns:ns5="http://rb.lichtflut.de/system#"
+	xmlns:ns6="http://rb.lichtflut.de/view-specifications#"
+	xmlns:void="http://void.arasteju.org#">
+	
+	<ns3:Description ns3:about="http://rb.lichtflut.de/view-specifications#OrganizationPerspective">
+		<ns5:hasLayout>layout-50-50</ns5:hasLayout>
+		<ns5:hasViewPort ns3:resource="http://void.arasteju.org#21678efe-cbb2-4233-b5ee-7be2bd842673"/>
+		<ns5:hasViewPort ns3:resource="http://void.arasteju.org#cc8f46bd-3508-443b-8074-f858bbc90ec9"/>
+		<ns4:hasName>Organization</ns4:hasName>
+		<ns4:hasTitle>Organizational overview</ns4:hasTitle>
+		<ns3:type ns3:resource="http://rb.lichtflut.de/system#Perspective"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#09a06c36-22bc-43f6-9968-d37a5c061d4a">
+		<ns5:definesColumn ns3:resource="http://void.arasteju.org#45212f19-be09-4121-b626-c5dff06d6253"/>
+		<ns5:definesColumn ns3:resource="http://void.arasteju.org#8ccaf089-7137-4283-9e39-7c4b85db45ff"/>
+		<ns5:definesColumn ns3:resource="http://void.arasteju.org#f972127d-c636-4b3f-bbb4-aa583ade3a64"/>
+		<ns5:hasSelection ns3:resource="http://void.arasteju.org#62a3acc1-160e-439f-b483-369594cb40a8"/>
+		<ns4:hasTitle>All projects</ns4:hasTitle>
+		<ns5:supportsAction ns3:resource="http://void.arasteju.org#f3946988-1821-4341-b0ad-775568e22ece"/>
+		<ns3:type ns3:resource="http://rb.lichtflut.de/system#EnitityListWidget"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#21678efe-cbb2-4233-b5ee-7be2bd842673">
+		<ns5:containsWidget ns3:resource="http://void.arasteju.org#09a06c36-22bc-43f6-9968-d37a5c061d4a"/>
+		<ns5:containsWidget ns3:resource="http://void.arasteju.org#6b8199b4-7110-44e2-ac78-d26c683443df"/>
+		<ns2:hasSerialNumber>2</ns2:hasSerialNumber>
+		<ns3:type ns3:resource="http://rb.lichtflut.de/system#ViewPort"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#22f954b2-c2c0-4c37-8925-1de0063f494e">
+		<ns5:correspondsToProperty ns3:resource="http://rb.lichtflut.de/common#hasID"/>
+		<ns2:hasSerialNumber>1</ns2:hasSerialNumber>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#31548287-319e-4b44-8cbe-752f0faba634">
+		<ns2:hasSerialNumber>1</ns2:hasSerialNumber>
+		<ns4:hasTitle>My company</ns4:hasTitle>
+		<ns5:isImplementedByClass>de.lichtflut.rb.webck.components.widgets.builtin.MyCompanyWidget</ns5:isImplementedByClass>
+		<ns3:type ns3:resource="http://rb.lichtflut.de/system#PredefinedWidget"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#45212f19-be09-4121-b626-c5dff06d6253">
+		<ns5:correspondsToProperty ns3:resource="http://rb.lichtflut.de/common#hasTitle"/>
+		<ns2:hasSerialNumber>2</ns2:hasSerialNumber>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#627a2836-9a7b-4876-ad95-814d50df8fd1">
+		<ns5:concernsField ns3:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+		<ns5:hasTerm ns3:resource="http://rb.lichtflut.de/common#Project"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#62a3acc1-160e-439f-b483-369594cb40a8">
+		<ns5:hasParameter ns3:resource="http://void.arasteju.org#627a2836-9a7b-4876-ad95-814d50df8fd1"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#640a3eb6-8639-47ca-82d0-31ff6a55d26b">
+		<ns5:hasParameter ns3:resource="http://void.arasteju.org#eecf706a-d513-48ef-af47-ab3cb915a3ac"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#6b8199b4-7110-44e2-ac78-d26c683443df">
+		<ns5:definesColumn ns3:resource="http://void.arasteju.org#22f954b2-c2c0-4c37-8925-1de0063f494e"/>
+		<ns5:definesColumn ns3:resource="http://void.arasteju.org#6ba66f4a-a209-4a43-ad8c-4a86794a2a00"/>
+		<ns5:definesColumn ns3:resource="http://void.arasteju.org#8a41a15e-54be-4c72-8fd8-3f661d354e68"/>
+		<ns5:hasSelection ns3:resource="http://void.arasteju.org#bab348bc-80e9-4948-a730-7c3ccd093842"/>
+		<ns2:hasSerialNumber>2</ns2:hasSerialNumber>
+		<ns4:hasTitle>All processes</ns4:hasTitle>
+		<ns5:supportsAction ns3:resource="http://void.arasteju.org#ef96d4fd-6e5c-4e3d-8ece-f159682d9ab9"/>
+		<ns3:type ns3:resource="http://rb.lichtflut.de/system#EnitityListWidget"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#6ba66f4a-a209-4a43-ad8c-4a86794a2a00">
+		<ns5:correspondsToProperty ns3:resource="http://rb.lichtflut.de/common#hasOwner"/>
+		<ns2:hasSerialNumber>3</ns2:hasSerialNumber>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#8a41a15e-54be-4c72-8fd8-3f661d354e68">
+		<ns5:correspondsToProperty ns3:resource="http://rb.lichtflut.de/common#hasTitle"/>
+		<ns2:hasSerialNumber>2</ns2:hasSerialNumber>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#8ccaf089-7137-4283-9e39-7c4b85db45ff">
+		<ns5:correspondsToProperty ns3:resource="http://rb.lichtflut.de/common#hasOwner"/>
+		<ns2:hasSerialNumber>3</ns2:hasSerialNumber>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#93d050bd-5773-41f9-a74a-42509e9bb801">
+		<ns5:correspondsToProperty ns3:resource="http://rb.lichtflut.de/common#hasName"/>
+		<ns2:hasSerialNumber>1</ns2:hasSerialNumber>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#94daaf47-64e0-4ead-92d0-9daaaba9d323">
+		<ns5:concernsField ns3:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+		<ns5:hasTerm ns3:resource="http://rb.lichtflut.de/bpm#BusinessProcess"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#9b3837ab-9a53-4965-b452-f07c0e4e01c4">
+		<ns5:correspondsToProperty ns3:resource="http://rb.lichtflut.de/common#hasGeneralManager"/>
+		<ns2:hasSerialNumber>3</ns2:hasSerialNumber>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#ae29b414-0b91-4b6a-b509-56b120feebab">
+		<ns5:correspondsToProperty ns3:resource="http://rb.lichtflut.de/common#hasDomicile"/>
+		<ns2:hasSerialNumber>2</ns2:hasSerialNumber>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#b36cb15e-6880-4383-a5bd-82072a26a626">
+		<ns5:createInstanceOf ns3:resource="http://rb.lichtflut.de/common#Organization"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#bab348bc-80e9-4948-a730-7c3ccd093842">
+		<ns5:hasParameter ns3:resource="http://void.arasteju.org#94daaf47-64e0-4ead-92d0-9daaaba9d323"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#cc8f46bd-3508-443b-8074-f858bbc90ec9">
+		<ns5:containsWidget ns3:resource="http://void.arasteju.org#31548287-319e-4b44-8cbe-752f0faba634"/>
+		<ns5:containsWidget ns3:resource="http://void.arasteju.org#fc0af531-a87c-4363-9ee6-7b773a6b97bc"/>
+		<ns2:hasSerialNumber>1</ns2:hasSerialNumber>
+		<ns3:type ns3:resource="http://rb.lichtflut.de/system#ViewPort"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#eecf706a-d513-48ef-af47-ab3cb915a3ac">
+		<ns5:concernsField ns3:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+		<ns5:hasTerm ns3:resource="http://rb.lichtflut.de/common#Organization"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#ef96d4fd-6e5c-4e3d-8ece-f159682d9ab9">
+		<ns5:createInstanceOf ns3:resource="http://rb.lichtflut.de/bpm#BusinessProcess"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#f3946988-1821-4341-b0ad-775568e22ece">
+		<ns5:createInstanceOf ns3:resource="http://rb.lichtflut.de/common#Project"/>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#f972127d-c636-4b3f-bbb4-aa583ade3a64">
+		<ns5:correspondsToProperty ns3:resource="http://rb.lichtflut.de/common#hasID"/>
+		<ns2:hasSerialNumber>1</ns2:hasSerialNumber>
+	</ns3:Description>
+	
+	<ns3:Description ns3:about="http://void.arasteju.org#fc0af531-a87c-4363-9ee6-7b773a6b97bc">
+		<ns5:definesColumn ns3:resource="http://void.arasteju.org#93d050bd-5773-41f9-a74a-42509e9bb801"/>
+		<ns5:definesColumn ns3:resource="http://void.arasteju.org#9b3837ab-9a53-4965-b452-f07c0e4e01c4"/>
+		<ns5:definesColumn ns3:resource="http://void.arasteju.org#ae29b414-0b91-4b6a-b509-56b120feebab"/>
+		<ns5:hasSelection ns3:resource="http://void.arasteju.org#640a3eb6-8639-47ca-82d0-31ff6a55d26b"/>
+		<ns2:hasSerialNumber>2</ns2:hasSerialNumber>
+		<ns4:hasTitle>All organizations</ns4:hasTitle>
+		<ns5:supportsAction ns3:resource="http://void.arasteju.org#b36cb15e-6880-4383-a5bd-82072a26a626"/>
+		<ns3:type ns3:resource="http://rb.lichtflut.de/system#EnitityListWidget"/>
+	</ns3:Description>
+
+</ns3:RDF>

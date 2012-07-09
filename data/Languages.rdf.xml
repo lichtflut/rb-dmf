@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:aras="http://arastreju.org/kernel#"
+	xmlns:ns1="http://rb.lichtflut.de/common#"
+	xmlns:ns2="http://l2r.info/languages#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description rdf:about="http://l2r.info/languages#Albanian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Albanian</rdfs:label>
+	<rdfs:label xml:lang="de">Albanisch</rdfs:label>
+	<rdfs:label xml:lang="fr">albanais</rdfs:label>
+	<rdfs:label xml:lang="it">albanese</rdfs:label>
+	<rdfs:label xml:lang="es">albanés</rdfs:label>
+	<rdfs:label xml:lang="ja">アルバニア語</rdfs:label>
+	<rdfs:label xml:lang="zh">阿尔巴尼亚文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Arabic">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Arabic</rdfs:label>
+	<rdfs:label xml:lang="de">Arabisch</rdfs:label>
+	<rdfs:label xml:lang="fr">arabe</rdfs:label>
+	<rdfs:label xml:lang="it">arabo</rdfs:label>
+	<rdfs:label xml:lang="es">árabe</rdfs:label>
+	<rdfs:label xml:lang="ja">アラビア語</rdfs:label>
+	<rdfs:label xml:lang="zh">阿拉伯文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Belarusian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Belarusian</rdfs:label>
+	<rdfs:label xml:lang="de">Belorussisch</rdfs:label>
+	<rdfs:label xml:lang="es">bielorruso</rdfs:label>
+	<rdfs:label xml:lang="it">bielorusso</rdfs:label>
+	<rdfs:label xml:lang="fr">biélorusse</rdfs:label>
+	<rdfs:label xml:lang="ja">白ロシア語</rdfs:label>
+	<rdfs:label xml:lang="zh">白俄罗斯文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Bulgarian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Bulgarian</rdfs:label>
+	<rdfs:label xml:lang="de">Bulgarisch</rdfs:label>
+	<rdfs:label xml:lang="fr">bulgare</rdfs:label>
+	<rdfs:label xml:lang="it">bulgaro</rdfs:label>
+	<rdfs:label xml:lang="es">búlgaro</rdfs:label>
+	<rdfs:label xml:lang="ja">ブルガリア語</rdfs:label>
+	<rdfs:label xml:lang="zh">保加利亚文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Catalan">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Catalan</rdfs:label>
+	<rdfs:label xml:lang="de">Katalanisch</rdfs:label>
+	<rdfs:label xml:lang="fr">catalan</rdfs:label>
+	<rdfs:label xml:lang="it">catalano</rdfs:label>
+	<rdfs:label xml:lang="es">catalán</rdfs:label>
+	<rdfs:label xml:lang="ja">カタロニア語</rdfs:label>
+	<rdfs:label xml:lang="zh">加泰罗尼亚文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Chinese">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Chinese</rdfs:label>
+	<rdfs:label xml:lang="de">Chinesisch</rdfs:label>
+	<rdfs:label xml:lang="es">chino</rdfs:label>
+	<rdfs:label xml:lang="fr">chinois</rdfs:label>
+	<rdfs:label xml:lang="it">cinese</rdfs:label>
+	<rdfs:label xml:lang="ja">中国語</rdfs:label>
+	<rdfs:label xml:lang="zh">中文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Croatian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Croatian</rdfs:label>
+	<rdfs:label xml:lang="de">Kroatisch</rdfs:label>
+	<rdfs:label xml:lang="es">croata</rdfs:label>
+	<rdfs:label xml:lang="fr">croate</rdfs:label>
+	<rdfs:label xml:lang="it">croato</rdfs:label>
+	<rdfs:label xml:lang="ja">クロアチア語</rdfs:label>
+	<rdfs:label xml:lang="zh">克罗地亚文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Czech">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Czech</rdfs:label>
+	<rdfs:label xml:lang="de">Tschechisch</rdfs:label>
+	<rdfs:label xml:lang="it">ceco</rdfs:label>
+	<rdfs:label xml:lang="es">checo</rdfs:label>
+	<rdfs:label xml:lang="fr">tchèque</rdfs:label>
+	<rdfs:label xml:lang="ja">チェコ語</rdfs:label>
+	<rdfs:label xml:lang="zh">捷克文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Danish">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Danish</rdfs:label>
+	<rdfs:label xml:lang="de">Dänisch</rdfs:label>
+	<rdfs:label xml:lang="it">danese</rdfs:label>
+	<rdfs:label xml:lang="fr">danois</rdfs:label>
+	<rdfs:label xml:lang="es">danés</rdfs:label>
+	<rdfs:label xml:lang="ja">デンマーク語</rdfs:label>
+	<rdfs:label xml:lang="zh">丹麦文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Dutch">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Dutch</rdfs:label>
+	<rdfs:label xml:lang="de">Niederländisch</rdfs:label>
+	<rdfs:label xml:lang="it">neerlandese</rdfs:label>
+	<rdfs:label xml:lang="es">neerlandés</rdfs:label>
+	<rdfs:label xml:lang="fr">néerlandais</rdfs:label>
+	<rdfs:label xml:lang="ja">オランダ語</rdfs:label>
+	<rdfs:label xml:lang="zh">荷兰文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#English">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="de">Englisch</rdfs:label>
+	<rdfs:label xml:lang="en">English</rdfs:label>
+	<rdfs:label xml:lang="fr">anglais</rdfs:label>
+	<rdfs:label xml:lang="it">inglese</rdfs:label>
+	<rdfs:label xml:lang="es">inglés</rdfs:label>
+	<rdfs:label xml:lang="zh">英文</rdfs:label>
+	<rdfs:label xml:lang="ja">英語</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Estonian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="de">Estnisch</rdfs:label>
+	<rdfs:label xml:lang="en">Estonian</rdfs:label>
+	<rdfs:label xml:lang="it">estone</rdfs:label>
+	<rdfs:label xml:lang="fr">estonien</rdfs:label>
+	<rdfs:label xml:lang="es">estonio</rdfs:label>
+	<rdfs:label xml:lang="ja">エストニア語</rdfs:label>
+	<rdfs:label xml:lang="zh">爱沙尼亚文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Finnish">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="de">Finnisch</rdfs:label>
+	<rdfs:label xml:lang="en">Finnish</rdfs:label>
+	<rdfs:label xml:lang="it">finlandese</rdfs:label>
+	<rdfs:label xml:lang="fr">finnois</rdfs:label>
+	<rdfs:label xml:lang="es">finés</rdfs:label>
+	<rdfs:label xml:lang="ja">フィンランド語</rdfs:label>
+	<rdfs:label xml:lang="zh">芬兰文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#French">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="de">Französisch</rdfs:label>
+	<rdfs:label xml:lang="en">French</rdfs:label>
+	<rdfs:label xml:lang="it">francese</rdfs:label>
+	<rdfs:label xml:lang="es">francés</rdfs:label>
+	<rdfs:label xml:lang="fr">français</rdfs:label>
+	<rdfs:label xml:lang="ja">フランス語</rdfs:label>
+	<rdfs:label xml:lang="zh">法文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#German">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="de">Deutsch</rdfs:label>
+	<rdfs:label xml:lang="en">German</rdfs:label>
+	<rdfs:label xml:lang="es">alemán</rdfs:label>
+	<rdfs:label xml:lang="fr">allemand</rdfs:label>
+	<rdfs:label xml:lang="it">tedesco</rdfs:label>
+	<rdfs:label xml:lang="ja">ドイツ語</rdfs:label>
+	<rdfs:label xml:lang="zh">德文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Greek">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Greek</rdfs:label>
+	<rdfs:label xml:lang="de">Griechisch</rdfs:label>
+	<rdfs:label xml:lang="fr">grec</rdfs:label>
+	<rdfs:label xml:lang="it">greco</rdfs:label>
+	<rdfs:label xml:lang="es">griego</rdfs:label>
+	<rdfs:label xml:lang="ja">ギリシア語</rdfs:label>
+	<rdfs:label xml:lang="zh">希腊文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Hebrew">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Hebrew</rdfs:label>
+	<rdfs:label xml:lang="de">Hebräisch</rdfs:label>
+	<rdfs:label xml:lang="it">ebraico</rdfs:label>
+	<rdfs:label xml:lang="es">hebreo</rdfs:label>
+	<rdfs:label xml:lang="fr">hébreu</rdfs:label>
+	<rdfs:label xml:lang="ja">ヘブライ語</rdfs:label>
+	<rdfs:label xml:lang="zh">希伯来文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Hungarian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Hungarian</rdfs:label>
+	<rdfs:label xml:lang="de">Ungarisch</rdfs:label>
+	<rdfs:label xml:lang="fr">hongrois</rdfs:label>
+	<rdfs:label xml:lang="es">húngaro</rdfs:label>
+	<rdfs:label xml:lang="it">ungherese</rdfs:label>
+	<rdfs:label xml:lang="ja">ハンガリー語</rdfs:label>
+	<rdfs:label xml:lang="zh">匈牙利文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Icelandic">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Icelandic</rdfs:label>
+	<rdfs:label xml:lang="de">Isländisch</rdfs:label>
+	<rdfs:label xml:lang="fr">islandais</rdfs:label>
+	<rdfs:label xml:lang="it">islandese</rdfs:label>
+	<rdfs:label xml:lang="es">islandés</rdfs:label>
+	<rdfs:label xml:lang="ja">アイスランド語</rdfs:label>
+	<rdfs:label xml:lang="zh">冰岛文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Indonesian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Indonesian</rdfs:label>
+	<rdfs:label xml:lang="de">Indonesisch</rdfs:label>
+	<rdfs:label xml:lang="it">indonesiano</rdfs:label>
+	<rdfs:label xml:lang="es">indonesio</rdfs:label>
+	<rdfs:label xml:lang="fr">indonésien</rdfs:label>
+	<rdfs:label xml:lang="ja">インドネシア語</rdfs:label>
+	<rdfs:label xml:lang="zh">印度尼西亚文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Irish">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="de">Irisch</rdfs:label>
+	<rdfs:label xml:lang="en">Irish</rdfs:label>
+	<rdfs:label xml:lang="fr">irlandais</rdfs:label>
+	<rdfs:label xml:lang="it">irlandese</rdfs:label>
+	<rdfs:label xml:lang="es">irlandés</rdfs:label>
+	<rdfs:label xml:lang="ja">アイルランド語</rdfs:label>
+	<rdfs:label xml:lang="zh">爱尔兰文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Italian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Italian</rdfs:label>
+	<rdfs:label xml:lang="de">Italienisch</rdfs:label>
+	<rdfs:label xml:lang="it">italiano</rdfs:label>
+	<rdfs:label xml:lang="fr">italien</rdfs:label>
+	<rdfs:label xml:lang="ja">イタリア語</rdfs:label>
+	<rdfs:label xml:lang="zh">意大利文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Japanese">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Japanese</rdfs:label>
+	<rdfs:label xml:lang="de">Japanisch</rdfs:label>
+	<rdfs:label xml:lang="it">giapponese</rdfs:label>
+	<rdfs:label xml:lang="fr">japonais</rdfs:label>
+	<rdfs:label xml:lang="es">japonés</rdfs:label>
+	<rdfs:label xml:lang="zh">日文</rdfs:label>
+	<rdfs:label xml:lang="ja">日本語</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Korean">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Korean</rdfs:label>
+	<rdfs:label xml:lang="de">Koreanisch</rdfs:label>
+	<rdfs:label xml:lang="it">coreano</rdfs:label>
+	<rdfs:label xml:lang="fr">coréen</rdfs:label>
+	<rdfs:label xml:lang="zh">朝鲜文</rdfs:label>
+	<rdfs:label xml:lang="ja">韓国語</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Latvian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Latvian</rdfs:label>
+	<rdfs:label xml:lang="de">Lettisch</rdfs:label>
+	<rdfs:label xml:lang="fr">letton</rdfs:label>
+	<rdfs:label xml:lang="it">lettone</rdfs:label>
+	<rdfs:label xml:lang="es">letón</rdfs:label>
+	<rdfs:label xml:lang="ja">ラトビア語 (レット語)</rdfs:label>
+	<rdfs:label xml:lang="zh">拉托维亚文(列托)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Lithuanian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="de">Litauisch</rdfs:label>
+	<rdfs:label xml:lang="en">Lithuanian</rdfs:label>
+	<rdfs:label xml:lang="fr">lithuanien</rdfs:label>
+	<rdfs:label xml:lang="it">lituano</rdfs:label>
+	<rdfs:label xml:lang="ja">リトアニア語</rdfs:label>
+	<rdfs:label xml:lang="zh">立陶宛文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Macedonian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Macedonian</rdfs:label>
+	<rdfs:label xml:lang="de">Mazedonisch</rdfs:label>
+	<rdfs:label xml:lang="it">macedone</rdfs:label>
+	<rdfs:label xml:lang="es">macedonio</rdfs:label>
+	<rdfs:label xml:lang="fr">macédonien</rdfs:label>
+	<rdfs:label xml:lang="ja">マケドニア語</rdfs:label>
+	<rdfs:label xml:lang="zh">马其顿文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Malay">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Malay</rdfs:label>
+	<rdfs:label xml:lang="fr">malais</rdfs:label>
+	<rdfs:label xml:lang="es">malayo</rdfs:label>
+	<rdfs:label xml:lang="it">malese</rdfs:label>
+	<rdfs:label xml:lang="ja">マライ語</rdfs:label>
+	<rdfs:label xml:lang="zh">马来文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Maltese">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Maltese</rdfs:label>
+	<rdfs:label xml:lang="de">Maltesisch</rdfs:label>
+	<rdfs:label xml:lang="fr">maltais</rdfs:label>
+	<rdfs:label xml:lang="it">maltese</rdfs:label>
+	<rdfs:label xml:lang="es">maltés</rdfs:label>
+	<rdfs:label xml:lang="ja">マルタ語</rdfs:label>
+	<rdfs:label xml:lang="zh">马耳他文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Norwegian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Norwegian</rdfs:label>
+	<rdfs:label xml:lang="de">Norwegisch</rdfs:label>
+	<rdfs:label xml:lang="es">noruego</rdfs:label>
+	<rdfs:label xml:lang="it">norvegese</rdfs:label>
+	<rdfs:label xml:lang="fr">norvégien</rdfs:label>
+	<rdfs:label xml:lang="ja">ノルウェー語</rdfs:label>
+	<rdfs:label xml:lang="zh">挪威文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Polish">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Polish</rdfs:label>
+	<rdfs:label xml:lang="de">Polnisch</rdfs:label>
+	<rdfs:label xml:lang="it">polacco</rdfs:label>
+	<rdfs:label xml:lang="es">polaco</rdfs:label>
+	<rdfs:label xml:lang="fr">polonais</rdfs:label>
+	<rdfs:label xml:lang="ja">ポーランド語</rdfs:label>
+	<rdfs:label xml:lang="zh">波兰文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Portuguese">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="de">Portugiesisch</rdfs:label>
+	<rdfs:label xml:lang="en">Portuguese</rdfs:label>
+	<rdfs:label xml:lang="it">portoghese</rdfs:label>
+	<rdfs:label xml:lang="fr">portugais</rdfs:label>
+	<rdfs:label xml:lang="es">portugués</rdfs:label>
+	<rdfs:label xml:lang="ja">ポルトガル語</rdfs:label>
+	<rdfs:label xml:lang="zh">葡萄牙文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Romanian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Romanian</rdfs:label>
+	<rdfs:label xml:lang="de">Rumänisch</rdfs:label>
+	<rdfs:label xml:lang="fr">roumain</rdfs:label>
+	<rdfs:label xml:lang="es">rumano</rdfs:label>
+	<rdfs:label xml:lang="it">rumeno</rdfs:label>
+	<rdfs:label xml:lang="ja">ルーマニア語</rdfs:label>
+	<rdfs:label xml:lang="zh">罗马尼亚文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Russian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Russian</rdfs:label>
+	<rdfs:label xml:lang="de">Russisch</rdfs:label>
+	<rdfs:label xml:lang="es">ruso</rdfs:label>
+	<rdfs:label xml:lang="fr">russe</rdfs:label>
+	<rdfs:label xml:lang="it">russo</rdfs:label>
+	<rdfs:label xml:lang="ja">ロシア語</rdfs:label>
+	<rdfs:label xml:lang="zh">俄文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Serbian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Serbian</rdfs:label>
+	<rdfs:label xml:lang="de">Serbisch</rdfs:label>
+	<rdfs:label xml:lang="fr">serbe</rdfs:label>
+	<rdfs:label xml:lang="es">serbio</rdfs:label>
+	<rdfs:label xml:lang="it">serbo</rdfs:label>
+	<rdfs:label xml:lang="ja">セルビア語</rdfs:label>
+	<rdfs:label xml:lang="zh">塞尔维亚文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Slovak">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Slovak</rdfs:label>
+	<rdfs:label xml:lang="de">Slowakisch</rdfs:label>
+	<rdfs:label xml:lang="es">eslovaco</rdfs:label>
+	<rdfs:label xml:lang="it">slovacco</rdfs:label>
+	<rdfs:label xml:lang="fr">slovaque</rdfs:label>
+	<rdfs:label xml:lang="ja">スロバキア語</rdfs:label>
+	<rdfs:label xml:lang="zh">斯洛伐克文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Slovenian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Slovenian</rdfs:label>
+	<rdfs:label xml:lang="de">Slowenisch</rdfs:label>
+	<rdfs:label xml:lang="es">eslovenio</rdfs:label>
+	<rdfs:label xml:lang="it">sloveno</rdfs:label>
+	<rdfs:label xml:lang="fr">slovène</rdfs:label>
+	<rdfs:label xml:lang="ja">スロベニア語</rdfs:label>
+	<rdfs:label xml:lang="zh">斯洛文尼亚文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Spanish">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="de">Spanisch</rdfs:label>
+	<rdfs:label xml:lang="en">Spanish</rdfs:label>
+	<rdfs:label xml:lang="fr">espagnol</rdfs:label>
+	<rdfs:label xml:lang="es">español</rdfs:label>
+	<rdfs:label xml:lang="it">spagnolo</rdfs:label>
+	<rdfs:label xml:lang="ja">スペイン語</rdfs:label>
+	<rdfs:label xml:lang="zh">西班牙文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Swedish">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="de">Schwedisch</rdfs:label>
+	<rdfs:label xml:lang="en">Swedish</rdfs:label>
+	<rdfs:label xml:lang="es">sueco</rdfs:label>
+	<rdfs:label xml:lang="fr">suédois</rdfs:label>
+	<rdfs:label xml:lang="it">svedese</rdfs:label>
+	<rdfs:label xml:lang="ja">スウェーデン語</rdfs:label>
+	<rdfs:label xml:lang="zh">瑞典文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Thai">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Thai</rdfs:label>
+	<rdfs:label xml:lang="es">tailandés</rdfs:label>
+	<rdfs:label xml:lang="it">thai</rdfs:label>
+	<rdfs:label xml:lang="fr">thaï</rdfs:label>
+	<rdfs:label xml:lang="ja">タイ語</rdfs:label>
+	<rdfs:label xml:lang="zh">泰文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Turkish">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Turkish</rdfs:label>
+	<rdfs:label xml:lang="de">Türkisch</rdfs:label>
+	<rdfs:label xml:lang="fr">turc</rdfs:label>
+	<rdfs:label xml:lang="it">turco</rdfs:label>
+	<rdfs:label xml:lang="ja">トルコ語</rdfs:label>
+	<rdfs:label xml:lang="zh">土耳其文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Ukrainian">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Ukrainian</rdfs:label>
+	<rdfs:label xml:lang="de">Ukrainisch</rdfs:label>
+	<rdfs:label xml:lang="it">ucraino</rdfs:label>
+	<rdfs:label xml:lang="es">ucranio</rdfs:label>
+	<rdfs:label xml:lang="fr">ukrainien</rdfs:label>
+	<rdfs:label xml:lang="ja">ウクライナ語</rdfs:label>
+	<rdfs:label xml:lang="zh">乌克兰文</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/languages#Vietnamese">
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Language"/>
+	<rdfs:label xml:lang="en">Vietnamese</rdfs:label>
+	<rdfs:label xml:lang="de">Vietnamesisch</rdfs:label>
+	<rdfs:label xml:lang="fr">vietnamien</rdfs:label>
+	<rdfs:label xml:lang="it">vietnamita</rdfs:label>
+	<rdfs:label xml:lang="ja">ベトナム語</rdfs:label>
+	<rdfs:label xml:lang="zh">越南文</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

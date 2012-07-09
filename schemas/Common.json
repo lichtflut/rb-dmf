@@ -1,0 +1,506 @@
+{ "namespace-declarations" : [ {
+	"namespace": "http://rb.lichtflut.de/common#", 
+	"prefix" : "common"
+  }, {
+	"namespace": "http://rb.lichtflut.de/public-type-defs#", 
+	"prefix" : "public-td"
+  } ] 
+}
+{
+  "public-constraints" : [ {
+    "id" : "public-td:EmailConstraint",
+    "name" : "EmailTypeDef",
+    "applicable-datatypes" : "string",
+    "literal-constraint" : ".*@.*"
+  } ]
+}
+{
+  "resource-schemas" : [ {
+    "for-type" : "common:City",
+	"label-rule" : "common:hasName <(> common:isInCountry <)>",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Name"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:isInCountry",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Country"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Country"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasPopulation",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Population"
+      },
+      "datatype" : "integer"
+    }
+  }, {
+    "for-type" : "common:Country",
+	"label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Name"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasIsoAplpha2Code",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "ISO Alpha 2"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasIsoAplpha3Code",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "ISO Alpha 3"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasPopulation",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Population"
+      },
+      "datatype" : "integer"
+    }
+  }, {
+    "for-type" : "common:Continent",
+	"label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Name"
+      },
+      "datatype" : "string"
+    }
+  }, {
+    "for-type" : "common:Person",
+	"label-rule" : "common:hasFirstname common:hasLastname",
+    "property-declaration" : {
+      "property-type" : "common:hasFirstname",
+      "cardinality" : "[1..n]",
+      "field-label" : {
+        "default" : "First name"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasLastname",
+      "cardinality" : "[0..1]",
+      "field-label" : {
+        "default" : "Last name"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasAddress",
+      "cardinality" : "[1..n]",
+      "field-label" : {
+        "default" : "Address"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Address"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasDateOfBirth",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Birthdate"
+      },
+      "datatype" : "date"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasPlaceOfBirth",
+      "cardinality" : "[0..1]",
+      "field-label" : {
+        "default" : "Birthplace"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:City"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasEmail",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "E-Mail"
+      },
+      "datatype" : "string",
+      "reference-constraint" : "public-td:EmailTypeDef"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasContactData",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Phone contacts"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:ContactData"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasChild",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Children"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Person"
+    }, "property-declaration" : {
+      "property-type" : "common:hasLanguageSkill",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Language skills"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:LanguageSkill"
+    }, "property-declaration" : {
+      "property-type" : "common:hasExpertise",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Expertise"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Expertise"
+	}
+  }, {
+    "for-type" : "common:Address",
+	"label-rule" : "common:hasStreet common:hasHouseNo <,> common:isInCity",
+    "property-declaration" : {
+      "property-type" : "common:hasStreet",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Street"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasHouseNo",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "House No."
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasZipcode",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "ZIP code"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:isInCity",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "City"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:City"
+    }
+  }, {
+    "for-type" : "common:Organization",
+	"label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Name"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasGeneralManager",
+      "cardinality" : "[1..n]",
+      "field-label" : {
+        "default" : "General Manager"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Person"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasDomicile",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Domicile"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:City"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasAddress",
+      "cardinality" : "[1..n]",
+      "field-label" : {
+        "default" : "Address"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Address"
+    },
+    "property-declaration" : {
+      "property-type" : "common:isNPO",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Is NPO"
+      },
+      "datatype" : "boolean"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasSubordinate",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Sub units"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:OrganizationalUnit"
+    },
+    "property-declaration" : {
+      "property-type" : "common:ownsVehicle",
+      "cardinality" : "[1..n]",
+      "field-label" : {
+        "default" : "Car pool"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Vehicle"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasEmployee",
+      "cardinality" : "[1..n]",
+      "field-label" : {
+        "default" : "Has employees"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Person"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasDescription",
+      "cardinality" : "[0..1]",
+      "field-label" : {
+        "default" : "Description"
+      },
+      "datatype" : "text"
+    }
+  }, {
+    "for-type" : "common:Project",
+	"label-rule" : "common:hasTitle <(> common:hasID <)>",
+    "property-declaration" : {
+      "property-type" : "common:hasID",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "ID"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasTitle",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Name"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasLead",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Project lead"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Person"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasStakeholder",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Stakeholders"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:ConceptualPerson"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasTeamMember",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Team"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Person"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasOwner",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Owner"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:ConceptualPerson"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasCostUnit",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Sponsor"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:OrganizationalUnit"
+    }
+  }, {
+    "for-type" : "common:OrganizationalUnit",
+	"label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Name"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasID",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "ID"
+      },
+      "datatype" : "string"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasLead",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Chief/Manager"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Person"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasDeputy",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Deputy"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Person"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasMembers",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Staff"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Person"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasSuperordinate",
+      "cardinality" : "[o..n]",
+      "field-label" : {
+        "default" : "Superodinate unit"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:OrganizationalUnit"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasSubordinate",
+      "cardinality" : "[0..n]",
+      "field-label" : {
+        "default" : "Sub units"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:OrganizationalUnit"
+    }
+  }, {
+    "for-type" : "common:Vehicle",
+    "label-rule" : "common:hasLicenseTag",
+    "property-declaration" : {
+      "property-type" : "common:hasLicenseTag",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Numberplate"
+      },
+      "datatype" : "string"
+    }, 
+     "property-declaration" : {
+      "property-type" : "common:isProducedBy",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Producer"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Organization"
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasDescription",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Description"
+      },
+      "datatype" : "string"
+    },
+     "property-declaration" : {
+      "property-type" : "common:isAssignedTo",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Assigned to"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:Person"
+    }
+  }, {
+    "for-type" : "common:ContactData",
+    "label-rule" : "common:hasValue <(> common:hasCategory <)>",
+    "property-declaration" : {
+      "property-type" : "common:hasCategory",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Category"
+      },
+      "datatype" : "resource",
+      "resource-constraint" : "common:ContactDataCategory"
+    }, 
+     "property-declaration" : {
+      "property-type" : "common:hasValue",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Number"
+      },
+      "datatype" : "string"
+    }
+  }, {
+    "for-type" : "common:LanguageSkill",
+    "label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Name"
+      },
+      "datatype" : "string"
+    }
+  } , {
+    "for-type" : "common:Expertise",
+    "label-rule" : "common:hasName",
+    "property-declaration" : {
+	  "property-type" : "common:hasName",
+      "cardinality" : "[1..1]",
+      "field-label" : {
+        "default" : "Name"
+      },
+      "datatype" : "string"
+    }
+  }
+  ]
+}

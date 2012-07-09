@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:common="http://rb.lichtflut.de/common#"
+	xmlns:rb="http://rb.lichtflut.de/system#"
+	xmlns:aras="http://arastreju.org/kernel#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	
+	<rdf:Description rdf:about="http://l2r.info/geonames#Europe">
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#Continent"/>
+		<rdfs:label>Europe</rdfs:label>
+		<rdfs:label xml:lang="de-De">Europa</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://l2r.info/geonames#NorthAmerica">
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#Continent"/>
+		<rdfs:label>North America</rdfs:label>
+		<rdfs:label xml:lang="de-De">Nordamerika</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://l2r.info/geonames#SouthAmerica">
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#Continent"/>
+		<rdfs:label>South America</rdfs:label>
+		<rdfs:label xml:lang="de-De">Südamerika</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://l2r.info/geonames#Africa">
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#Continent"/>
+		<rdfs:label>Africa</rdfs:label>
+		<rdfs:label xml:lang="de-De">Afrika</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://l2r.info/geonames#Asia">
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#Continent"/>
+		<rdfs:label>Asia</rdfs:label>
+		<rdfs:label xml:lang="de-De">Asien</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://l2r.info/geonames#Oceania">
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#Continent"/>
+		<rdfs:label>Oceania</rdfs:label>
+		<rdfs:label xml:lang="de-De">Ozeanien</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://l2r.info/geonames#Antarctica">
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#Continent"/>
+		<rdfs:label>Antarctica</rdfs:label>
+		<rdfs:label xml:lang="de-De">Antarktis</rdfs:label>
+	</rdf:Description>
+	
+</rdf:RDF>

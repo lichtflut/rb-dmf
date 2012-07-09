@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:crm="http://rb.lichtflut.de/crm#"
+	xmlns:aras="http://arastreju.org/kernel#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	
+	<!-- CRM TYPES -->
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#ContactHistory">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#ContactHistoryEntry">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<!-- CRM PROPERTIES -->
+	
+	
+	<!-- CATEGORIES -->
+	
+</rdf:RDF>

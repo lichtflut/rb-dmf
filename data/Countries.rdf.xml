@@ -1,0 +1,3002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:aras="http://arastreju.org/kernel#"
+	xmlns:ns1="http://rb.lichtflut.de/common#"
+	xmlns:ns2="http://rb.lichtflut.de/system#"
+	xmlns:ns3="http://l2r.info/geonames#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Afghanistan_1149361">
+	<ns1:hasIsoAplpha2Code>AF</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>AFG</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Afghanistan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32738000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Afghanistan</rdfs:label>
+	<rdfs:label xml:lang="en">Islamic Republic of Afghanistan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#AlandIslands_661882">
+	<ns1:hasIsoAplpha2Code>AX</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ALA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Aland Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26711</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Aland Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Alandinseln</rdfs:label>
+	<rdfs:label xml:lang="en">Åland Islands</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Albania_783754">
+	<ns1:hasIsoAplpha2Code>AL</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ALB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Albania</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3619000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Albania</rdfs:label>
+	<rdfs:label xml:lang="de">Albanien</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Albania</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Algeria_2589581">
+	<ns1:hasIsoAplpha2Code>DZ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>DZA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Algeria</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33739000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Algeria</rdfs:label>
+	<rdfs:label xml:lang="de">Algerien</rdfs:label>
+	<rdfs:label xml:lang="en">People’s Democratic Republic of Algeria</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#AmericanSamoa_5880801">
+	<ns1:hasIsoAplpha2Code>AS</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ASM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>American Samoa</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57881</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>American Samoa</rdfs:label>
+	<rdfs:label xml:lang="de">Amerikanisch-Samoa</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Andorra_3041565">
+	<ns1:hasIsoAplpha2Code>AD</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>AND</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Andorra</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Andorra</rdfs:label>
+	<rdfs:label xml:lang="en">Principality of Andorra</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Angola_3351879">
+	<ns1:hasIsoAplpha2Code>AO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>AGO</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Angola</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12531000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Angola</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Angola</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Anguilla_3573511">
+	<ns1:hasIsoAplpha2Code>AI</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>AIA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Anguilla</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13254</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Anguilla</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Antarctica_6697173">
+	<ns1:hasIsoAplpha2Code>AQ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ATA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Antarctica</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Antarctica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Antarctica</rdfs:label>
+	<rdfs:label xml:lang="de">Antarktis</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#AntiguaAndBarbuda_3576396">
+	<ns1:hasIsoAplpha2Code>AG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ATG</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Antigua and Barbuda</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Antigua and Barbuda</rdfs:label>
+	<rdfs:label xml:lang="de">Antigua und Barbuda</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Argentina_3865483">
+	<ns1:hasIsoAplpha2Code>AR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ARG</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Argentina</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40677000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Argentina</rdfs:label>
+	<rdfs:label xml:lang="en">Argentine Republic</rdfs:label>
+	<rdfs:label xml:lang="de">Argentinien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Armenia_174982">
+	<ns1:hasIsoAplpha2Code>AM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ARM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Armenia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2968000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Armenia</rdfs:label>
+	<rdfs:label xml:lang="de">Armenien</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Armenia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Aruba_3577279">
+	<ns1:hasIsoAplpha2Code>AW</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ABW</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Aruba</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71566</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Aruba</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Australia_2077456">
+	<ns1:hasIsoAplpha2Code>AU</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>AUS</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Australia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20600000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Australia</rdfs:label>
+	<rdfs:label xml:lang="de">Australien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Austria_2782113">
+	<ns1:hasIsoAplpha2Code>AT</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>AUT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Austria</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8205000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Austria</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Austria</rdfs:label>
+	<rdfs:label xml:lang="de">Österreich</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Azerbaijan_587116">
+	<ns1:hasIsoAplpha2Code>AZ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>AZE</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Azerbaijan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8177000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Aserbaidschan</rdfs:label>
+	<rdfs:label>Azerbaijan</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Azerbaijan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Bahamas_3572887">
+	<ns1:hasIsoAplpha2Code>BS</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BHS</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Bahamas</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">301790</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Bahamas</rdfs:label>
+	<rdfs:label xml:lang="en">The Bahamas</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Bahrain_290291">
+	<ns1:hasIsoAplpha2Code>BH</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BHR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Bahrain</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">718000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Bahrain</rdfs:label>
+	<rdfs:label xml:lang="en">Kingdom of Bahrain</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Bangladesh_1210997">
+	<ns1:hasIsoAplpha2Code>BD</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BGD</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Bangladesh</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153546000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Bangladesch</rdfs:label>
+	<rdfs:label>Bangladesh</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Barbados_3374084">
+	<ns1:hasIsoAplpha2Code>BB</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BRB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Barbados</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">281000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Barbados</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Belarus_630336">
+	<ns1:hasIsoAplpha2Code>BY</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BLR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Belarus</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9685000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Belarus</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Belarus</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Belgium_2802361">
+	<ns1:hasIsoAplpha2Code>BE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BEL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Belgium</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10403000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Belgien</rdfs:label>
+	<rdfs:label>Belgium</rdfs:label>
+	<rdfs:label xml:lang="en">Kingdom of Belgium</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Belize_3582678">
+	<ns1:hasIsoAplpha2Code>BZ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BLZ</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Belize</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">301000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Belize</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Benin_2395170">
+	<ns1:hasIsoAplpha2Code>BJ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BEN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Benin</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8294000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Benin</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Benin</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Bermuda_3573345">
+	<ns1:hasIsoAplpha2Code>BM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BMU</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Bermuda</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65365</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Bermuda</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Bhutan_1252634">
+	<ns1:hasIsoAplpha2Code>BT</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BTN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Bhutan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2376000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Bhutan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Bolivia_3923057">
+	<ns1:hasIsoAplpha2Code>BO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BOL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Bolivia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9247000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Bolivia</rdfs:label>
+	<rdfs:label xml:lang="de">Bolivien</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Bolivia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#BosniaAndHerzegovina_3277605">
+	<ns1:hasIsoAplpha2Code>BA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BIH</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Bosnia and Herzegovina</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4590000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Bosnia and Herzegovina</rdfs:label>
+	<rdfs:label xml:lang="de">Bosnien und Herzegowina</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Botswana_933860">
+	<ns1:hasIsoAplpha2Code>BW</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BWA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Botswana</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1842000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Botsuana</rdfs:label>
+	<rdfs:label>Botswana</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#BouvetIsland_3371123">
+	<ns1:hasIsoAplpha2Code>BV</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BVT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Bouvet Island</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Antarctica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Bouvet Island</rdfs:label>
+	<rdfs:label xml:lang="de">Bouvetinsel</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Brazil_3469034">
+	<ns1:hasIsoAplpha2Code>BR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BRA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Brazil</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">191908000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Brasilien</rdfs:label>
+	<rdfs:label>Brazil</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#BritishIndianOceanTerritory_1282588">
+	<ns1:hasIsoAplpha2Code>IO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>IOT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>British Indian Ocean Territory</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Britisches Territorium im Indischen Ozean</rdfs:label>
+	<rdfs:label>British Indian Ocean Territory</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#BritishVirginIslands_3577718">
+	<ns1:hasIsoAplpha2Code>VG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>VGB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>British Virgin Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21730</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Britische Jungferninseln</rdfs:label>
+	<rdfs:label>British Virgin Islands</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Brunei_1820814">
+	<ns1:hasIsoAplpha2Code>BN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BRN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Brunei</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Brunei</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Bulgaria_732800">
+	<ns1:hasIsoAplpha2Code>BG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BGR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Bulgaria</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7262000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Bulgaria</rdfs:label>
+	<rdfs:label xml:lang="de">Bulgarien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#BurkinaFaso_2361809">
+	<ns1:hasIsoAplpha2Code>BF</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BFA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Burkina Faso</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14761000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Burkina Faso</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Burundi_433561">
+	<ns1:hasIsoAplpha2Code>BI</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BDI</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Burundi</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8691000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Burundi</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Burundi</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Cambodia_1831722">
+	<ns1:hasIsoAplpha2Code>KH</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>KHM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Cambodia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14241000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Cambodia</rdfs:label>
+	<rdfs:label xml:lang="de">Kambodscha</rdfs:label>
+	<rdfs:label xml:lang="en">Kingdom of Cambodia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Cameroon_2233387">
+	<ns1:hasIsoAplpha2Code>CM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CMR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Cameroon</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18467000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Cameroon</rdfs:label>
+	<rdfs:label xml:lang="de">Kamerun</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Cameroon</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Canada_6251999">
+	<ns1:hasIsoAplpha2Code>CA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CAN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Canada</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33679000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Canada</rdfs:label>
+	<rdfs:label xml:lang="de">Kanada</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#CapeVerde_3374766">
+	<ns1:hasIsoAplpha2Code>CV</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CPV</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Cape Verde</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">426000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Cape Verde</rdfs:label>
+	<rdfs:label xml:lang="de">Kap Verde</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Cape Verde</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#CaymanIslands_3580718">
+	<ns1:hasIsoAplpha2Code>KY</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CYM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Cayman Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44270</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Cayman Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Kaimaninseln</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#CentralAfricanRepublic_239880">
+	<ns1:hasIsoAplpha2Code>CF</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CAF</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Central African Republic</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4434000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Central African Republic</rdfs:label>
+	<rdfs:label xml:lang="de">Zentralafrikanische Republik</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Chad_2434508">
+	<ns1:hasIsoAplpha2Code>TD</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TCD</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Chad</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10111000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Chad</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Chad</rdfs:label>
+	<rdfs:label xml:lang="de">Tschad</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Chile_3895114">
+	<ns1:hasIsoAplpha2Code>CL</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CHL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Chile</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16432000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Chile</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Chile</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#China_1814991">
+	<ns1:hasIsoAplpha2Code>CN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CHN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>China</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1330044000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>China</rdfs:label>
+	<rdfs:label xml:lang="en">People’s Republic of China</rdfs:label>
+	<rdfs:label xml:lang="de">Volksrepublik China</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#ChristmasIsland_2078138">
+	<ns1:hasIsoAplpha2Code>CX</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CXR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Christmas Island</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">361</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Christmas Island</rdfs:label>
+	<rdfs:label xml:lang="de">Weihnachtsinsel</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#CocosIslands_1547376">
+	<ns1:hasIsoAplpha2Code>CC</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CCK</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Cocos Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">628</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Cocos Islands</rdfs:label>
+	<rdfs:label xml:lang="en">Cocos [Keeling] Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Kokosinseln</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Colombia_3686110">
+	<ns1:hasIsoAplpha2Code>CO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>COL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Colombia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45013000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Colombia</rdfs:label>
+	<rdfs:label xml:lang="de">Kolumbien</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Colombia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Comoros_921929">
+	<ns1:hasIsoAplpha2Code>KM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>COM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Comoros</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">731000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Comoros</rdfs:label>
+	<rdfs:label xml:lang="en">Federal Islamic Republic of the Comoros</rdfs:label>
+	<rdfs:label xml:lang="de">Komoren</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#CookIslands_1899402">
+	<ns1:hasIsoAplpha2Code>CK</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>COK</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Cook Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21388</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Cook Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Cookinseln</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#CostaRica_3624060">
+	<ns1:hasIsoAplpha2Code>CR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CRI</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Costa Rica</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4191000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Costa Rica</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Croatia_3202326">
+	<ns1:hasIsoAplpha2Code>HR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>HRV</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Croatia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4491000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Croatia</rdfs:label>
+	<rdfs:label xml:lang="de">Kroatien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Cuba_3562981">
+	<ns1:hasIsoAplpha2Code>CU</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CUB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Cuba</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11423000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Cuba</rdfs:label>
+	<rdfs:label xml:lang="de">Kuba</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Cuba</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Cyprus_146669">
+	<ns1:hasIsoAplpha2Code>CY</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CYP</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Cyprus</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">792000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Cyprus</rdfs:label>
+	<rdfs:label xml:lang="de">Zypern</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#CzechRepublic_3077311">
+	<ns1:hasIsoAplpha2Code>CZ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CZE</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Czech Republic</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10220000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Czech Republic</rdfs:label>
+	<rdfs:label xml:lang="de">Tschechien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#DemocraticRepublicOfTheCongo_203312">
+	<ns1:hasIsoAplpha2Code>CD</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>COD</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Democratic Republic of the Congo</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60085004</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Congo [DRC]</rdfs:label>
+	<rdfs:label>Democratic Republic of the Congo</rdfs:label>
+	<rdfs:label xml:lang="de">Zaire</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Denmark_2623032">
+	<ns1:hasIsoAplpha2Code>DK</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>DNK</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Denmark</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5484000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Denmark</rdfs:label>
+	<rdfs:label xml:lang="de">Dänemark</rdfs:label>
+	<rdfs:label xml:lang="en">Kingdom of Denmark</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Djibouti_223816">
+	<ns1:hasIsoAplpha2Code>DJ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>DJI</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Djibouti</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">506000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Djibouti</rdfs:label>
+	<rdfs:label xml:lang="de">Dschibuti</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Djibouti</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Dominica_3575830">
+	<ns1:hasIsoAplpha2Code>DM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>DMA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Dominica</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Commonwealth of Dominica</rdfs:label>
+	<rdfs:label>Dominica</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#DominicanRepublic_3508796">
+	<ns1:hasIsoAplpha2Code>DO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>DOM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Dominican Republic</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9507000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Dominican Republic</rdfs:label>
+	<rdfs:label xml:lang="de">Dominikanische Republik</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#EastTimor_1966436">
+	<ns1:hasIsoAplpha2Code>TL</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TLS</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>East Timor</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1107000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Democratic Republic of Timor-Leste</rdfs:label>
+	<rdfs:label>East Timor</rdfs:label>
+	<rdfs:label xml:lang="de">Timor-Leste</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Ecuador_3658394">
+	<ns1:hasIsoAplpha2Code>EC</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ECU</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Ecuador</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13927000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Ecuador</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Ecuador</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Egypt_357994">
+	<ns1:hasIsoAplpha2Code>EG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>EGY</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Egypt</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81713000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Arab Republic of Egypt</rdfs:label>
+	<rdfs:label>Egypt</rdfs:label>
+	<rdfs:label xml:lang="de">Ägypten</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#ElSalvador_3585968">
+	<ns1:hasIsoAplpha2Code>SV</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SLV</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>El Salvador</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7066000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>El Salvador</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of El Salvador</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#EquatorialGuinea_2309096">
+	<ns1:hasIsoAplpha2Code>GQ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GNQ</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Equatorial Guinea</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">562000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Equatorial Guinea</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Equatorial Guinea</rdfs:label>
+	<rdfs:label xml:lang="de">Äquatorialguinea</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Eritrea_338010">
+	<ns1:hasIsoAplpha2Code>ER</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ERI</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Eritrea</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5028000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Eritrea</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Estonia_453733">
+	<ns1:hasIsoAplpha2Code>EE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>EST</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Estonia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1307000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Estland</rdfs:label>
+	<rdfs:label>Estonia</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Estonia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Ethiopia_337996">
+	<ns1:hasIsoAplpha2Code>ET</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ETH</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Ethiopia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78254000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Ethiopia</rdfs:label>
+	<rdfs:label xml:lang="en">Federal Democratic Republic of Ethiopia</rdfs:label>
+	<rdfs:label xml:lang="de">Äthiopien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#FalklandIslands_3474414">
+	<ns1:hasIsoAplpha2Code>FK</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>FLK</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Falkland Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2638</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Colony of the Falkland Islands</rdfs:label>
+	<rdfs:label>Falkland Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Falklandinseln</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#FaroeIslands_2622320">
+	<ns1:hasIsoAplpha2Code>FO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>FRO</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Faroe Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48228</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Faroe Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Färöer-Inseln</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Fiji_2205218">
+	<ns1:hasIsoAplpha2Code>FJ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>FJI</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Fiji</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">931000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Fidschi</rdfs:label>
+	<rdfs:label>Fiji</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Finland_660013">
+	<ns1:hasIsoAplpha2Code>FI</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>FIN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Finland</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5244000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Finland</rdfs:label>
+	<rdfs:label xml:lang="de">Finnland</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Finland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#France_3017382">
+	<ns1:hasIsoAplpha2Code>FR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>FRA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>France</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64094000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>France</rdfs:label>
+	<rdfs:label xml:lang="de">Frankreich</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#FrenchGuiana_3381670">
+	<ns1:hasIsoAplpha2Code>GF</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GUF</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>French Guiana</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">195506</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Französisch-Guayana</rdfs:label>
+	<rdfs:label>French Guiana</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#FrenchPolynesia_4020092">
+	<ns1:hasIsoAplpha2Code>PF</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PYF</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>French Polynesia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270485</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>French Polynesia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#FrenchSouthernTerritories_1546748">
+	<ns1:hasIsoAplpha2Code>TF</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ATF</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>French Southern Territories</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Antarctica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Französische Süd- und Antarktisgebiete</rdfs:label>
+	<rdfs:label>French Southern Territories</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Gabon_2400553">
+	<ns1:hasIsoAplpha2Code>GA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GAB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Gabon</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1484000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Gabon</rdfs:label>
+	<rdfs:label xml:lang="en">Gabonese Republic</rdfs:label>
+	<rdfs:label xml:lang="de">Gabun</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Gambia_2413451">
+	<ns1:hasIsoAplpha2Code>GM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GMB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Gambia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1593256</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Gambia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Georgia_614540">
+	<ns1:hasIsoAplpha2Code>GE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GEO</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Georgia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4630000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Georgia</rdfs:label>
+	<rdfs:label xml:lang="de">Georgien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Germany_2921044">
+	<ns1:hasIsoAplpha2Code>DE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>DEU</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Germany</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82369000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Bundesrepublik Deutschland</rdfs:label>
+	<rdfs:label xml:lang="en">Federal Republic of Germany</rdfs:label>
+	<rdfs:label>Germany</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Ghana_2300660">
+	<ns1:hasIsoAplpha2Code>GH</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GHA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Ghana</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23382000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Ghana</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Gibraltar_2411586">
+	<ns1:hasIsoAplpha2Code>GI</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GIB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Gibraltar</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27884</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Gibraltar</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Greece_390903">
+	<ns1:hasIsoAplpha2Code>GR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GRC</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Greece</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10722000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Greece</rdfs:label>
+	<rdfs:label xml:lang="de">Griechenland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Greenland_3425505">
+	<ns1:hasIsoAplpha2Code>GL</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GRL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Greenland</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56375</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Greenland</rdfs:label>
+	<rdfs:label xml:lang="de">Grönland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Grenada_3580239">
+	<ns1:hasIsoAplpha2Code>GD</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GRD</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Grenada</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Grenada</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Guadeloupe_3579143">
+	<ns1:hasIsoAplpha2Code>GP</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GLP</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Guadeloupe</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">443000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Guadeloupe</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Guam_4043988">
+	<ns1:hasIsoAplpha2Code>GU</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GUM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Guam</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168564</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Guam</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Guatemala_3595528">
+	<ns1:hasIsoAplpha2Code>GT</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GTM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Guatemala</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13002000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Guatemala</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Guernsey_3042362">
+	<ns1:hasIsoAplpha2Code>GG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GGY</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Guernsey</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65228</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Guernsey</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Guinea-Bissau_2372248">
+	<ns1:hasIsoAplpha2Code>GW</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GNB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Guinea-Bissau</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1503000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Guinea-Bissau</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Guinea-Bissau</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Guinea_2420477">
+	<ns1:hasIsoAplpha2Code>GN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GIN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Guinea</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10211000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Guinea</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Guinea</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Guyana_3378535">
+	<ns1:hasIsoAplpha2Code>GY</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GUY</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Guyana</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">770000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Guyana</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Haiti_3723988">
+	<ns1:hasIsoAplpha2Code>HT</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>HTI</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Haiti</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8924000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Haiti</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Haiti</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#HeardIslandAndMcDonaldIslands_1547314">
+	<ns1:hasIsoAplpha2Code>HM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>HMD</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Heard Island and McDonald Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Antarctica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Heard Island and McDonald Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Heard- und McDonald-Inseln</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Honduras_3608932">
+	<ns1:hasIsoAplpha2Code>HN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>HND</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Honduras</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7639000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Honduras</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#HongKong_1819730">
+	<ns1:hasIsoAplpha2Code>HK</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>HKG</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Hong Kong</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6898686</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Hong Kong</rdfs:label>
+	<rdfs:label xml:lang="en">Hong Kong Special Administrative Region</rdfs:label>
+	<rdfs:label xml:lang="de">Hongkong</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Hungary_719819">
+	<ns1:hasIsoAplpha2Code>HU</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>HUN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Hungary</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9930000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Hungary</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Hungary</rdfs:label>
+	<rdfs:label xml:lang="de">Ungarn</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Iceland_2629691">
+	<ns1:hasIsoAplpha2Code>IS</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ISL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Iceland</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Iceland</rdfs:label>
+	<rdfs:label xml:lang="de">Island</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Iceland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#India_1269750">
+	<ns1:hasIsoAplpha2Code>IN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>IND</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>India</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1147995000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>India</rdfs:label>
+	<rdfs:label xml:lang="de">Indien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Indonesia_1643084">
+	<ns1:hasIsoAplpha2Code>ID</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>IDN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Indonesia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237512000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Indonesia</rdfs:label>
+	<rdfs:label xml:lang="de">Indonesien</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Indonesia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Iran_130758">
+	<ns1:hasIsoAplpha2Code>IR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>IRN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Iran</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65875000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Iran</rdfs:label>
+	<rdfs:label xml:lang="de">Iran (Islamische Republik)</rdfs:label>
+	<rdfs:label xml:lang="en">Islamic Republic of Iran</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Iraq_99237">
+	<ns1:hasIsoAplpha2Code>IQ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>IRQ</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Iraq</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28221000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Irak</rdfs:label>
+	<rdfs:label>Iraq</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Iraq</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Ireland_2963597">
+	<ns1:hasIsoAplpha2Code>IE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>IRL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Ireland</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4156000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Ireland</rdfs:label>
+	<rdfs:label xml:lang="de">Irland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#IsleOfMan_3042225">
+	<ns1:hasIsoAplpha2Code>IM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>IMN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Isle of Man</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75049</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Insel Man</rdfs:label>
+	<rdfs:label>Isle of Man</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Israel_294640">
+	<ns1:hasIsoAplpha2Code>IL</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ISR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Israel</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6500000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Israel</rdfs:label>
+	<rdfs:label xml:lang="en">State of Israel</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Italy_3175395">
+	<ns1:hasIsoAplpha2Code>IT</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ITA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Italy</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58145000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Italian Republic</rdfs:label>
+	<rdfs:label xml:lang="de">Italien</rdfs:label>
+	<rdfs:label>Italy</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#IvoryCoast_2287781">
+	<ns1:hasIsoAplpha2Code>CI</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CIV</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Ivory Coast</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18373000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Côte d’Ivoire</rdfs:label>
+	<rdfs:label>Ivory Coast</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Côte d’Ivoire</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Jamaica_3489940">
+	<ns1:hasIsoAplpha2Code>JM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>JAM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Jamaica</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2801000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Jamaica</rdfs:label>
+	<rdfs:label xml:lang="de">Jamaika</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Japan_1861060">
+	<ns1:hasIsoAplpha2Code>JP</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>JPN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Japan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127288000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Japan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Jersey_3042142">
+	<ns1:hasIsoAplpha2Code>JE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>JEY</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Jersey</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90812</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Jersey</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Jordan_248816">
+	<ns1:hasIsoAplpha2Code>JO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>JOR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Jordan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6198000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Hashemite Kingdom of Jordan</rdfs:label>
+	<rdfs:label>Jordan</rdfs:label>
+	<rdfs:label xml:lang="de">Jordanien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Kazakhstan_1522867">
+	<ns1:hasIsoAplpha2Code>KZ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>KAZ</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Kazakhstan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15340000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Kasachstan</rdfs:label>
+	<rdfs:label>Kazakhstan</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Kazakhstan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Kenya_192950">
+	<ns1:hasIsoAplpha2Code>KE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>KEN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Kenya</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37953000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Kenia</rdfs:label>
+	<rdfs:label>Kenya</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Kiribati_4030945">
+	<ns1:hasIsoAplpha2Code>KI</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>KIR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Kiribati</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Kiribati</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Kuwait_285570">
+	<ns1:hasIsoAplpha2Code>KW</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>KWT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Kuwait</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2596000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Kuwait</rdfs:label>
+	<rdfs:label xml:lang="en">State of Kuwait</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Kyrgyzstan_1527747">
+	<ns1:hasIsoAplpha2Code>KG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>KGZ</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Kyrgyzstan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5356000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Kirgistan</rdfs:label>
+	<rdfs:label xml:lang="en">Kyrgyz Republic</rdfs:label>
+	<rdfs:label>Kyrgyzstan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Laos_1655842">
+	<ns1:hasIsoAplpha2Code>LA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>LAO</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Laos</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6677000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Lao People’s Democratic Republic</rdfs:label>
+	<rdfs:label>Laos</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Latvia_458258">
+	<ns1:hasIsoAplpha2Code>LV</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>LVA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Latvia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2245000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Latvia</rdfs:label>
+	<rdfs:label xml:lang="de">Lettland</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Latvia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Lebanon_272103">
+	<ns1:hasIsoAplpha2Code>LB</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>LBN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Lebanon</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3971000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Lebanon</rdfs:label>
+	<rdfs:label xml:lang="de">Libanon</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Lebanon</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Lesotho_932692">
+	<ns1:hasIsoAplpha2Code>LS</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>LSO</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Lesotho</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2128000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Lesotho</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Liberia_2275384">
+	<ns1:hasIsoAplpha2Code>LR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>LBR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Liberia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3334000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Liberia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Libya_2215636">
+	<ns1:hasIsoAplpha2Code>LY</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>LBY</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Libya</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6173000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Great Socialist People’s Libyan Arab Jamahiriya</rdfs:label>
+	<rdfs:label>Libya</rdfs:label>
+	<rdfs:label xml:lang="de">Libysch-Arabische Dschamahirija</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Liechtenstein_3042058">
+	<ns1:hasIsoAplpha2Code>LI</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>LIE</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Liechtenstein</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Liechtenstein</rdfs:label>
+	<rdfs:label xml:lang="en">Principality of Liechtenstein</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Lithuania_597427">
+	<ns1:hasIsoAplpha2Code>LT</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>LTU</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Lithuania</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3565000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Litauen</rdfs:label>
+	<rdfs:label>Lithuania</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Lithuania</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Luxembourg_2960313">
+	<ns1:hasIsoAplpha2Code>LU</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>LUX</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Luxembourg</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">486000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Grand Duchy of Luxembourg</rdfs:label>
+	<rdfs:label>Luxembourg</rdfs:label>
+	<rdfs:label xml:lang="de">Luxemburg</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Macao_1821275">
+	<ns1:hasIsoAplpha2Code>MO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MAC</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Macao</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">449198</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Macao</rdfs:label>
+	<rdfs:label xml:lang="de">Macau</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Macedonia_718075">
+	<ns1:hasIsoAplpha2Code>MK</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MKD</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Macedonia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2061000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Ehemalige jugoslawische Republik Mazedonien</rdfs:label>
+	<rdfs:label>Macedonia</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Macedonia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Madagascar_1062947">
+	<ns1:hasIsoAplpha2Code>MG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MDG</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Madagascar</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20042000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Madagascar</rdfs:label>
+	<rdfs:label xml:lang="de">Madagaskar</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Madagascar</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Malawi_927384">
+	<ns1:hasIsoAplpha2Code>MW</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MWI</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Malawi</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13931000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Malawi</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Malaysia_1733045">
+	<ns1:hasIsoAplpha2Code>MY</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MYS</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Malaysia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25259000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Malaysia</rdfs:label>
+	<rdfs:label xml:lang="de">Malaysien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Maldives_1282028">
+	<ns1:hasIsoAplpha2Code>MV</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MDV</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Maldives</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">379000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Maldives</rdfs:label>
+	<rdfs:label xml:lang="de">Malediven</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Maldives</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Mali_2453866">
+	<ns1:hasIsoAplpha2Code>ML</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MLI</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Mali</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12324000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Mali</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Malta_2562770">
+	<ns1:hasIsoAplpha2Code>MT</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MLT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Malta</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">403000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Malta</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#MarshallIslands_2080185">
+	<ns1:hasIsoAplpha2Code>MH</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MHL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Marshall Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11628</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Marshall Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Marshall-Inseln</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Martinique_3570311">
+	<ns1:hasIsoAplpha2Code>MQ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MTQ</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Martinique</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">432900</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Martinique</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Mauritania_2378080">
+	<ns1:hasIsoAplpha2Code>MR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MRT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Mauritania</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3364000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Islamic Republic of Mauritania</rdfs:label>
+	<rdfs:label xml:lang="de">Mauretanien</rdfs:label>
+	<rdfs:label>Mauritania</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Mauritius_934292">
+	<ns1:hasIsoAplpha2Code>MU</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MUS</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Mauritius</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1260000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Mauritius</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Mayotte_1024031">
+	<ns1:hasIsoAplpha2Code>YT</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MYT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Mayotte</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">159042</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Mayotte</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Mexico_3996063">
+	<ns1:hasIsoAplpha2Code>MX</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MEX</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Mexico</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109955000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Mexico</rdfs:label>
+	<rdfs:label xml:lang="de">Mexiko</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Micronesia_2081918">
+	<ns1:hasIsoAplpha2Code>FM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>FSM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Micronesia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108105</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Micronesia</rdfs:label>
+	<rdfs:label xml:lang="de">Mikronesien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Moldova_617790">
+	<ns1:hasIsoAplpha2Code>MD</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MDA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Moldova</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4324000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Moldau (Republik Moldau)</rdfs:label>
+	<rdfs:label>Moldova</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Moldova</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Monaco_2993457">
+	<ns1:hasIsoAplpha2Code>MC</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MCO</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Monaco</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Monaco</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Mongolia_2029969">
+	<ns1:hasIsoAplpha2Code>MN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MNG</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Mongolia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2996000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Mongolei</rdfs:label>
+	<rdfs:label>Mongolia</rdfs:label>
+	<rdfs:label xml:lang="en">Mongolian People’s Republic</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Montenegro_3194884">
+	<ns1:hasIsoAplpha2Code>ME</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MNE</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Montenegro</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">678000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Montenegro</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Montenegro</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Montserrat_3578097">
+	<ns1:hasIsoAplpha2Code>MS</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MSR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Montserrat</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9341</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Montserrat</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Morocco_2542007">
+	<ns1:hasIsoAplpha2Code>MA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MAR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Morocco</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34272000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Kingdom of Morocco</rdfs:label>
+	<rdfs:label xml:lang="de">Marokko</rdfs:label>
+	<rdfs:label>Morocco</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Mozambique_1036973">
+	<ns1:hasIsoAplpha2Code>MZ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MOZ</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Mozambique</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21284000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Mosambik</rdfs:label>
+	<rdfs:label>Mozambique</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Myanmar_1327865">
+	<ns1:hasIsoAplpha2Code>MM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MMR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Myanmar</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47758000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Birma (Myanmar)</rdfs:label>
+	<rdfs:label>Myanmar</rdfs:label>
+	<rdfs:label xml:lang="en">Myanmar [Burma]</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Namibia_3355338">
+	<ns1:hasIsoAplpha2Code>NA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NAM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Namibia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2063000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Namibia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Nauru_2110425">
+	<ns1:hasIsoAplpha2Code>NR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NRU</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Nauru</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Nauru</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Nepal_1282988">
+	<ns1:hasIsoAplpha2Code>NP</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NPL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Nepal</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29519000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Nepal</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#NetherlandsAntilles_3513447">
+	<ns1:hasIsoAplpha2Code>AN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ANT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Netherlands Antilles</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136197</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Netherlands Antilles</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Netherlands_2750405">
+	<ns1:hasIsoAplpha2Code>NL</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NLD</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Netherlands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16645000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Kingdom of the Netherlands</rdfs:label>
+	<rdfs:label>Netherlands</rdfs:label>
+	<rdfs:label xml:lang="de">Niederlande</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#NewCaledonia_2139685">
+	<ns1:hasIsoAplpha2Code>NC</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NCL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>New Caledonia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216494</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Neukaledonien</rdfs:label>
+	<rdfs:label>New Caledonia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#NewZealand_2186224">
+	<ns1:hasIsoAplpha2Code>NZ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NZL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>New Zealand</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4154000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Neuseeland</rdfs:label>
+	<rdfs:label>New Zealand</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Nicaragua_3617476">
+	<ns1:hasIsoAplpha2Code>NI</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NIC</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Nicaragua</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5780000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Nicaragua</rdfs:label>
+	<rdfs:label xml:lang="de">Nikaragua</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Nicaragua</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Niger_2440476">
+	<ns1:hasIsoAplpha2Code>NE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NER</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Niger</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13272000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Niger</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Niger</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Nigeria_2328926">
+	<ns1:hasIsoAplpha2Code>NG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NGA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Nigeria</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">138283000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Nigeria</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Niue_4036232">
+	<ns1:hasIsoAplpha2Code>NU</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NIU</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Niue</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2166</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Niue</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#NorfolkIsland_2155115">
+	<ns1:hasIsoAplpha2Code>NF</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NFK</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Norfolk Island</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1828</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Norfolk Island</rdfs:label>
+	<rdfs:label xml:lang="de">Norfolkinsel</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#NorthKorea_1873107">
+	<ns1:hasIsoAplpha2Code>KP</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PRK</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>North Korea</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22912177</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Democratic People’s Republic of Korea</rdfs:label>
+	<rdfs:label xml:lang="de">Nordkorea</rdfs:label>
+	<rdfs:label>North Korea</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#NorthernMarianaIslands_4041467">
+	<ns1:hasIsoAplpha2Code>MP</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MNP</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Northern Mariana Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80362</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Northern Islands Municipality</rdfs:label>
+	<rdfs:label>Northern Mariana Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Nördliche Marianen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Norway_3144096">
+	<ns1:hasIsoAplpha2Code>NO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>NOR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Norway</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4644000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Kingdom of Norway</rdfs:label>
+	<rdfs:label>Norway</rdfs:label>
+	<rdfs:label xml:lang="de">Norwegen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Oman_286963">
+	<ns1:hasIsoAplpha2Code>OM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>OMN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Oman</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3309000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Oman</rdfs:label>
+	<rdfs:label xml:lang="en">Sultanate of Oman</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Pakistan_1168579">
+	<ns1:hasIsoAplpha2Code>PK</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PAK</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Pakistan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">167762000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Islamic Republic of Pakistan</rdfs:label>
+	<rdfs:label>Pakistan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Palau_1559582">
+	<ns1:hasIsoAplpha2Code>PW</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PLW</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Palau</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20303</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Palau</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#PalestinianTerritory_6254930">
+	<ns1:hasIsoAplpha2Code>PS</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PSE</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Palestinian Territory</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3800000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Palestinian Territories</rdfs:label>
+	<rdfs:label>Palestinian Territory</rdfs:label>
+	<rdfs:label xml:lang="de">Palästinensische Autonomiegebiete</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Panama_3703430">
+	<ns1:hasIsoAplpha2Code>PA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PAN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Panama</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3292000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Panama</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Panama</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#PapuaNewGuinea_2088628">
+	<ns1:hasIsoAplpha2Code>PG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PNG</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Papua New Guinea</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5921000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Papua New Guinea</rdfs:label>
+	<rdfs:label xml:lang="de">Papua-Neuguinea</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Paraguay_3437598">
+	<ns1:hasIsoAplpha2Code>PY</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PRY</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Paraguay</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6831000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Paraguay</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Paraguay</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Peru_3932488">
+	<ns1:hasIsoAplpha2Code>PE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PER</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Peru</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29041000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Peru</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Peru</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Philippines_1694008">
+	<ns1:hasIsoAplpha2Code>PH</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PHL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Philippines</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92681000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Philippinen</rdfs:label>
+	<rdfs:label>Philippines</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of the Philippines</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Pitcairn_4030699">
+	<ns1:hasIsoAplpha2Code>PN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PCN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Pitcairn</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Pitcairn</rdfs:label>
+	<rdfs:label xml:lang="en">Pitcairn Islands</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Poland_798544">
+	<ns1:hasIsoAplpha2Code>PL</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>POL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Poland</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38500000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Poland</rdfs:label>
+	<rdfs:label xml:lang="de">Polen</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Poland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Portugal_2264397">
+	<ns1:hasIsoAplpha2Code>PT</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PRT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Portugal</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10676000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Portugal</rdfs:label>
+	<rdfs:label xml:lang="en">Portuguese Republic</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#PuertoRico_4566966">
+	<ns1:hasIsoAplpha2Code>PR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>PRI</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Puerto Rico</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3916632</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Puerto Rico</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Qatar_289688">
+	<ns1:hasIsoAplpha2Code>QA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>QAT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Qatar</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">928000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Katar</rdfs:label>
+	<rdfs:label>Qatar</rdfs:label>
+	<rdfs:label xml:lang="en">State of Qatar</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#RepublicOfTheCongo_2260494">
+	<ns1:hasIsoAplpha2Code>CG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>COG</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Republic of the Congo</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3039126</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Kongo (Republik Kongo)</rdfs:label>
+	<rdfs:label>Republic of the Congo</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Reunion_935317">
+	<ns1:hasIsoAplpha2Code>RE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>REU</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Reunion</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">776948</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Reunion</rdfs:label>
+	<rdfs:label xml:lang="en">Réunion</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Romania_798549">
+	<ns1:hasIsoAplpha2Code>RO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ROU</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Romania</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22246000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Romania</rdfs:label>
+	<rdfs:label xml:lang="de">Rumänien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Russia_2017370">
+	<ns1:hasIsoAplpha2Code>RU</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>RUS</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Russia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140702000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Russia</rdfs:label>
+	<rdfs:label xml:lang="en">Russian Federation</rdfs:label>
+	<rdfs:label xml:lang="de">Russland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Rwanda_49518">
+	<ns1:hasIsoAplpha2Code>RW</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>RWA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Rwanda</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10186000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Republic of Rwanda</rdfs:label>
+	<rdfs:label xml:lang="de">Ruanda</rdfs:label>
+	<rdfs:label>Rwanda</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SaintBarthélemy_3578476">
+	<ns1:hasIsoAplpha2Code>BL</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>BLM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Saint Barthélemy</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8450</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Saint Barthélemy</rdfs:label>
+	<rdfs:label xml:lang="de">St. Barthélemy</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SaintHelena_3370751">
+	<ns1:hasIsoAplpha2Code>SH</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SHN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Saint Helena</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7460</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Saint Helena</rdfs:label>
+	<rdfs:label xml:lang="de">St. Helena</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SaintKittsAndNevis_3575174">
+	<ns1:hasIsoAplpha2Code>KN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>KNA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Saint Kitts and Nevis</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Saint Kitts and Nevis</rdfs:label>
+	<rdfs:label xml:lang="de">Saint Kitts und Nevis</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SaintLucia_3576468">
+	<ns1:hasIsoAplpha2Code>LC</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>LCA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Saint Lucia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Saint Lucia</rdfs:label>
+	<rdfs:label xml:lang="de">St. Lucia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SaintMartin_3578421">
+	<ns1:hasIsoAplpha2Code>MF</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>MAF</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Saint Martin</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33100</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Saint Maarten</rdfs:label>
+	<rdfs:label>Saint Martin</rdfs:label>
+	<rdfs:label xml:lang="de">St. Martin</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SaintPierreAndMiquelon_3424932">
+	<ns1:hasIsoAplpha2Code>PM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SPM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Saint Pierre and Miquelon</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7012</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Saint Pierre and Miquelon</rdfs:label>
+	<rdfs:label xml:lang="de">St. Pierre und Miquelon</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SaintVincentAndTheGrenadines_3577815">
+	<ns1:hasIsoAplpha2Code>VC</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>VCT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Saint Vincent and the Grenadines</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117534</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Saint Vincent and the Grenadines</rdfs:label>
+	<rdfs:label xml:lang="de">St. Vincent und die Grenadinen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Samoa_4034894">
+	<ns1:hasIsoAplpha2Code>WS</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>WSM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Samoa</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Independent State of Samoa</rdfs:label>
+	<rdfs:label>Samoa</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SanMarino_3168068">
+	<ns1:hasIsoAplpha2Code>SM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SMR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>San Marino</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>San Marino</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SaoTomeAndPrincipe_2410758">
+	<ns1:hasIsoAplpha2Code>ST</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>STP</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Sao Tome and Principe</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Democratic Republic of Sao Tome and Principe</rdfs:label>
+	<rdfs:label>Sao Tome and Principe</rdfs:label>
+	<rdfs:label xml:lang="de">Sao Tomé und Principe</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SaudiArabia_102358">
+	<ns1:hasIsoAplpha2Code>SA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SAU</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Saudi Arabia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28161000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Saudi Arabia</rdfs:label>
+	<rdfs:label xml:lang="de">Saudi-Arabien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Senegal_2245662">
+	<ns1:hasIsoAplpha2Code>SN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SEN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Senegal</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12853000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Republic of Senegal</rdfs:label>
+	<rdfs:label>Senegal</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SerbiaAndMontenegro_863038">
+	<ns1:hasIsoAplpha2Code>CS</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SCG</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Serbia and Montenegro</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10829175</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Serbia and Montenegro</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Serbia_6290252">
+	<ns1:hasIsoAplpha2Code>RS</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SRB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Serbia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10159000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Serbia</rdfs:label>
+	<rdfs:label xml:lang="de">Serbien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Seychelles_241170">
+	<ns1:hasIsoAplpha2Code>SC</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SYC</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Seychelles</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Seychellen</rdfs:label>
+	<rdfs:label>Seychelles</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SierraLeone_2403846">
+	<ns1:hasIsoAplpha2Code>SL</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SLE</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Sierra Leone</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6286000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Sierra Leone</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Singapore_1880251">
+	<ns1:hasIsoAplpha2Code>SG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SGP</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Singapore</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4608000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Singapore</rdfs:label>
+	<rdfs:label xml:lang="de">Singapur</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Slovakia_3057568">
+	<ns1:hasIsoAplpha2Code>SK</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SVK</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Slovakia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5455000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Slovakia</rdfs:label>
+	<rdfs:label xml:lang="de">Slowakei (Slowakische Republik)</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Slovenia_3190538">
+	<ns1:hasIsoAplpha2Code>SI</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SVN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Slovenia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Slovenia</rdfs:label>
+	<rdfs:label xml:lang="de">Slowenien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SolomonIslands_2103350">
+	<ns1:hasIsoAplpha2Code>SB</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SLB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Solomon Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">581000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Solomon Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Solomon-Inseln</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Somalia_51537">
+	<ns1:hasIsoAplpha2Code>SO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SOM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Somalia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9379000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Somalia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SouthAfrica_953987">
+	<ns1:hasIsoAplpha2Code>ZA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ZAF</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>South Africa</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43786000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Republik Südafrika</rdfs:label>
+	<rdfs:label>South Africa</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SouthGeorgiaAndTheSouthSandwichIslands_3474415">
+	<ns1:hasIsoAplpha2Code>GS</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SGS</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>South Georgia and the South Sandwich Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Antarctica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">South Georgia and South Sandwich Islands</rdfs:label>
+	<rdfs:label>South Georgia and the South Sandwich Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Südgeorgien und die Südlichen Sandwichinseln</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SouthKorea_1835841">
+	<ns1:hasIsoAplpha2Code>KR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>KOR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>South Korea</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48422644</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Republic of Korea</rdfs:label>
+	<rdfs:label>South Korea</rdfs:label>
+	<rdfs:label xml:lang="de">Südkorea</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Spain_2510769">
+	<ns1:hasIsoAplpha2Code>ES</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ESP</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Spain</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40491000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Kingdom of Spain</rdfs:label>
+	<rdfs:label>Spain</rdfs:label>
+	<rdfs:label xml:lang="de">Spanien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SriLanka_1227603">
+	<ns1:hasIsoAplpha2Code>LK</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>LKA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Sri Lanka</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21128000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Sri Lanka</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Sudan_366755">
+	<ns1:hasIsoAplpha2Code>SD</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SDN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Sudan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40218000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Sudan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Suriname_3382998">
+	<ns1:hasIsoAplpha2Code>SR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SUR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Suriname</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">475000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Republic of Suriname</rdfs:label>
+	<rdfs:label>Suriname</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#SvalbardAndJanMayen_607072">
+	<ns1:hasIsoAplpha2Code>SJ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SJM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Svalbard and Jan Mayen</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2265</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Svalbard and Jan Mayen</rdfs:label>
+	<rdfs:label xml:lang="de">Svalbard und Jan Mayen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Swaziland_934841">
+	<ns1:hasIsoAplpha2Code>SZ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SWZ</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Swaziland</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1128000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Swasiland</rdfs:label>
+	<rdfs:label>Swaziland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Sweden_2661886">
+	<ns1:hasIsoAplpha2Code>SE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SWE</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Sweden</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9045000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Kingdom of Sweden</rdfs:label>
+	<rdfs:label xml:lang="de">Schweden</rdfs:label>
+	<rdfs:label>Sweden</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Switzerland_2658434">
+	<ns1:hasIsoAplpha2Code>CH</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>CHE</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Switzerland</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7581000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Schweiz</rdfs:label>
+	<rdfs:label>Switzerland</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Syria_163843">
+	<ns1:hasIsoAplpha2Code>SY</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>SYR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Syria</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19747000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Syria</rdfs:label>
+	<rdfs:label xml:lang="en">Syrian Arab Republic</rdfs:label>
+	<rdfs:label xml:lang="de">Syrien</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Taiwan_1668284">
+	<ns1:hasIsoAplpha2Code>TW</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TWN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Taiwan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22894384</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Taiwan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Tajikistan_1220409">
+	<ns1:hasIsoAplpha2Code>TJ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TJK</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Tajikistan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7211000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Republic of Tajikistan</rdfs:label>
+	<rdfs:label xml:lang="de">Tadschikistan</rdfs:label>
+	<rdfs:label>Tajikistan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Tanzania_149590">
+	<ns1:hasIsoAplpha2Code>TZ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TZA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Tanzania</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40213000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Tansania</rdfs:label>
+	<rdfs:label>Tanzania</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Thailand_1605651">
+	<ns1:hasIsoAplpha2Code>TH</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>THA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Thailand</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65493000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Kingdom of Thailand</rdfs:label>
+	<rdfs:label>Thailand</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Togo_2363686">
+	<ns1:hasIsoAplpha2Code>TG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TGO</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Togo</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5858000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Togo</rdfs:label>
+	<rdfs:label xml:lang="en">Togolese Republic</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Tokelau_4031074">
+	<ns1:hasIsoAplpha2Code>TK</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TKL</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Tokelau</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1405</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Tokelau</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Tonga_4032283">
+	<ns1:hasIsoAplpha2Code>TO</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TON</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Tonga</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Tonga</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#TrinidadAndTobago_3573591">
+	<ns1:hasIsoAplpha2Code>TT</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TTO</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Trinidad and Tobago</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1047000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Trinidad and Tobago</rdfs:label>
+	<rdfs:label xml:lang="de">Trinidad und Tobago</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Tunisia_2464461">
+	<ns1:hasIsoAplpha2Code>TN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TUN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Tunisia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10378000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Tunesien</rdfs:label>
+	<rdfs:label>Tunisia</rdfs:label>
+	<rdfs:label xml:lang="en">Tunisian Republic</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Turkey_298795">
+	<ns1:hasIsoAplpha2Code>TR</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TUR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Turkey</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71892000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Republic of Turkey</rdfs:label>
+	<rdfs:label>Turkey</rdfs:label>
+	<rdfs:label xml:lang="de">Türkei</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Turkmenistan_1218197">
+	<ns1:hasIsoAplpha2Code>TM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TKM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Turkmenistan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5179000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Turkmenistan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#TurksAndCaicosIslands_3576916">
+	<ns1:hasIsoAplpha2Code>TC</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TCA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Turks and Caicos Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20556</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Turks and Caicos Islands</rdfs:label>
+	<rdfs:label xml:lang="de">Turks- und Caicosinseln</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Tuvalu_2110297">
+	<ns1:hasIsoAplpha2Code>TV</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>TUV</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Tuvalu</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Tuvalu</rdfs:label>
+	<rdfs:label xml:lang="de">Tuwalu</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#U.S.VirginIslands_4796775">
+	<ns1:hasIsoAplpha2Code>VI</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>VIR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>U.S. Virgin Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108708</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Amerikanische Jungferninseln</rdfs:label>
+	<rdfs:label>U.S. Virgin Islands</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Uganda_226074">
+	<ns1:hasIsoAplpha2Code>UG</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>UGA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Uganda</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31367000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Uganda</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Ukraine_690791">
+	<ns1:hasIsoAplpha2Code>UA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>UKR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Ukraine</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45994000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Ukraine</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#UnitedArabEmirates_290557">
+	<ns1:hasIsoAplpha2Code>AE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ARE</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>United Arab Emirates</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4621000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>United Arab Emirates</rdfs:label>
+	<rdfs:label xml:lang="de">Vereinigte Arabische Emirate</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#UnitedKingdom_2635167">
+	<ns1:hasIsoAplpha2Code>GB</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>GBR</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>United Kingdom</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60943000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Großbritannien und Nordirland</rdfs:label>
+	<rdfs:label xml:lang="en">U.K.</rdfs:label>
+	<rdfs:label>United Kingdom</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#UnitedStatesMinorOutlyingIslands_5854968">
+	<ns1:hasIsoAplpha2Code>UM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>UMI</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>United States Minor Outlying Islands</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Amerikanisch-Ozeanien</rdfs:label>
+	<rdfs:label xml:lang="en">U.S. Minor Outlying Islands</rdfs:label>
+	<rdfs:label>United States Minor Outlying Islands</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#UnitedStates_6252001">
+	<ns1:hasIsoAplpha2Code>US</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>USA</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>United States</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303824000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#NorthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">USA</rdfs:label>
+	<rdfs:label>United States</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Uruguay_3439705">
+	<ns1:hasIsoAplpha2Code>UY</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>URY</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Uruguay</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3477000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Oriental Republic of Uruguay</rdfs:label>
+	<rdfs:label>Uruguay</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Uzbekistan_1512440">
+	<ns1:hasIsoAplpha2Code>UZ</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>UZB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Uzbekistan</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28268000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Republic of Uzbekistan</rdfs:label>
+	<rdfs:label xml:lang="de">Usbekistan</rdfs:label>
+	<rdfs:label>Uzbekistan</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Vanuatu_2134431">
+	<ns1:hasIsoAplpha2Code>VU</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>VUT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Vanuatu</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Republic of Vanuatu</rdfs:label>
+	<rdfs:label>Vanuatu</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Vatican_3164670">
+	<ns1:hasIsoAplpha2Code>VA</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>VAT</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Vatican</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">921</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Europe"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Staat der Vatikanstadt</rdfs:label>
+	<rdfs:label>Vatican</rdfs:label>
+	<rdfs:label xml:lang="en">Vatican Hill</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Venezuela_3625428">
+	<ns1:hasIsoAplpha2Code>VE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>VEN</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Venezuela</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26414000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#SouthAmerica"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">United States of Venezuela</rdfs:label>
+	<rdfs:label>Venezuela</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Vietnam_1562822">
+	<ns1:hasIsoAplpha2Code>VN</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>VNM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Vietnam</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86116000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Socialist Republic of Vietnam</rdfs:label>
+	<rdfs:label>Vietnam</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#WallisAndFutuna_4034749">
+	<ns1:hasIsoAplpha2Code>WF</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>WLF</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Wallis and Futuna</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16025</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Oceania"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Wallis and Futuna</rdfs:label>
+	<rdfs:label xml:lang="de">Wallis und Futuna</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#WesternSahara_2461445">
+	<ns1:hasIsoAplpha2Code>EH</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ESH</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Western Sahara</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273008</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label>Western Sahara</rdfs:label>
+	<rdfs:label xml:lang="de">Westsahara</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Yemen_69543">
+	<ns1:hasIsoAplpha2Code>YE</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>YEM</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Yemen</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23013000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Asia"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Jemen</rdfs:label>
+	<rdfs:label xml:lang="en">Republic of Yemen</rdfs:label>
+	<rdfs:label>Yemen</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Zambia_895949">
+	<ns1:hasIsoAplpha2Code>ZM</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ZMB</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Zambia</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11669000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="de">Nordrhodesien</rdfs:label>
+	<rdfs:label xml:lang="en">Northern Rhodesia</rdfs:label>
+	<rdfs:label>Zambia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://l2r.info/geonames#Zimbabwe_878675">
+	<ns1:hasIsoAplpha2Code>ZW</ns1:hasIsoAplpha2Code>
+	<ns1:hasIsoAplpha3Code>ZWE</ns1:hasIsoAplpha3Code>
+	<ns1:hasName>Zimbabwe</ns1:hasName>
+	<ns1:hasPopulationSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12382000</ns1:hasPopulationSize>
+	<ns1:isInContinent rdf:resource="http://l2r.info/geonames#Africa"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/common#Country"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	<rdfs:label xml:lang="en">Southern Rhodesia</rdfs:label>
+	<rdfs:label xml:lang="de">Südrhodesien</rdfs:label>
+	<rdfs:label>Zimbabwe</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

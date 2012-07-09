@@ -1,0 +1,625 @@
+{ "namespace-declarations" : [ {
+	"namespace": "http://rb.lichtflut.de/common#", 
+	"prefix" : "common"
+  }, {
+	"namespace": "http://rb.lichtflut.de/public-type-defs#", 
+	"prefix" : "public-td"
+  }, {
+	"namespace": "http://arastreju.org/kernel#", 
+	"prefix" : "aras"
+  }, {
+	"namespace": "http://rb.lichtflut.de/eam#", 
+	"prefix" : "eam"
+  }, {
+	"namespace": "http://rb.lichtflut.de/bpm#", 
+	"prefix" : "bpm"
+  } ] 
+}
+{
+  "resource-schemas" : [ {
+  "for-type" : "eam:Application",
+	"label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Name"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "common:hasID",
+      "min" : 1,
+      "field-label" : {
+        "default" : "ID"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasLifecyclePhase",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Lifecycle"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:LifecyclePhase"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "common:hasOwner",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Owner"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:ConceptualPerson"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasContactPerson",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Contact persons"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:Person"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:supportsBusinessProcess",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Supports Business Processes"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "bpm:BusinessProcess"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasSoftwareComponent",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Software components"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:SoftwareItem"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasHardwareComponent",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Hardware components"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:HardwareItem"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasDescription",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Description"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "text"
+      }
+    }
+  }, {
+    "for-type" : "eam:ApplicationInstance",
+	"label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Name"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "common:hasID",
+      "min" : 1,
+      "field-label" : {
+        "default" : "ID"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasContactPerson",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Contact persons"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:Person"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "eam:instanceOf",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Instance of"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "eam:runsOn",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Runs on"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:ServerNode"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "eam:hasDatabase",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Has database"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:Database"
+        }
+      }
+    }
+  }, {
+  "for-type" : "eam:ApplicationSystem",
+	"label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Name"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "common:hasID",
+      "min" : 1,
+      "field-label" : {
+        "default" : "ID"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasLifecyclePhase",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Lifecycle"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:LifecyclePhase"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "common:hasOwner",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Owner"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:ConceptualPerson"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasContactPerson",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Contact persons"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:Person"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:supportsBusinessProcess",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Supports Business Processes"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "bpm:BusinessProcess"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasComponent",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Applications"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:Application"
+        }
+      }
+    }
+  },{
+    "for-type" : "eam:ServerNode",
+	"label-rule" : "common:hasID",
+    "property-declaration" : {
+      "property-type" : "common:hasID",
+      "min" : 1,
+      "field-label" : {
+        "default" : "ID"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasIPAddress",
+      "min" : 1,
+      "field-label" : {
+        "default" : "IP address"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasOperatingSystem",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Operating System"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:OperatingSystem"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasContactPerson",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Contact persons"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:Person"
+        }
+      }
+    }
+  },{
+    "for-type" : "eam:OperatingSystem",
+	"label-rule" : "common:hasName eam:hasVersion",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Name"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasVersion",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Version"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasLifecyclePhase",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Lifecycle"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:LifecyclePhase"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "eam:hasContactPerson",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Contact persons"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:Person"
+        }
+      }
+    }
+  } ,{
+    "for-type" : "eam:Database",
+	"label-rule" : "common:hasName eam:hasVersion",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Name"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasVersion",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Version"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "eam:hasDatabaseType",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Type"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:DatabaseType"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "eam:hasLifecyclePhase",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Lifecycle"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:LifecyclePhase"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "eam:hasContactPerson",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Contact persons"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:Person"
+        }
+      }
+    }
+  }, {
+    "for-type" : "eam:HardwareItem",
+	"label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Name"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "common:hasID",
+      "min" : 1,
+      "field-label" : {
+        "default" : "ID"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasLifecyclePhase",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Lifecycle"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:LifecyclePhase"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "common:hasOwner",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Owner"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:ConceptualPerson"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasContactPerson",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Contact persons"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:Person"
+        }
+      }
+    }
+  },{
+    "for-type" : "eam:SoftwareItem",
+	"label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Name"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "common:hasID",
+      "min" : 1,
+      "field-label" : {
+        "default" : "ID"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasLifecyclePhase",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Lifecycle"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "eam:LifecyclePhase"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "common:hasOwner",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Owner"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:ConceptualPerson"
+        }
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "eam:hasContactPerson",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Contact persons"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:Person"
+        }
+      }
+    }
+  },{
+    "for-type" : "eam:LifecyclePhase",
+	"label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Name"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }, 
+    "property-declaration" : {
+      "property-type" : "common:hasID",
+      "min" : 1,
+      "field-label" : {
+        "default" : "ID"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }
+  }]
+}

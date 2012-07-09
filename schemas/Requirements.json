@@ -1,0 +1,203 @@
+{
+    "namespace-declarations": [{
+        "namespace": "http://rb.lichtflut.de/common#",
+        "prefix": "common"
+    },
+    {
+        "namespace": "http://rb.lichtflut.de/public-type-defs#",
+        "prefix": "public-td"
+    },
+    {
+        "namespace": "http://rb.lichtflut.de/eam#",
+        "prefix": "eam"
+    },
+    {
+        "namespace": "http://rb.lichtflut.de/requirements#",
+        "prefix": "req"
+    }]
+}
+ {
+    "resource-schemas": [{
+        "for-type": "req:UseCase",
+        "label-rule": "common:hasID",
+        "property-declaration": {
+            "property-type": "common:hasID",
+            "min": 1,
+            "field-label": {
+                "default": "ID"
+            },
+            "max": 1,
+            "type-definition": {
+                "datatype": "string"
+            }
+        },
+        "property-declaration": {
+            "property-type": "common:hasName",
+            "min": 1,
+            "field-label": {
+                "default": "Name"
+            },
+            "max": 1,
+            "type-definition": {
+                "datatype": "string"
+            }
+        },
+        "property-declaration": {
+            "property-type": "common:hasStatus",
+            "min": 1,
+            "max": 1,
+            "field-label": {
+                "default": "Status"
+            },
+            "type-definition": {
+                "datatype": "resource",
+                "constraints": {
+                    "resource-type": "req:UseCaseStatus"
+                }
+            }
+        },
+        "property-declaration": {
+            "property-type": "req:hasActor",
+            "min": 1,
+            "field-label": {
+                "default": "Actors"
+            },
+            "type-definition": {
+                "datatype": "resource",
+                "constraints": {
+                    "resource-type": "req:Actor"
+                }
+            }
+        },
+        "property-declaration": {
+            "property-type": "common:hasPrecondition",
+            "min": 1,
+            "field-label": {
+                "default": "Preconditions"
+            },
+            "type-definition": {
+                "datatype": "resource",
+                "constraints": {
+                    "resource-type": "req:Condition"
+                }
+            }
+        },
+        "property-declaration": {
+            "property-type": "common:hasPostcondition",
+            "min": 1,
+            "field-label": {
+                "default": "Postcondition"
+            },
+            "type-definition": {
+                "datatype": "resource",
+                "constraints": {
+                    "resource-type": "req:Condition"
+                }
+            }
+        },
+        "property-declaration": {
+            "property-type": "req:includes",
+            "min": 1,
+            "field-label": {
+                "default": "Includes"
+            },
+            "type-definition": {
+                "datatype": "resource",
+                "constraints": {
+                    "resource-type": "req:UseCase"
+                }
+            }
+        }
+    },
+    {
+        "for-type": "req:Actor",
+        "label-rule": "common:hasName",
+        "property-declaration": {
+            "property-type": "common:hasName",
+            "min": 1,
+            "field-label": {
+                "default": "Name"
+            },
+            "max": 1,
+            "type-definition": {
+                "datatype": "string"
+            }
+        },
+        "property-declaration": {
+            "property-type": "common:hasDescription",
+            "min": 0,
+            "field-label": {
+                "default": "Description"
+            },
+            "max": 1,
+            "type-definition": {
+                "datatype": "text"
+            }
+        }
+    },
+    {
+        "for-type": "req:Condition",
+        "label-rule": "common:hasID",
+        "property-declaration": {
+            "property-type": "common:hasID",
+            "min": 1,
+            "field-label": {
+                "default": "ID"
+            },
+            "max": 1,
+            "type-definition": {
+                "datatype": "string"
+            }
+        },
+        "property-declaration": {
+            "property-type": "common:hasDescription",
+            "min": 0,
+            "field-label": {
+                "default": "Description"
+            },
+            "max": 1,
+            "type-definition": {
+                "datatype": "text"
+            }
+        },
+        "property-declaration": {
+            "property-type": "req:includes",
+            "min": 1,
+            "field-label": {
+                "default": "Includes"
+            },
+            "type-definition": {
+                "datatype": "resource",
+                "constraints": {
+                    "resource-type": "req:Condition"
+                }
+            }
+        }
+    },
+    {
+        "for-type": "req:UseCaseStatus",
+        "label-rule": "common:hasName",
+        "property-declaration": {
+            "property-type": "common:hasName",
+            "min": 1,
+            "field-label": {
+                "default": "Name"
+            },
+            "max": 1,
+            "type-definition": {
+                "datatype": "string"
+            }
+        },
+        "property-declaration": {
+            "property-type": "common:hasDescription",
+            "min": 0,
+            "field-label": {
+                "default": "Description"
+            },
+            "max": 1,
+            "type-definition": {
+                "datatype": "text"
+            }
+        }
+    }]
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:eam="http://rb.lichtflut.de/eam#"
+	xmlns:common="http://rb.lichtflut.de/common#"
+	xmlns:rb="http://rb.lichtflut.de/system#"
+	xmlns:aras="http://arastreju.org/kernel#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	
+	<!--  Use Case TYPES -->
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#RequirementSpecification">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#UseCase">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/requirements#RequirementSpecification"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#UserStory">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/requirements#RequirementSpecification"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#BusinessUseCase">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/requirements#UseCase"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#Actor">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#Condition">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#UseCaseStatus">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<!--  Use Case PROPERTIES -->
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#hasActor">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/requirements#participatesIn"/>
+		<rdfs:label>has actor</rdfs:label>
+		<rb:hasFieldLabel>Actors</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#hasPrecondition">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has pre condition</rdfs:label>
+		<rb:hasFieldLabel>Preconditions</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#hasPostcondition">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has post condition</rdfs:label>
+		<rb:hasFieldLabel>Postconditions</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#participatesIn">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/requirements#hasActor"/>
+		<rdfs:label>participates in</rdfs:label>
+		<rb:hasFieldLabel>Participates in</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#includes">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/requirements#includedIn"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
+		<rdfs:label>includes</rdfs:label>
+		<rb:hasFieldLabel>Includes</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/requirements#includedIn">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/requirements#includes"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasParentNode"/>
+		<rdfs:label>is included in</rdfs:label>
+		<rb:hasFieldLabel>Included in</rb:hasFieldLabel>
+	</rdf:Description>
+	
+</rdf:RDF>

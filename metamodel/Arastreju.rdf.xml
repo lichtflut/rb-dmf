@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:aras="http://arastreju.org/kernel#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+	<!-- TYPES -->
+	
+	<rdf:Description rdf:about="http://arastreju.org/kernel#Context">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arastreju.org/kernel#Namespace">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+
+	<!-- PROPERTIES -->
+	
+	<rdf:Description rdf:about="http://arastreju.org/kernel#hasSerialNumber">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has serial number</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arastreju.org/kernel#isIdentifiedBy">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>is identified by</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arastreju.org/kernel#isPredecessorOf">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://arastreju.org/kernel#isSuccessorOf"/>
+		<rdfs:label>is predecessor of</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arastreju.org/kernel#isSuccessorOf">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://arastreju.org/kernel#isPredecessorOf"/>
+		<rdfs:label>is successor of</rdfs:label>
+	</rdf:Description>
+	
+</rdf:RDF>

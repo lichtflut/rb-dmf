@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:ns1="http://arasteju.org/uuid#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:ns3="http://arastreju.org/kernel#"
+	xmlns:ns4="http://rb.lichtflut.de/common#"
+	xmlns:ns5="http://rb.lichtflut.de/system#"
+	xmlns:ns6="http://rb.lichtflut.de/view-specifications#">
+    
+    <!-- PERSPECTIVE -->
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/view-specifications#PeoplePerspective">
+		<ns5:hasLayout>layout-50-50</ns5:hasLayout>
+		<ns5:hasViewPort rdf:resource="http://arasteju.org/uuid#1b7a0e5b-95c5-43b4-9a5a-e4e1b3970786"/>
+		<ns5:hasViewPort rdf:resource="http://arasteju.org/uuid#a379d86b-c43f-4ccb-aca0-c5910a489e5a"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/system#Perspective"/>
+		<ns4:hasName>People</ns4:hasName>
+		<ns4:hasTitle>People overview</ns4:hasTitle>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arasteju.org/uuid#1b7a0e5b-95c5-43b4-9a5a-e4e1b3970786">
+		<ns3:hasSerialNumber>2</ns3:hasSerialNumber>
+		<ns5:containsWidget rdf:resource="http://arasteju.org/uuid#f9ea27f1-1314-4a9a-973d-effd9f857962"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/system#ViewPort"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arasteju.org/uuid#24a4872c-c4d6-47c7-a375-43e0210eb4cb">
+		<ns5:hasParameter rdf:resource="http://arasteju.org/uuid#5d9f77e0-4286-42ef-9710-d17f62930bed"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arasteju.org/uuid#2c814123-f4d1-4c2e-a79e-97a46af66270">
+		<ns3:hasSerialNumber>1</ns3:hasSerialNumber>
+		<ns5:correspondsToProperty rdf:resource="http://rb.lichtflut.de/common#hasFirstname"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arasteju.org/uuid#4696dd38-2440-4c6c-ac44-d59de281e62b">
+		<ns3:hasSerialNumber>3</ns3:hasSerialNumber>
+		<ns5:correspondsToProperty rdf:resource="http://rb.lichtflut.de/common#hasEmail"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arasteju.org/uuid#46db0705-6a17-4bb1-8fc6-61ff0caa168f">
+		<ns5:createInstanceOf rdf:resource="http://rb.lichtflut.de/common#Person"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arasteju.org/uuid#4e15ff2d-d776-4a96-a720-b75e87dd60d0">
+		<ns3:hasSerialNumber>2</ns3:hasSerialNumber>
+		<ns5:correspondsToProperty rdf:resource="http://rb.lichtflut.de/common#hasLastname"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arasteju.org/uuid#5d9f77e0-4286-42ef-9710-d17f62930bed">
+		<ns5:concernsField rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+		<ns5:hasTerm rdf:resource="http://rb.lichtflut.de/common#Person"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arasteju.org/uuid#6f54d809-960e-4c9f-8bf7-a80602454000">
+		<ns4:hasTitle>All people</ns4:hasTitle>
+		<ns5:definesColumn rdf:resource="http://arasteju.org/uuid#2c814123-f4d1-4c2e-a79e-97a46af66270"/>
+		<ns5:definesColumn rdf:resource="http://arasteju.org/uuid#4696dd38-2440-4c6c-ac44-d59de281e62b"/>
+		<ns5:definesColumn rdf:resource="http://arasteju.org/uuid#4e15ff2d-d776-4a96-a720-b75e87dd60d0"/>
+		<ns5:definesColumn rdf:resource="http://arasteju.org/uuid#7b221335-933d-4fff-9b8a-e32ae7b65067"/>
+		<ns5:hasSelection rdf:resource="http://arasteju.org/uuid#24a4872c-c4d6-47c7-a375-43e0210eb4cb"/>
+		<ns5:supportsAction rdf:resource="http://arasteju.org/uuid#46db0705-6a17-4bb1-8fc6-61ff0caa168f"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/system#EnitityListWidget"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arasteju.org/uuid#7b221335-933d-4fff-9b8a-e32ae7b65067">
+		<ns3:hasSerialNumber>4</ns3:hasSerialNumber>
+		<ns5:correspondsToProperty rdf:resource="http://rb.lichtflut.de/common#isEmployedBy"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arasteju.org/uuid#a379d86b-c43f-4ccb-aca0-c5910a489e5a">
+		<ns3:hasSerialNumber>1</ns3:hasSerialNumber>
+		<ns5:containsWidget rdf:resource="http://arasteju.org/uuid#6f54d809-960e-4c9f-8bf7-a80602454000"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/system#ViewPort"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arasteju.org/uuid#f9ea27f1-1314-4a9a-973d-effd9f857962">
+		<ns3:hasSerialNumber>1</ns3:hasSerialNumber>
+		<ns5:isImplementedByClass>de.lichtflut.rb.webck.components.widgets.builtin.ThatsMeWidget</ns5:isImplementedByClass>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/system#PredefinedWidget"/>
+	</rdf:Description>
+
+</rdf:RDF>

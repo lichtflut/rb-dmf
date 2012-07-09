@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:common="http://rb.lichtflut.de/common#"
+	xmlns:rb="http://rb.lichtflut.de/system#"
+	xmlns:aras="http://arastreju.org/kernel#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	
+	<!-- EXTENSIONS -->
+	
+	<rdf:Description rdf:about="http://arastreju.org/kernel#isPredecessorOf">
+		<rb:hasFieldLabel>Successors</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arastreju.org/kernel#isSuccessorOf">
+		<rb:hasFieldLabel>Predecessors</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	
+	<!-- TYPES -->
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#ConceptualPerson">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Location">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Language">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Person">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#ConceptualPerson"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Organization">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#OrganizationalUnit"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#ConceptualPerson"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#TreeRootNode"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#OrganizationalUnit">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#ConceptualPerson"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#TreeNode"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Continent">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Location"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Country">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Location"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#City">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Location"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Address">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Location"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Skill">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#LanguageSkill">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Skill"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Expertise">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Skill"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#ContactData">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Project">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#OrganizationalUnit"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Process">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#ProcessElement"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#ProcessElement">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#TreeNode"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#System">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Category">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Item">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Document">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Item"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#ItemHistory">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#ItemHistoryEntry">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#TreeNode">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#TreeRootNode">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#TreeNode"/>
+	</rdf:Description>
+	
+	<!-- COMMON PROPERTIES -->
+	
+	<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+		<rb:hasFieldLabel>Type</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+		<rb:hasFieldLabel>Label</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasSuperordinate">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasParentNode"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasSubordinate"/>
+		<rdfs:label>has superordinate</rdfs:label>
+		<rb:hasFieldLabel>Super units</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasSubordinate">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasSuperordinate"/>
+		<rdfs:label>has subordinate</rdfs:label>
+		<rb:hasFieldLabel>Sub units</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isEmployedBy">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasEmployee"/>
+		<rdfs:label>is employed by</rdfs:label>
+		<rb:hasFieldLabel>Employer</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isContractedBy">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasContracted"/>
+		<rdfs:label>contracted by</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasContracted">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#isContractedBy"/>
+		<rdfs:label>has contracted</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasEmployee">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#isEmployedBy"/>
+		<rdfs:label>has employee</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#dependsOn">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
+		<rdfs:label>depends on</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isAssignedTo">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasAssigned"/>
+		<rdfs:label>assigned to</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasAssigned">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#isAssignedTo"/>
+		<rdfs:label>has assigned</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#supports">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#isSupportedBy"/>
+		<rdfs:label>supports</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isSupportedBy">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#supports"/>
+		<rdfs:label>is supported by</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isProducedBy">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>produced by</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasLicenseTag">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has license tag</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasID">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rb:hasFieldLabel>ID</rb:hasFieldLabel>
+		<rdfs:label>has ID</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasName">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has name</rdfs:label>
+		<rb:hasFieldLabel>Name</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasFirstname">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has first name</rdfs:label>
+		<rb:hasFieldLabel>First name</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasMiddlename">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has middle name</rdfs:label>
+		<rb:hasFieldLabel>Middle name</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasLastname">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has last name</rdfs:label>
+		<rb:hasFieldLabel>Last name</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasTitle">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has title</rdfs:label>
+		<rb:hasFieldLabel>Title</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasDescription">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has description</rdfs:label>
+		<rb:hasFieldLabel>Description</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasEmail">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has email</rdfs:label>
+		<rb:hasFieldLabel>Email</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasContactData">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has contact data</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasCategory">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>category</rdfs:label>
+	</rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/common#hasSpouse">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasSpouse"/>
+        <rdfs:label>has spouse</rdfs:label>
+        <rb:hasFieldLabel>Spouse</rb:hasFieldLabel>
+    </rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isMarriedTo">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#isMarriedTo"/>
+        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasSpouse"/>
+		<rdfs:label>married to</rdfs:label>
+		<rb:hasFieldLabel>Married to</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasChild">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasParent"/>
+		<rdfs:label>has child</rdfs:label>
+		<rb:hasFieldLabel>Children</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasParent">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasChild"/>
+		<rdfs:label>has parent</rdfs:label>
+		<rb:hasFieldLabel>Parents</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasGeneralManager">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has general manager</rdfs:label>
+		<rb:hasFieldLabel>General manager</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasDomicile">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has domicile</rdfs:label>
+		<rb:hasFieldLabel>Domicile</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasAddress">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#isLocatedHere"/>
+		<rdfs:label>has address</rdfs:label>
+		<rb:hasFieldLabel>Address</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isLocatedHere">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>located here</rdfs:label>
+		<rb:hasFieldLabel>Located here</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasCustomer">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#isCustomerOf"/>
+		<rdfs:label>has customer</rdfs:label>
+		<rb:hasFieldLabel>Customers</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isCustomerOf">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasCustomer"/>
+		<rdfs:label>customer of</rdfs:label>
+		<rb:hasFieldLabel>Customer of</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isNPO">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>is NPO</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasOwner">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#owns"/>
+		<rdfs:label>has owner</rdfs:label>
+		<rb:hasFieldLabel>Owner</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#owns">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasOwner"/>
+		<rdfs:label>owns</rdfs:label>
+		<rb:hasFieldLabel>Owns</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#ownsVehicle">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#owns"/>
+		<rdfs:label>owns vehicle</rdfs:label>
+	</rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/common#likes">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#likedBy"/>
+        <rdfs:label>likes</rdfs:label>
+        <rb:hasFieldLabel>Likes</rb:hasFieldLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/common#dislikes">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#dislikedBy"/>
+        <rdfs:label>dislikes</rdfs:label>
+        <rb:hasFieldLabel>Dislikes</rb:hasFieldLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/common#likedBy">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#likes"/>
+        <rdfs:label>liked by</rdfs:label>
+        <rb:hasFieldLabel>Liked by</rb:hasFieldLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/common#dislikedBy">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#dislikes"/>
+        <rdfs:label>disliked by</rdfs:label>
+        <rb:hasFieldLabel>Disliked by</rb:hasFieldLabel>
+    </rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasLead">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has lead</rdfs:label>
+		<rb:hasFieldLabel>Lead</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasChildNode">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasParentNode"/>
+		<rdfs:label>has child node</rdfs:label>
+		<rb:hasFieldLabel>Child nodes</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasParentNode">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
+		<rdfs:label>has parent node</rdfs:label>
+		<rb:hasFieldLabel>Parent nodes</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasStatus">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has status</rdfs:label>
+		<rb:hasFieldLabel>Status</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasHistory">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has history</rdfs:label>
+		<rb:hasFieldLabel>History</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#contains">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>contains</rdfs:label>
+		<rb:hasFieldLabel>Contains</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasElement">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#contains"/>
+		<rdfs:label>has element</rdfs:label>
+		<rb:hasFieldLabel>Elements</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasEntry">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#contains"/>
+		<rdfs:label>has entry</rdfs:label>
+		<rb:hasFieldLabel>Entries</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isIn">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>is in</rdfs:label>
+		<rb:hasFieldLabel>Is in</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isInCity">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#isIn"/>
+		<rdfs:label>has city</rdfs:label>
+		<rb:hasFieldLabel>City</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isInCountry">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#isIn"/>
+		<rdfs:label>has country</rdfs:label>
+		<rb:hasFieldLabel>Country</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isInContinent">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#isIn"/>
+		<rdfs:label>has continent</rdfs:label>
+		<rb:hasFieldLabel>Continent</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasPopulationSize">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has population</rdfs:label>
+		<rb:hasFieldLabel>Population</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasIsoAplpha2Code">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has ISO alpha 2 code</rdfs:label>
+		<rb:hasFieldLabel>ISO alpha 2</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasIsoAplpha3Code">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has ISO alpha 3 code</rdfs:label>
+		<rb:hasFieldLabel>ISO alpha 3</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<!-- CATEGORIES -->
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#OrganizationCategory">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Category"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Enterprise">
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Organization"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#OrganizationCategory"/>
+		<rdfs:label>enterprise</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Association">
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Organization"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#OrganizationCategory"/>
+		<rdfs:label>association</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Club">
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Organization"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#OrganizationCategory"/>
+		<rdfs:label>club</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#VehicleCategory">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Category"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Vehicle">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:label>vehicle</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Car">
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Vehicle"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#VehicleCategory"/>
+		<rdfs:label>car</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Truck">
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Vehicle"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#VehicleCategory"/>
+		<rdfs:label>truck</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#Motorcycle">
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Vehicle"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#VehicleCategory"/>
+		<rdfs:label>motorcycle</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#ContactDataCategory">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Category"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#MobilePhoneNumber">
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#ContactData"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#ContactDataCategory"/>
+		<rdfs:label>mobile</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#OfficePhoneNumber">
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#ContactData"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#ContactDataCategory"/>
+		<rdfs:label>office</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#PrivatePhoneNumber">
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#ContactData"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/common#ContactDataCategory"/>
+		<rdfs:label>private</rdfs:label>
+	</rdf:Description>
+	
+</rdf:RDF>

@@ -1,0 +1,330 @@
+{ "namespace-declarations" : [ {
+	"namespace": "http://rb.lichtflut.de/common#", 
+	"prefix" : "common"
+  }, {
+	"namespace": "http://rb.lichtflut.de/public-type-defs#", 
+	"prefix" : "public-td"
+  }, {
+	"namespace": "http://arastreju.org/kernel#", 
+	"prefix" : "aras"
+  }, {
+	"namespace": "http://rb.lichtflut.de/eam#", 
+	"prefix" : "eam"
+  }, {
+	"namespace": "http://rb.lichtflut.de/bpm#", 
+	"prefix" : "bpm"
+  } ] 
+}
+{
+  "resource-schemas" : [ {
+    "for-type" : "bpm:BusinessProcessLevel",
+	"label-rule" : "common:hasName",
+    "property-declaration" : {
+      "property-type" : "common:hasName",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Name"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    }
+  }, {
+    "for-type" : "bpm:BusinessProcess",
+	"label-rule" : "common:hasTitle",
+    "property-declaration" : {
+      "property-type" : "common:hasTitle",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Name"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasID",
+      "min" : 1,
+      "field-label" : {
+        "default" : "ID"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasOwner",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Process owner"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:ConceptualPerson"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "bpm:hasProcessElement",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Process elements"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:ProcessElement"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "bpm:hasProcessLevel",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Process level"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "bpm:BusinessProcessLevel"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "bpm:hasTimeAllocation",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Time Allocation"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasDescription",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Description"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "text"
+      }
+    }
+  }, {
+    "for-type" : "bpm:SubProcess",
+	"label-rule" : "common:hasTitle",
+    "property-declaration" : {
+      "property-type" : "common:hasTitle",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Name"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    },
+     "property-declaration" : {
+      "property-type" : "common:hasID",
+      "min" : 1,
+      "field-label" : {
+        "default" : "ID"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "aras:hasSerialNumber",
+      "min" : 1,
+      "max" : 1,
+      "field-label" : {
+        "default" : "Order No."
+      },
+      "type-definition" : {
+        "datatype" : "integer"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "aras:isSuccessorOf",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Predecessors"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:ProcessElement"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasOwner",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Process owner"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:ConceptualPerson"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "bpm:hasProcessElement",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Process elements"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:ProcessElement"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "bpm:hasParentProcess",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Parent process"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:Process"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "bpm:hasTimeAllocation",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Time Allocation"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasDescription",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Description"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "text"
+      }
+    }
+  }, {
+    "for-type" : "bpm:ProcessStep",
+	"label-rule" : "common:hasTitle",
+    "property-declaration" : {
+      "property-type" : "common:hasTitle",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Title"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasID",
+      "min" : 1,
+      "field-label" : {
+        "default" : "ID"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "aras:hasSerialNumber",
+      "min" : 1,
+      "max" : 1,
+      "field-label" : {
+        "default" : "Order No."
+      },
+      "type-definition" : {
+        "datatype" : "integer"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "aras:isSuccessorOf",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Predecessors"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:ProcessElement"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasOwner",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Process owner"
+      },
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:ConceptualPerson"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "bpm:hasParentProcess",
+      "min" : 1,
+      "field-label" : {
+        "default" : "Parent process"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "resource",
+        "constraints" : {
+          "resource-type" : "common:Process"
+        }
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "bpm:hasTimeAllocation",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Time Allocation"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "string"
+      }
+    },
+    "property-declaration" : {
+      "property-type" : "common:hasDescription",
+      "min" : 0,
+      "field-label" : {
+        "default" : "Description"
+      },
+      "max" : 1,
+      "type-definition" : {
+        "datatype" : "text"
+      }
+    }
+  }  ]
+}

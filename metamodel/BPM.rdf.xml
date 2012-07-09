@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:eam="http://rb.lichtflut.de/eam#"
+	xmlns:bpm="http://rb.lichtflut.de/bpm#"
+	xmlns:common="http://rb.lichtflut.de/common#"
+	xmlns:rb="http://rb.lichtflut.de/system#"
+	xmlns:aras="http://arastreju.org/kernel#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	
+	<!-- BPM TYPES -->
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/bpm#BusinessProcess">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Process"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#TreeRootNode"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/bpm#SubProcess">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#ProcessElement"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Process"/>
+		<rdfs:label>Sub process</rdfs:label>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://rb.lichtflut.de/bpm#ProcessStep">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#ProcessElement"/>
+		<rdfs:label>Process step</rdfs:label>
+	</rdf:Description>	
+	
+	<!-- BPM PROPERTIES -->
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/bpm#hasProcessElement">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/bpm#hasParentProcess"/>
+		<rdfs:label>has process element</rdfs:label>
+		<rb:hasFieldLabel>Process elements</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/bpm#hasParentProcess">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasParentNode"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/bpm#hasProcessElement"/>
+		<rdfs:label>has parent</rdfs:label>
+		<rb:hasFieldLabel>Parent process</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/bpm#hasProcessLevel">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has level</rdfs:label>
+		<rb:hasFieldLabel>Process level</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<!-- CATEGORIES -->
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/bpm#BusinessProcessLevel">
+		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Category"/>
+	</rdf:Description>
+	
+</rdf:RDF>

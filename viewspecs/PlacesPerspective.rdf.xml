@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:aras="http://arastreju.org/kernel#" xmlns:ns1="http://arasteju.org/uuid#" xmlns:ns2="http://rb.lichtflut.de/common#"
+    xmlns:ns3="http://rb.lichtflut.de/system#" xmlns:ns4="http://rb.lichtflut.de/view-specifications#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <!-- PERSPECTIVES -->
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/view-specifications#PlacesPerspective">
+        <ns2:hasName>Places</ns2:hasName>
+        <ns2:hasTitle>Places overview</ns2:hasTitle>
+        <ns3:hasViewPort rdf:resource="http://arasteju.org/uuid#0fd02d1a-8715-4e10-896e-347a662b1747" />
+        <ns3:hasViewPort rdf:resource="http://arasteju.org/uuid#7936f5d4-1600-4566-a271-379b6e60f188" />
+        <rdf:type rdf:resource="http://rb.lichtflut.de/system#Perspective" />
+    </rdf:Description>
+    
+    <!-- VIEWPORTS -->
+
+    <rdf:Description rdf:about="http://arasteju.org/uuid#0fd02d1a-8715-4e10-896e-347a662b1747">
+        <aras:hasSerialNumber>1</aras:hasSerialNumber>
+        <ns3:containsWidget rdf:resource="http://arasteju.org/uuid#f90a3e42-bcdc-48cc-a628-1bc62c80bb81" />
+        <rdf:type rdf:resource="http://rb.lichtflut.de/system#ViewPort" />
+    </rdf:Description>
+    
+      <rdf:Description rdf:about="http://arasteju.org/uuid#7936f5d4-1600-4566-a271-379b6e60f188">
+        <aras:hasSerialNumber>2</aras:hasSerialNumber>
+        <ns3:containsWidget rdf:resource="http://arasteju.org/uuid#7d47e0b6-550e-4172-8fc7-bc6e17894d7b" />
+        <rdf:type rdf:resource="http://rb.lichtflut.de/system#ViewPort" />
+    </rdf:Description>
+    
+    <!-- WIDGETS -->
+
+    <rdf:Description rdf:about="http://arasteju.org/uuid#2ef33ed0-557a-4ce8-b4fc-a2779ce83d47">
+        <ns3:concernsField rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" />
+        <ns3:hasTerm rdf:resource="http://rb.lichtflut.de/common#Country" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://arasteju.org/uuid#52ed9c59-539b-4223-8665-f24b05baa6d2">
+        <ns3:concernsField rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type" />
+        <ns3:hasTerm rdf:resource="http://rb.lichtflut.de/common#City" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://arasteju.org/uuid#577c0d28-224e-4824-8370-92a61186be66">
+        <ns3:createInstanceOf rdf:resource="http://rb.lichtflut.de/common#Country" />
+        <rdf:type rdf:resource="http://rb.lichtflut.de/system#InstantiateAction" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://arasteju.org/uuid#7d47e0b6-550e-4172-8fc7-bc6e17894d7b">
+        <aras:hasSerialNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</aras:hasSerialNumber>
+        <ns2:hasTitle>Cities</ns2:hasTitle>
+        <ns3:definesColumn rdf:resource="http://arasteju.org/uuid#fce85c84-31b9-44e3-918d-af86c564dee5" />
+        <ns3:hasSelection rdf:resource="http://arasteju.org/uuid#fcf28e31-86e3-4dbc-94a7-806748f1adfd" />
+        <ns3:supportsAction rdf:resource="http://arasteju.org/uuid#7d89a76c-cee7-4721-b326-c543a869789b" />
+        <rdf:type rdf:resource="http://rb.lichtflut.de/system#EnitityListWidget" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://arasteju.org/uuid#7d5e5809-3fef-411f-b0ec-59ad47387e8d">
+        <aras:hasSerialNumber>1</aras:hasSerialNumber>
+        <ns3:correspondsToProperty rdf:resource="http://rb.lichtflut.de/common#hasName" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://arasteju.org/uuid#7d89a76c-cee7-4721-b326-c543a869789b">
+        <ns3:createInstanceOf rdf:resource="http://rb.lichtflut.de/common#City" />
+        <rdf:type rdf:resource="http://rb.lichtflut.de/system#InstantiateAction" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://arasteju.org/uuid#91b5e26c-17de-485a-b218-7d76d8934da0">
+        <ns3:hasParameter rdf:resource="http://arasteju.org/uuid#2ef33ed0-557a-4ce8-b4fc-a2779ce83d47" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://arasteju.org/uuid#f90a3e42-bcdc-48cc-a628-1bc62c80bb81">
+        <aras:hasSerialNumber>1</aras:hasSerialNumber>
+        <ns2:hasTitle>Countries</ns2:hasTitle>
+        <ns3:definesColumn rdf:resource="http://arasteju.org/uuid#7d5e5809-3fef-411f-b0ec-59ad47387e8d" />
+        <ns3:hasSelection rdf:resource="http://arasteju.org/uuid#91b5e26c-17de-485a-b218-7d76d8934da0" />
+        <ns3:supportsAction rdf:resource="http://arasteju.org/uuid#577c0d28-224e-4824-8370-92a61186be66" />
+        <rdf:type rdf:resource="http://rb.lichtflut.de/system#EnitityListWidget" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://arasteju.org/uuid#fce85c84-31b9-44e3-918d-af86c564dee5">
+        <aras:hasSerialNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</aras:hasSerialNumber>
+        <ns3:correspondsToProperty rdf:resource="http://rb.lichtflut.de/common#hasName" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://arasteju.org/uuid#fcf28e31-86e3-4dbc-94a7-806748f1adfd">
+        <ns3:hasParameter rdf:resource="http://arasteju.org/uuid#52ed9c59-539b-4223-8665-f24b05baa6d2" />
+    </rdf:Description>
+
+</rdf:RDF>
