@@ -16,20 +16,13 @@ schema for "food:FoodProduct" {
 		datatype : "Resource"
 		resource-constraint : "food:FoodCategory"
 	}
+	
+	property "common:hasDescription" [n..1] {
+		field-label : "Description"
+		field-label[de] : "Beschreibung"
 
-	property "common:likedBy" [1..n] {
-        field-label : "Liked by"
-        field-label[de] : "Gemocht von"
-        datatype : "Resource"
-        resource-constraint : "common:Person"
-    }
-
-    property "common:dislikedBy" [1..n] {
-        field-label : "Disiked by"
-        field-label[de] : "Nicht gemocht von"
-        datatype : "Resource"
-        resource-constraint : "common:Person"
-    }
+		datatype : "String"
+	}
 	
 }
 
@@ -50,17 +43,17 @@ schema for "food:FoodCategory" {
 	}
 
 	property "food:hasSubCategory" [1..n] {
-        field-label : "Sub categories"
-        field-label[de] : "Unterkategorien"
-        datatype : "Resource"
-        resource-constraint : "food:FoodCategory"
-    }
+   	     field-label : "Sub categories"
+        	field-label[de] : "Unterkategorien"
+        	datatype : "Resource"
+        	resource-constraint : "food:FoodCategory"
+    	}
 
 }
 
 schema for "food:Recipe" {
 
-	label-rule : "common:hasName"
+	label-rule : "common:hasName <,> food:hasCountryOfOrigin"
 
 	property "common:hasName" [1..1] {
 		field-label : "Name"
@@ -74,19 +67,86 @@ schema for "food:Recipe" {
 		resource-constraint : "food:FoodProduct"
 	}
 
-	property "common:likedBy" [1..n] {
-        field-label : "Liked by"
-        field-label[de] : "Gemocht von"
-        datatype : "Resource"
-        resource-constraint : "common:Person"
-    }
+	property "food:hasProcessStep" [1..1] {
+		field-label : "Process Step"
+		field-label[de] : "Arbeitsschritt"
 
-    property "common:dislikedBy" [1..n] {
-        field-label : "Disiked by"
-        field-label[de] : "Nicht gemocht von"
-        datatype : "Resource"
-        resource-constraint : "common:Person"
-    }
+		datatype : "Text"
+	}
 
+	property "food:hasMachinery" [n..n] {
+		field-label : "Machinery"
+		field-label[de] : "Küchenmaschinen"
+
+		datatype : "Resource"
+		resource-constraint : "food:Machine"
+	}
+
+	property "food:hasTypeOfMeal" [1..1] {
+		field-label : "Type of Meal"
+		field-label[de] : "Kategorie"
+	
+		datatype : "Resource"
+		resource-constraint : "food:TypeOfMeal"
+	}
+
+	property "food:hasPreparationTime" [n..1] {
+		field-label : "Preparation Time"
+		field-label[de] : "Zubereitungszeit"
+
+		datatype : "Decimal"
+	}
+
+	property "food:hasDifficulty" [n..1] {
+		field-label : "Degree of Difficulty"
+		field-label[de] : "Schwierigkeitsgrad"
+
+		datatype : "Resource"
+		resource-constraint : "food:Difficulty"
+	}
+
+	property "food:hasCountryOfOrigin" [1..1] {
+		field-label : "Country of Origin"
+		field-label[de] : "Herkunftsland"
+
+		datatype : "Resource"
+		resource-constraint : "common:Country"
+	}
+}
+
+schema for "food:Machine" {
+
+	property "common:hasName" [1..1] {
+		field-label : "Name"
+		field-label[de] : "Name"
+
+		datatype : "String"
+	}
+
+	property "common:hasDescription" [n..1] {
+		field-label : "Description"
+		field-label[de] : "Beschreibung"
+
+		datatype : "Text"
+	}
+}
+
+schema for "food:TypeOfMeal" {
+
+	label-rule : "common:hasName"
+
+	property "common:hasName" [1..1] {
+		field-label : "Name"
+		field-label[de] : "Name"
+
+		datatype : "String"
+	}
+
+	property "common:hasDescription" [n..1] {
+		field-label : "Description"
+		field-label[de] : "Beschreibung"
+
+		datatype : "Text"
+	}
 }
 
