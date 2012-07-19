@@ -20,9 +20,22 @@ schema for "food:FoodProduct" {
 	property "common:hasDescription" [n..1] {
 		field-label : "Description"
 		field-label[de] : "Beschreibung"
-
 		datatype : "String"
 	}
+
+	property "common:likedBy" [1..n] {
+        field-label : "Liked by"
+        field-label[de] : "Gemocht von"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+
+    property "common:dislikedBy" [1..n] {
+        field-label : "Disliked by"
+        field-label[de] : "Nicht gemocht von"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
 	
 }
 
@@ -145,7 +158,6 @@ schema for "food:TypeOfMeal" {
 	property "common:hasDescription" [n..1] {
 		field-label : "Description"
 		field-label[de] : "Beschreibung"
-
 		datatype : "Text"
 	}
 }

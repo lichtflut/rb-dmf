@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:aras="http://arastreju.org/kernel#"
+	xmlns:ns1="http://rb.lichtflut.de/common#"
+	xmlns:ns2="http://rb.lichtflut.de/system#"
+	xmlns:food="http://rb.lichtflut.de/common/food/"
+	xmlns:ns4="http://arasteju.org/uuid/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	
+<rdf:Description rdf:about="http://rb.lichtflut.de/view-specifications#FoodPerspective">
+	<ns1:hasName>Food &amp; Beverages</ns1:hasName>
+	<ns1:hasTitle>All the foods and beverages that are ingedients for your recipes</ns1:hasTitle>
+	<ns2:hasViewPort rdf:resource="http://arasteju.org/uuid/479d7c9a-257c-4c62-8922-e916e80102b8"/>
+	<ns2:hasViewPort rdf:resource="http://arasteju.org/uuid/61b2f36e-6d0f-4679-8d85-164fad4cea43"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#Perspective"/>
+</rdf:Description>	
+
+<rdf:Description rdf:about="http://arasteju.org/uuid/3d73d617-f882-474a-9c80-7f52f155cf2b">
+	<ns2:hasParameter rdf:resource="http://arasteju.org/uuid/a246d796-0037-448e-9920-5579728f31ab"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://arasteju.org/uuid/479d7c9a-257c-4c62-8922-e916e80102b8">
+	<aras:hasSerialNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</aras:hasSerialNumber>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#ViewPort"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://arasteju.org/uuid/4ce9b542-982c-438a-8b19-00fb525b2eb8">
+	<aras:hasSerialNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</aras:hasSerialNumber>
+	<ns2:correspondsToProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://arasteju.org/uuid/61b2f36e-6d0f-4679-8d85-164fad4cea43">
+	<aras:hasSerialNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</aras:hasSerialNumber>
+	<ns2:containsWidget rdf:resource="http://arasteju.org/uuid/9e40aa86-8528-4bb5-8176-21dbbc87a2c3"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#ViewPort"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://arasteju.org/uuid/9e40aa86-8528-4bb5-8176-21dbbc87a2c3">
+	<aras:hasSerialNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</aras:hasSerialNumber>
+	<ns1:hasTitle>Food</ns1:hasTitle>
+	<ns2:definesColumn rdf:resource="http://arasteju.org/uuid/4ce9b542-982c-438a-8b19-00fb525b2eb8"/>
+	<ns2:hasSelection rdf:resource="http://arasteju.org/uuid/3d73d617-f882-474a-9c80-7f52f155cf2b"/>
+	<ns2:supportsAction rdf:resource="http://arasteju.org/uuid/d366b642-c3bb-4c41-811e-b486c68ae098"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#EnitityListWidget"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://arasteju.org/uuid/a246d796-0037-448e-9920-5579728f31ab">
+	<ns2:concernsField rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+	<ns2:hasTerm rdf:resource="http://rb.lichtflut.de/common/food/FoodProduct"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://arasteju.org/uuid/d366b642-c3bb-4c41-811e-b486c68ae098">
+	<ns2:createInstanceOf rdf:resource="http://rb.lichtflut.de/common/food/FoodProduct"/>
+	<rdf:type rdf:resource="http://rb.lichtflut.de/system#InstantiateAction"/>
+</rdf:Description>
+
+</rdf:RDF>

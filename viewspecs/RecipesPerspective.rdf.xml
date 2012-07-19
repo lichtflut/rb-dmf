@@ -8,6 +8,14 @@
         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 
+    <rdf:Description rdf:about="http://rb.lichtflut.de/view-specifications#RecipesPerspective">
+        <rdf:type rdf:resource="http://rb.lichtflut.de/system#Perspective"/>
+        <ns1:hasName>Recipes</ns1:hasName>
+        <ns1:hasTitle>Recipes</ns1:hasTitle>
+        <ns2:hasViewPort rdf:resource="http://arasteju.org/uuid/29a3507b-4f9d-4a57-91f9-3b8dc42e2ebc"/>
+        <ns2:hasViewPort rdf:resource="http://arasteju.org/uuid/9507f667-986d-4425-8d7d-8b3a8dfd0b4c"/>
+    </rdf:Description>
+
     <rdf:Description rdf:about="http://arasteju.org/uuid/0ac4106c-4d47-495a-9a89-c0e2e6795659">
         <aras:hasSerialNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</aras:hasSerialNumber>
         <ns1:hasTitle>All Recipes</ns1:hasTitle>
@@ -31,14 +39,6 @@
     <rdf:Description rdf:about="http://arasteju.org/uuid/2f97778b-7452-4096-b231-2fad03d012df">
         <aras:hasSerialNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</aras:hasSerialNumber>
         <ns2:correspondsToProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-    </rdf:Description>
-
-    <rdf:Description rdf:about="http://arasteju.org/uuid/4ccca8e3-57b8-45da-92d5-61f5f5fdf713">
-        <ns1:hasName>Recipes</ns1:hasName>
-        <ns1:hasTitle>Recipes</ns1:hasTitle>
-        <ns2:hasViewPort rdf:resource="http://arasteju.org/uuid/29a3507b-4f9d-4a57-91f9-3b8dc42e2ebc"/>
-        <ns2:hasViewPort rdf:resource="http://arasteju.org/uuid/9507f667-986d-4425-8d7d-8b3a8dfd0b4c"/>
-        <rdf:type rdf:resource="http://rb.lichtflut.de/system#Perspective"/>
     </rdf:Description>
 
     <rdf:Description rdf:about="http://arasteju.org/uuid/9507f667-986d-4425-8d7d-8b3a8dfd0b4c">
