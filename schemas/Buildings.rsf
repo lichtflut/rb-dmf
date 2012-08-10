@@ -1,0 +1,67 @@
+namespace "http://rb.lichtflut.de/common#"       prefix  "common"
+namespace "http://rb.lichtflut.de/common/constructions/"  prefix  "cnstr"
+
+schema for "cnstr:Object" {
+
+	label-rule : "common:hasID"
+	
+	property "common:hasID" [1..1] {
+		field-label : "Object ID"
+		field-label[de] : "Objektbezeichnung"
+		datatype : "String"
+	}
+					
+	property "common:hasAddress" [1..1] {
+		field-label : "Object address"
+		field-label[de] : "Objektadresse"
+		datatype : "Resource"
+		resource-constraint : "common:Address"
+	}
+	
+	property "cnstr:hasBuildingOwner" [1..n] {
+		field-label : "Building owner"
+		field-label[de] : "Bauherr"
+		datatype : "Resource"
+		resource-constraint : "common:ConceptualPerson"
+	}
+	
+	property "cnstr:hasBuildingContractor" [1..n] {
+		field-label : "Building contractor"
+		field-label[de] : "Bauunternehmen"
+		datatype : "Resource"
+		resource-constraint : "common:ConceptualPerson"
+	}
+	
+	property "common:hasCategory" [1..n] {
+		field-label : "Category"
+		field-label[de] : "Kategorie"
+		datatype : "Resource"
+		resource-constraint : "cnstr:BuildingCategory"
+	}
+	
+	property "cnstr:hasEnclosedSpace" [0..1] {
+		field-label : "Enclosed space (cm)"
+		field-label[de] : "Umbauter Raum (cm)"
+		datatype : "Decimal"
+	}
+	
+	property "cnstr:hasBuildingArea" [0..1] {
+		field-label : "Building area (square meters)"
+		field-label[de] : "Grundfläche (qm)"
+		datatype : "Decimal"
+	}
+	
+	property "cnstr:hasLivingArea" [0..1] {
+		field-label : "Living area (square meters)"
+		field-label[de] : "Wohnfläche (qm)"
+		datatype : "Decimal"
+	}
+	
+	property "cnstr:hasUsefulArea" [0..1] {
+		field-label : "Useful area (square meters)"
+		field-label[de] : "Nutzfläche (qm)"
+		datatype : "Decimal"
+	}
+	
+}
+
