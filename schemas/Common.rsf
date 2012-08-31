@@ -91,6 +91,9 @@ schema for "common:Person" {
 		field-label[de] : "Adresse"
 		datatype : "Resource"
 		resource-constraint : "common:Address"
+		visualize { 
+			embedded : "true" 
+		}
 	}
 	
 	property "common:hasDateOfBirth" [0..1] {
@@ -146,6 +149,11 @@ schema for "common:Person" {
 		resource-constraint : "common:Expertise"
 	}
 	
+	property "common:hasImage" [0..n] {
+		field-label : "Image"
+		datatype : "File"
+	}
+	
 }
 
 schema for "common:Address" {
@@ -161,6 +169,10 @@ schema for "common:Address" {
 		field-label : "House No."
 		field-label[de] : "Hausnr."
 		datatype : "String"
+		visualize { 
+			floating : "yes"
+			style : "width:80px"
+		}
 	}
 	
 	property "common:hasZipcode" [1..1] {

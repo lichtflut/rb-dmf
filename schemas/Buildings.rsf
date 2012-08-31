@@ -63,5 +63,11 @@ schema for "cnstr:Object" {
 		datatype : "Decimal"
 	}
 	
+	property "cnstr:hasDocument" [0..1] {
+		field-label : "Documents"
+		field-label[de] : "Dokuments"
+		datatype : "File"
+	}
+	
 }
 
