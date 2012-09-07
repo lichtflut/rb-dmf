@@ -10,33 +10,38 @@ schema for "food:FoodProduct" {
 		datatype : "String"
 	}
 	
-	property "common:hasCategory" [1..n] {
+	property "food:hasCalories" [1..1] {
+		field-label : "Calories"
+		field-label[de] : "Kalorien"
+		datatype : "Integer"
+	}
+	
+	property "common:hasCategory" [0..2] {
 		field-label : "Category"
 		field-label[de] : "Kategorie"
 		datatype : "Resource"
 		resource-constraint : "food:FoodCategory"
 	}
-	
-	property "common:hasDescription" [n..1] {
-		field-label : "Description"
-		field-label[de] : "Beschreibung"
-		datatype : "String"
-	}
 
-	property "common:likedBy" [1..n] {
+	property "common:likedBy" [0..n] {
         field-label : "Liked by"
         field-label[de] : "Gemocht von"
         datatype : "Resource"
         resource-constraint : "common:Person"
     }
 
-    property "common:dislikedBy" [1..n] {
+    property "common:dislikedBy" [0..n] {
         field-label : "Disliked by"
         field-label[de] : "Nicht gemocht von"
         datatype : "Resource"
         resource-constraint : "common:Person"
     }
 	
+	property "common:hasDescription" [0..1] {
+		field-label : "Description"
+		field-label[de] : "Beschreibung"
+		datatype : "Text"
+	}
 }
 
 schema for "food:FoodCategory" {
@@ -56,11 +61,11 @@ schema for "food:FoodCategory" {
 	}
 
 	property "food:hasSubCategory" [1..n] {
-   	     field-label : "Sub categories"
-        	field-label[de] : "Unterkategorien"
-        	datatype : "Resource"
-        	resource-constraint : "food:FoodCategory"
-    	}
+   	    field-label : "Sub categories"
+       	field-label[de] : "Unterkategorien"
+       	datatype : "Resource"
+       	resource-constraint : "food:FoodCategory"
+    }
 
 }
 
