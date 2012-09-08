@@ -14,6 +14,9 @@ schema for "food:FoodProduct" {
 		field-label : "Calories"
 		field-label[de] : "Kalorien"
 		datatype : "Integer"
+		visualize { 
+			style : "width:50px" 
+		}
 	}
 	
 	property "common:hasCategory" [0..2] {
