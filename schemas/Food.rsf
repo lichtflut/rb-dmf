@@ -133,6 +133,14 @@ schema for "food:Recipe" {
 		datatype : "Resource"
 		resource-constraint : "common:Country"
 	}
+	
+	property "food:hasSpiciness" [n..1] {
+		field-label : "Degree of Spiciness"
+		field-label[de] : "Schärfegrad"
+		datatype : "String"
+	}
+
+		
 }
 
 schema for "food:Machine" {
