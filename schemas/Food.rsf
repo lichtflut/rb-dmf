@@ -167,7 +167,23 @@ schema for "food:TypeOfMeal" {
 	property "common:hasName" [1..1] {
 		field-label : "Name"
 		field-label[de] : "Name"
+		datatype : "String"
+	}
 
+	property "common:hasDescription" [n..1] {
+		field-label : "Description"
+		field-label[de] : "Beschreibung"
+		datatype : "Text"
+	}
+}
+
+schema for "food:Producer" {
+
+	label-rule : "common:hasName"
+
+	property "common:hasName" [1..1] {
+		field-label : "Name"
+		field-label[de] : "Name"
 		datatype : "String"
 	}
 
