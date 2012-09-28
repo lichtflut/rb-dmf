@@ -17,7 +17,7 @@ schema for "food:Recipe" {
 	
 	property "common:hasQuantity" [1..1] {
 		field-label : "Quantity"
-		field-label[de]: "Portionen"
+		field-label [de]: "Portionen"
 		datatype : "Integer"
 	}
 	

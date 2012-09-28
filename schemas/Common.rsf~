@@ -75,8 +75,7 @@ schema for "common:Person" {
 	label-rule : "common:hasFirstname common:hasLastname"
 	
 	quick-info {
-		common:hasFirstName,
-		common:hasLastName,
+		common:hasName,
 		common:hasImage
 	}
 
