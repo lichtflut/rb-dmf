@@ -1,18 +1,25 @@
 namespace "http://rb.lichtflut.de/common#"       prefix  "common"
-namespace "http://rb.lichtflut.de/common/food/"  prefix  "food"
+namespace "http://rb.lichtflut.de/common/recipe-management/"  prefix  "recipe-management"
 
-schema for "food:Recipe" {
+schema for "recipe-management:Recipe" {
 
 	label-rule : "common:hasName"
+	
+	property "recipe-management:hasImage" [0..1] {
+		field-label : "Image"
+		field-label[de] : "Bild"
+		datatype : "File"
+	}
 
 	property "common:hasName" [1..1] {
 		field-label : "Name"
 		datatype : "String"
 	}
+
 	property "common:hasShortDescription" [0..1] {
 		field-label : "Short Description"
 		field-label[de] : "Kurzbeschreibung/Zusatzinfo"
-		datatype : "String"
+		datatype : "rich_text"
 	}
 	
 	property "common:hasQuantity" [1..1] {
@@ -21,109 +28,92 @@ schema for "food:Recipe" {
 		datatype : "Integer"
 	}
 	
-	property "food:hasIngredients" [1..n] {
+	property "recipe-management:hasRecipeIngredient" [1..n] {
 		field-label : "Ingredients"
 		field-label[de] : "Zutaten"
 		datatype : "Resource"
-		resource-constraint : "food:Ingredient"
+		resource-constraint : "recipe-management:RecipeIngredient"
 	}
 
-	property "food:hasProcessStep" [1..1] {
-		field-label : "Process Step"
-		field-label[de] : "Zubereitungsschritte"
-		datatype : "Text"
+	property "recipe-management:hasProcessStep" [1..1] {
+		field-label : "Preparation"
+		field-label[de] : "Zubereitung"
+		datatype : "rich_text"
 	}
 
-	property "food:hasPreparationTime" [0..1] {
+	property "recipe-management:hasPreparationTime" [0..1] {
 		field-label : "Preparation Time"
 		field-label[de] : "Zubereitungszeit"
 		datatype : "Integer"
 	}
 
-	property "food:hasCookingTime" [0..1] {
-		field-label : "Cooking/Baking Time"
-		field-label[de] : "Koch-/Backzeit"
-		datatype : "Integer"
-	}
-	
-	property "food:hasWaitingTime" [0..1] {
-		field-label : "Waiting Time"
-		field-label[de] : "Warte-/Ruhezeit"
-		datatype : "Integer"
-	}
-	property "food:hasKitchenUtensils" [0..n] {
+	property "recipe-management:hasKitchenUtensils" [0..n] {
 		field-label : "Kitchen Utensils"
 		field-label[de] : "Benötigte Küchengeräte"
 		datatype : "Resource"
-		resource-constraint : "food:Machine"
+		resource-constraint : "recipe-management:Machine"
 	}
 		
-	property "food:hasTypeOfMeal" [1..1] {
+	property "recipe-management:hasTypeOfMeal" [1..1] {
 		field-label : "Type of Meal"
 		field-label[de] : "Menükategorie"
 		datatype : "Resource"
-		resource-constraint : "food:TypeOfMeal"
+		resource-constraint : "recipe-management:TypeOfMeal"
 	}	
 
-	property "food:hasDifficulty" [1..1] {
+	property "recipe-management:hasDifficulty" [1..1] {
 		field-label : "Degree of Difficulty"
 		field-label[de] : "Schwierigkeitsgrad"
 		datatype : "Resource"
-		resource-constraint : "food:Difficulty"
+		resource-constraint : "recipe-management:Difficulty"
 	}
 
-	property "food:hasCountryOfOrigin" [0..n] {
+	property "recipe-management:hasCountryOfOrigin" [0..n] {
 		field-label : "Country of Origin"
 		field-label[de] : "Herkunftsland"
 		datatype : "Resource"
 		resource-constraint : "common:Country"
 	}
 	
-	property "food:hasSpiciness" [0..1] {
+	property "recipe-management:hasSpiciness" [0..1] {
 		field-label : "Degree of Spiciness"
 		field-label[de] : "Schärfegrad"
 		datatype : "Integer"
 	}
 
-	property "food:hasPriceRange" [0..1] {
+	property "recipe-management:hasPriceRange" [0..1] {
 		field-label : "Price range"
 		field-label[de] : "Preisklasse"
-		datatype : "String"
-	}
-	
-	property "food:hasImage" [0..1] {
-		field-label : "Image"
-		field-label[de] : "Rezeptbild"
-		datatype : "File"
-	}
-	
-	property "food:hasCalories" [0..1] {
-		field-label : "Calories per portion"
-		field-label[de] : "Kalorien pro Portion"
 		datatype : "Integer"
 	}
-	
-	property "food:hasProtein" [0..1] {
-		field-label : "Protein per portion"
-		field-label[de] : "Eiweiß pro Portion"
-		datatype : "Integer"
-	}
-	
-	property "food:hasCarbohydrate" [0..1] {
-		field-label : "Carbohydrate per portion"
-		field-label[de] : "Kohlenhydrate pro Portion"
-		datatype : "Integer"
-	}
-	
-	property "food:hasFat" [0..1] {
-		field-label : "Fat per portion"
-		field-label[de] : "Fett pro Portion"
-		datatype : "Integer"
-	}
-	
+
 }
 
-schema for "food:Machine" {
+schema for "recipe-management:Machine" {
+
+	property "common:hasName" [1..1] {
+		field-label : "Name"
+		field-label[de] : "Name"
+		datatype : "String"
+	}
+
+	
+	property "recipe-management:hasImage" [0..1] {
+		field-label : "Image"
+		field-label[de] : "Bild"
+		datatype : "File"
+	}
+
+	property "common:hasDescription" [0..1] {
+		field-label : "Description"
+		field-label[de] : "Beschreibung"
+		datatype : "rich_text"
+	}
+}
+
+schema for "recipe-management:TypeOfMeal" {
+
+	label-rule : "common:hasName"
 
 	property "common:hasName" [1..1] {
 		field-label : "Name"
@@ -134,11 +124,11 @@ schema for "food:Machine" {
 	property "common:hasDescription" [0..1] {
 		field-label : "Description"
 		field-label[de] : "Beschreibung"
-		datatype : "Text"
+		datatype : "Rich_Text"
 	}
 }
 
-schema for "food:TypeOfMeal" {
+schema for "recipe-management:Producer" {
 
 	label-rule : "common:hasName"
 
@@ -148,31 +138,14 @@ schema for "food:TypeOfMeal" {
 		datatype : "String"
 	}
 
-	property "common:hasDescription" [n..1] {
+	property "common:hasDescription" [0..1] {
 		field-label : "Description"
 		field-label[de] : "Beschreibung"
-		datatype : "Text"
+		datatype : "Rich_Text"
 	}
 }
 
-schema for "food:Producer" {
-
-	label-rule : "common:hasName"
-
-	property "common:hasName" [1..1] {
-		field-label : "Name"
-		field-label[de] : "Name"
-		datatype : "String"
-	}
-
-	property "common:hasDescription" [n..1] {
-		field-label : "Description"
-		field-label[de] : "Beschreibung"
-		datatype : "Text"
-	}
-}
-
-schema for "food:Ingredient" {
+schema for "recipe-management:RecipeIngredient" {
 
 	label-rule : "common:hasAmount common:hasUnit common:hasIngredient"
 
@@ -180,7 +153,7 @@ schema for "food:Ingredient" {
 		field-label : "Ingredient"
 		field-label[de] : "Zutat"
 		datatype : "Resource"
-		resource-constraint : "food:FoodProduct"
+		resource-constraint : "recipe-management:Ingredient"
 	}
 	
 	property "common:hasAmount" [1..1] {
@@ -195,11 +168,28 @@ schema for "food:Ingredient" {
 	property "common:hasUnit" [1..1] {
 		field-label : "Unit"
 		field-label[de] : "Einheit"
-		datatype : "String"
+		datatype : "Resource"
+		resource-constraint : "recipe-management:Unit"
 	}
 }
 
-schema for "food:FoodProduct" {
+schema for "recipe-management:Measurement"{
+
+	label-rule: "recipe-management:hasAbbreviation"
+
+	property "recipe-management:hasLabeling" [1..1] {
+		field-label : "Labeling"
+		field-label[de] : "Maßeinheit"
+		datatype : "String"
+	}
+	property "recipe-management:hasAbbreviation" [1..1] {
+		field-label : "Abbreviation"
+		field-label[de] : "Kürzel"
+		datatype : "String"
+	}
+
+}
+schema for "recipe-management:Ingredient" {
 
 	label-rule : "common:hasName"
 
@@ -208,9 +198,46 @@ schema for "food:FoodProduct" {
 		field-label[de] : "Name"
 		datatype : "String"
 	}
+
+	property "recipe-management:hasImage" [0..1] {
+		field-label : "Image"
+		field-label[de] : "Bild"
+		datatype : "File"
+	}
+	
+	property "common:hasDescription" [0..1] {
+		field-label : "Description"
+		field-label[de] : "Beschreibung"
+		datatype : "Rich_Text"
+	}
+
+	property "recipe-management:hasCalories" [0..1] {
+		field-label : "Calories per 100g"
+		field-label[de] : "Kalorien pro 100g"
+		datatype : "Integer"
+	}
+
+	
+	property "recipe-management:hasProtein" [0..1] {
+		field-label : "Protein per 100g"
+		field-label[de] : "Eiweiß pro 100g"
+		datatype : "Integer"
+	}
+	
+	property "recipe-management:hasCarbohydrate" [0..1] {
+		field-label : "Carbohydrate per 100g"
+		field-label[de] : "Kohlenhydrate pro 100g"
+		datatype : "Integer"
+	}
+	
+	property "recipe-management:hasFat" [0..1] {
+		field-label : "Fat per 100g"
+		field-label[de] : "Fett pro 100g"
+		datatype : "Integer"
+	}
 }
 
-schema for "food:Difficulty" {
+schema for "recipe-management:Difficulty" {
 	
 	label-rule : "common:hasName"
 
