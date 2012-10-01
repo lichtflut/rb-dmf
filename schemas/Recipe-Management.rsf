@@ -91,6 +91,8 @@ schema for "recipe-management:Recipe" {
 
 schema for "recipe-management:Machine" {
 
+	label-rule : "common:hasName"
+
 	property "common:hasName" [1..1] {
 		field-label : "Name"
 		field-label[de] : "Name"
