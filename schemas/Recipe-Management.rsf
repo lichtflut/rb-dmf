@@ -249,3 +249,47 @@ schema for "recipe-management:Difficulty" {
 		datatype : "String"
 	}
 }
+
+schema for "recipe-management:Weekly Menu" {
+
+	label-rule : "common:hasName"
+
+	property "common:hasName" [1..1] {
+		field-label : "Monday"
+		field-label[de] : "Montag"
+		datatype : "String"
+	}
+	
+	property "common:hasName" [1..1] {
+		field-label : "Tuesday"
+		field-label[de] : "Dienstag"
+		datatype : "String"
+	}
+	
+	property "common:hasName" [1..1] {
+		field-label : "Wednesday"
+		field-label[de] : "Mittwoch"
+		datatype : "String"
+	}
+	property "common:hasName" [1..1] {
+		field-label : "Thursday"
+		field-label[de] : "Donnerstag"
+		datatype : "String"
+	}
+	property "common:hasName" [1..1] {
+		field-label : "Friday"
+		field-label[de] : "Freitag"
+		datatype : "String"
+	}
+	property "common:hasName" [1..1] {
+		field-label : "Saturday"
+		field-label[de] : "Samstag"
+		datatype : "String"
+	}
+	property "common:hasName" [1..1] {
+		field-label : "Sunday"
+		field-label[de] : "Sonntag"
+		datatype : "String"
+	}
+
+}
