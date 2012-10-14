@@ -250,46 +250,59 @@ schema for "recipe-management:Difficulty" {
 	}
 }
 
-schema for "recipe-management:Weekly Menu" {
+schema for "recipe-management:WeeklyMenu" {
 
-	label-rule : "common:hasName"
+	label-rule : "recipe-management:forCalendarWeek"
+	
+	property "recipe-management:forCalendarWeek" [1..1] {
+		field-label : "Week"
+		field-label[de] : "KW"
+		datatype : "Integer"
+	}
 
-	property "common:hasName" [1..1] {
+	property "recipe-management:planForMonday" [1..1] {
 		field-label : "Monday"
 		field-label[de] : "Montag"
-		datatype : "String"
+		datatype : "Resource"
+		resource-constraint : "recipe-management:Recipe"
 	}
 	
-	property "common:hasName" [1..1] {
+	property "recipe-management:planForTuesday" [1..1] {
 		field-label : "Tuesday"
 		field-label[de] : "Dienstag"
-		datatype : "String"
+		datatype : "Resource"
+		resource-constraint : "recipe-management:Recipe"
 	}
 	
-	property "common:hasName" [1..1] {
+	property "recipe-management:planForWednesday" [1..1] {
 		field-label : "Wednesday"
 		field-label[de] : "Mittwoch"
-		datatype : "String"
+		datatype : "Resource"
+		resource-constraint : "recipe-management:Recipe"
 	}
-	property "common:hasName" [1..1] {
+	property "recipe-management:planForThursday" [1..1] {
 		field-label : "Thursday"
 		field-label[de] : "Donnerstag"
-		datatype : "String"
+		datatype : "Resource"
+		resource-constraint : "recipe-management:Recipe"
 	}
-	property "common:hasName" [1..1] {
+	property "recipe-management:planForFriday" [1..1] {
 		field-label : "Friday"
 		field-label[de] : "Freitag"
-		datatype : "String"
+		datatype : "Resource"
+		resource-constraint : "recipe-management:Recipe"
 	}
-	property "common:hasName" [1..1] {
+	property "recipe-management:planForSaturday" [1..1] {
 		field-label : "Saturday"
 		field-label[de] : "Samstag"
-		datatype : "String"
+		datatype : "Resource"
+		resource-constraint : "recipe-management:Recipe"
 	}
-	property "common:hasName" [1..1] {
+	property "recipe-management:planForSunday" [1..1] {
 		field-label : "Sunday"
 		field-label[de] : "Sonntag"
-		datatype : "String"
+		datatype : "Resource"
+		resource-constraint : "recipe-management:Recipe"
 	}
 
 }
