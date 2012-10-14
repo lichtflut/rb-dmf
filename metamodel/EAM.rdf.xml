@@ -48,7 +48,7 @@
 		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/eam#System"/>
 	</rdf:Description>
 	
-	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#ApplianceItem">
+	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#Appliance">
 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
 		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/eam#ConfigurationItem"/>
 	</rdf:Description>
@@ -78,7 +78,7 @@
 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
 	</rdf:Description>
 	
-	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#Database">
+	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#DataStore">
 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
 		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/eam#DataSink"/>
 		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/eam#DataSource"/>
@@ -135,6 +135,12 @@
 		<rb:hasFieldLabel>Lifecycle phase</rb:hasFieldLabel>
 	</rdf:Description>
 	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#hasVersion">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has version</rdfs:label>
+		<rb:hasFieldLabel>Version</rb:hasFieldLabel>
+	</rdf:Description>
+	
 	<!-- CATEGORIES -->
 	
 	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#LifecyclePhase">
@@ -142,7 +148,7 @@
 		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/eam#Category"/>
 	</rdf:Description>
 	
-	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#DatabaseType">
+	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#DataStoreType">
 		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
 		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#Category"/>
 	</rdf:Description>
@@ -201,22 +207,22 @@
 	</rdf:Description>
 	
 	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#RDBMS">
-		<rdf:type rdf:resource="http://rb.lichtflut.de/eam#DatabaseType"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/eam#DataStoreType"/>
 		<rdfs:label>RDBMS</rdfs:label>
 	</rdf:Description>
 	
 	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#GraphDatabase">
-		<rdf:type rdf:resource="http://rb.lichtflut.de/eam#DatabaseType"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/eam#DataStoreType"/>
 		<rdfs:label>graph database</rdfs:label>
 	</rdf:Description>
 	
 	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#ObjectDatabase">
-		<rdf:type rdf:resource="http://rb.lichtflut.de/eam#DatabaseType"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/eam#DataStoreType"/>
 		<rdfs:label>object database</rdfs:label>
 	</rdf:Description>
 	
 	<rdf:Description rdf:about="http://rb.lichtflut.de/eam#XmlDatabase">
-		<rdf:type rdf:resource="http://rb.lichtflut.de/eam#DatabaseType"/>
+		<rdf:type rdf:resource="http://rb.lichtflut.de/eam#DataStoreType"/>
 		<rdfs:label>xml database</rdfs:label>
 	</rdf:Description>
 	

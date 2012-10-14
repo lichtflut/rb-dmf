@@ -97,7 +97,7 @@ schema for "common:Person" {
 		datatype : "Resource"
 		resource-constraint : "common:Address"
 		visualize { 
-			embedded : "true" 
+			embedded : "false" 
 		}
 	}
 	
@@ -145,18 +145,13 @@ schema for "common:Person" {
 		field-label : "Embloyed by"
 		field-label[de] : "Angestellt bei"
 		datatype : "Resource"
-		resource-constraint : "common:LanguageSkill"
+		resource-constraint : "common:Organization"
 	}
 	
 	property "common:hasExpertise" [0..n] {
 		field-label : "Expertise"
 		datatype : "Resource"
 		resource-constraint : "common:Expertise"
-	}
-	
-	property "common:hasImage" [0..n] {
-		field-label : "Image"
-		datatype : "File"
 	}
 	
 }
