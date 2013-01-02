@@ -39,4 +39,14 @@
 		<rdfs:label>is successor of</rdfs:label>
 	</rdf:Description>
 	
+	<rdf:Description rdf:about="http://arastreju.org/kernel#inverseOf">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>inverse of</rdfs:label>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://arastreju.org/kernel#inheritsFrom">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>inherits from</rdfs:label>
+	</rdf:Description>
+	
 </rdf:RDF>
