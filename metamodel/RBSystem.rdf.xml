@@ -33,4 +33,16 @@
 		<rb:hasFieldLabel>Username</rb:hasFieldLabel>
 	</rdf:Description>
 	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/system#hasSchemaIdentifyingType">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has schema identifying type</rdfs:label>
+		<rb:hasFieldLabel>Schema type</rb:hasFieldLabel>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://rb.lichtflut.de/system#hasPrototype">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has prototype</rdfs:label>
+		<rb:hasFieldLabel>Prototype</rb:hasFieldLabel>
+	</rdf:Description>
+	
 </rdf:RDF>

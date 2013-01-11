@@ -7,97 +7,126 @@ namespace "http://arastreju.org/kernel#" prefix "aras"
 
 schema for "devops:DataCenter" {
 
-	label-rule : "common:hasID"
-					
-	property "common:hasID" [1..1] {
-		field-label : "ID"
-		datatype : "String"
-	}
+    label-rule : "common:hasID"
+                    
+    property "common:hasID" [1..1] {
+        field-label : "ID"
+        datatype : "String"
+    }
 
-	property "common:hasName" [0..1] {
-		field-label : "Name"
-		datatype : "String"
-	}
-	
-	property "common:hasDescription" [0..1] {
-		field-label : "Description"
-		field-label[de] : "Beschreibung"
-		datatype : "Text"
-	}
-	
-	property "devops:hostsMachine" [0..n] {
-		field-label : "Hosts machines"
-		field-label[de] : "Hosted Maschinen"
-		datatype : "Resource"
-		resource-constraint : "devops:PhysicalMachine"
-	}
-	
-	property "aras:inheritsFrom" [0..n] {
-		field-label : "Inherits from"
-		field-label[de] : "Erbt von"
-		datatype : "Resource"
-		resource-constraint : "devops:DataCenter"
-	}
-	
+    property "common:hasName" [0..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+    
+    property "common:hasDescription" [0..1] {
+        field-label : "Description"
+        field-label[de] : "Beschreibung"
+        datatype : "Text"
+    }
+    
+    property "devops:hostsMachine" [0..n] {
+        field-label : "Hosts machines"
+        field-label[de] : "Hosted Maschinen"
+        datatype : "Resource"
+        resource-constraint : "devops:PhysicalMachine"
+    }
+    
+    property "aras:inheritsFrom" [0..n] {
+        field-label : "Inherits from"
+        field-label[de] : "Erbt von"
+        datatype : "Resource"
+        resource-constraint : "devops:DataCenter"
+    }
+    
 }
 
 schema for "devops:PhysicalMachine" {
 
-	label-rule : "common:hasID"
-					
-	property "common:hasID" [1..1] {
-		field-label : "ID"
-		datatype : "String"
-	}
+    label-rule : "common:hasID"
+                    
+    property "common:hasID" [1..1] {
+        field-label : "ID"
+        datatype : "String"
+    }
 
-	property "common:hasName" [1..1] {
-		field-label : "Name"
-		datatype : "String"
-	}
-	
-	property "common:hasDescription" [0..1] {
-		field-label : "Description"
-		field-label[de] : "Beschreibung"
-		datatype : "Text"
-	}
-	
-	property "common:hasIPAddress" [0..1] {
-		field-label : "IP"
-		datatype : "String"
-	}
-	
-	property "devops:hostsMachine" [0..n] {
-		field-label : "Hosts vm's"
-		field-label[de] : "Hosted VM's"
-		datatype : "Resource"
-		resource-constraint : "devops:VirtualMachine"
-	}
-	
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+    
+    property "common:hasDescription" [0..1] {
+        field-label : "Description"
+        field-label[de] : "Beschreibung"
+        datatype : "Text"
+    }
+    
+    property "common:hasIPAddress" [0..1] {
+        field-label : "IP"
+        datatype : "String"
+    }
+
+    property "devops:hostsMachine" [0..n] {
+        field-label : "Hosts vm's"
+        field-label[de] : "Hosted VM's"
+        datatype : "Resource"
+        resource-constraint : "devops:VirtualMachine"
+    }
+
 }
 
 schema for "devops:VirtualMachine" {
 
-	label-rule : "common:hasID"
-					
-	property "common:hasID" [1..1] {
-		field-label : "ID"
-		datatype : "String"
-	}
+    label-rule : "common:hasID"
 
-	property "common:hasName" [1..1] {
-		field-label : "Name"
-		datatype : "String"
-	}
-	
-	property "common:hasDescription" [0..1] {
-		field-label : "Description"
-		field-label[de] : "Beschreibung"
-		datatype : "Text"
-	}
-	
-	property "common:hasIPAddress" [0..1] {
-		field-label : "IP"
-		datatype : "String"
-	}
-	
+    property "common:hasID" [1..1] {
+        field-label : "ID"
+        datatype : "String"
+    }
+
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+
+    property "common:hasDescription" [0..1] {
+        field-label : "Description"
+        field-label[de] : "Beschreibung"
+        datatype : "Text"
+    }
+
+    property "common:hasIPAddress" [0..1] {
+        field-label : "IP"
+        datatype : "String"
+    }
+
+    property "devops:runsSoftware" [0..n] {
+        field-label : "Runs"
+        field-label[de] : "Führt aus"
+        datatype : "Resource"
+        resource-constraint : "devops:SoftwareItem"
+    }
+
+}
+
+schema for "devops:SoftwareItem" {
+
+    label-rule : "common:hasID"
+                    
+    property "common:hasID" [1..1] {
+        field-label : "ID"
+        datatype : "String"
+    }
+
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+    
+    property "common:hasDescription" [0..1] {
+        field-label : "Description"
+        field-label[de] : "Beschreibung"
+        datatype : "Text"
+    }
+
 }
