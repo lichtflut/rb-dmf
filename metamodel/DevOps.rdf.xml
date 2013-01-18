@@ -22,7 +22,7 @@
     
     <!-- BASIC ITEM TYPES -->
     
-    <rdf:Description rdf:about="http://rb.lichtflut.de/devops##ConfigurationItem">
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#ConfigurationItem">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#TreeNode"/>
     </rdf:Description>
@@ -37,6 +37,8 @@
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#ConfigurationItem"/>
     </rdf:Description>
     
+    <!-- application level -->
+    
     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#ExecutionEnvironment">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
@@ -50,6 +52,23 @@
     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#Application">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+    </rdf:Description>
+    
+    <!-- software module level -->
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#SoftwareModule">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#Library">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareModule"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#MavenModule">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#Library"/>
     </rdf:Description>
     
     <!-- PROPERTIES -->
@@ -80,6 +99,14 @@
         <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
         <rdfs:label>runs</rdfs:label>
         <rb:hasFieldLabel>Runs</rb:hasFieldLabel>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#containsSoftwareModule">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
+        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#dependsOn"/>        
+        <rdfs:label>contains</rdfs:label>
+        <rb:hasFieldLabel>Contains</rb:hasFieldLabel>
     </rdf:Description>
 
 </rdf:RDF>

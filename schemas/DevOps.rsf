@@ -7,14 +7,14 @@ namespace "http://arastreju.org/kernel#" prefix "aras"
 
 schema for "devops:DataCenter" {
 
-    label-rule : "common:hasID"
+    label-rule : "common:hasName"
                     
     property "common:hasID" [1..1] {
         field-label : "ID"
         datatype : "String"
     }
 
-    property "common:hasName" [0..1] {
+    property "common:hasName" [1..1] {
         field-label : "Name"
         datatype : "String"
     }
@@ -43,7 +43,7 @@ schema for "devops:DataCenter" {
 
 schema for "devops:PhysicalMachine" {
 
-    label-rule : "common:hasID"
+    label-rule : "common:hasName"
                     
     property "common:hasID" [1..1] {
         field-label : "ID"
@@ -72,12 +72,19 @@ schema for "devops:PhysicalMachine" {
         datatype : "Resource"
         resource-constraint : "devops:VirtualMachine"
     }
+    
+    property "devops:runsSoftware" [0..n] {
+        field-label : "Runs"
+        field-label[de] : "Führt aus"
+        datatype : "Resource"
+        resource-constraint : "devops:SoftwareItem"
+    }
 
 }
 
 schema for "devops:VirtualMachine" {
 
-    label-rule : "common:hasID"
+    label-rule : "common:hasName"
 
     property "common:hasID" [1..1] {
         field-label : "ID"
@@ -111,7 +118,7 @@ schema for "devops:VirtualMachine" {
 
 schema for "devops:SoftwareItem" {
 
-    label-rule : "common:hasID"
+    label-rule : "common:hasName"
                     
     property "common:hasID" [1..1] {
         field-label : "ID"
@@ -127,6 +134,42 @@ schema for "devops:SoftwareItem" {
         field-label : "Description"
         field-label[de] : "Beschreibung"
         datatype : "Text"
+    }
+    
+    property "devops:containsSoftwareModule" [0..n] {
+        field-label : "Contains"
+        field-label[de] : "Beinhaltet"
+        datatype : "Resource"
+        resource-constraint : "devops:SoftwareItem"
+    }
+
+}
+
+schema for "devops:ExecutionEnvironment" {
+
+    label-rule : "common:hasName"
+                    
+    property "common:hasID" [1..1] {
+        field-label : "ID"
+        datatype : "String"
+    }
+
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+    
+    property "common:hasDescription" [0..1] {
+        field-label : "Description"
+        field-label[de] : "Beschreibung"
+        datatype : "Text"
+    }
+    
+    property "devops:runsSoftware" [0..n] {
+        field-label : "Runs"
+        field-label[de] : "Führt aus"
+        datatype : "Resource"
+        resource-constraint : "devops:SoftwareItem"
     }
 
 }
