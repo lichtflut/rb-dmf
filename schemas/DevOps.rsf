@@ -101,3 +101,13 @@ schema for "devops:VirtualMachine" {
 	}
 	
 }
+
+schema for "devops:PerceptionCategory" {
+
+	label-rule : "common:hasName"
+
+	property "common:hasName" [1..1] {
+		field-label: "Name"
+		datatype : "String"
+	}
+}

@@ -15,4 +15,9 @@
 		<rb:hasFieldLabel>Hosts machine</rb:hasFieldLabel>
 	</rdf:Description>
 	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/devops#PerceptionCategory">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/system#Entity"/>
+    </rdf:Description>
+
 </rdf:RDF>
