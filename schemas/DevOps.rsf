@@ -84,42 +84,6 @@ schema for "devops:PhysicalMachine" {
 
 schema for "devops:VirtualMachine" {
 
-<<<<<<< HEAD
-	label-rule : "common:hasID"
-					
-	property "common:hasID" [1..1] {
-		field-label : "ID"
-		datatype : "String"
-	}
-
-	property "common:hasName" [1..1] {
-		field-label : "Name"
-		datatype : "String"
-	}
-	
-	property "common:hasDescription" [0..1] {
-		field-label : "Description"
-		field-label[de] : "Beschreibung"
-		datatype : "Text"
-	}
-	
-	property "common:hasIPAddress" [0..1] {
-		field-label : "IP"
-		datatype : "String"
-	}
-	
-}
-
-schema for "devops:PerceptionCategory" {
-
-	label-rule : "common:hasName"
-
-	property "common:hasName" [1..1] {
-		field-label: "Name"
-		datatype : "String"
-	}
-}
-=======
     label-rule : "common:hasName"
 
     property "common:hasID" [1..1] {
@@ -150,6 +114,16 @@ schema for "devops:PerceptionCategory" {
         resource-constraint : "devops:SoftwareItem"
     }
 
+}
+
+schema for "devops:PerceptionCategory" {
+
+	label-rule : "common:hasName"
+
+	property "common:hasName" [1..1] {
+		field-label: "Name"
+		datatype : "String"
+	}
 }
 
 schema for "devops:SoftwareItem" {
@@ -209,4 +183,3 @@ schema for "devops:ExecutionEnvironment" {
     }
 
 }
->>>>>>> d79f0e6a9bc5be98db88e86449065944a93ba028
