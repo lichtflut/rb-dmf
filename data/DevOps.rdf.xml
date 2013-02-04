@@ -8,6 +8,8 @@
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 
+	<!-- Perception Categories -->
+
 	<rdf:Description rdf:about="http://rb.lichtflut.de/devops#Development">
 		<rdf:type rdf:resource="http://rb.lichtflut.de/devops#PerceptionCategory"/>
 		<rdfs:label>Development</rdfs:label>
@@ -22,5 +24,7 @@
 		<rdf:type rdf:resource="http://rb.lichtflut.de/devops#PerceptionCategory"/>
 		<rdfs:label>Quality Assurance</rdfs:label>
 	</rdf:Description>
+
+	<!-- Software Items -->
 
 </rdf:RDF>
