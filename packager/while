@@ -1,0 +1,13 @@
+metamodel/Arastreju.rdf.xml
+metamodel/Common.rdf.xml
+metamodel/DevOps.rdf.xml
+metamodel/EAM.rdf.xml
+metamodel/Geonames.rdf.xml
+metamodel/ITCatalog.xml
+metamodel/RBSystem.rdf.xml
+metamodel/RDF.rdf.xml
+metamodel/RDFS.rdf.xml
+metamodel/Requirements.rdf.xml
+metamodel/dcterms.rdf.xml
+
+data/Cities.rdf.xml
