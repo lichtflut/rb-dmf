@@ -31,5 +31,16 @@ ls -lisaR $tmp_dir
 echo "Creating jar file."
 jar cvf rbdmf.jar -C $tmp_dir .
 
+echo "Deploying jar to nexus."
+mvn deploy:deploy-file -Durl=http://nexus.lichtflut.de/nexus/content/repositories/snapshots/ \
+                       -DrepositoryId=lf-snapshots \
+                       -Dfile=rbdmf.jar \
+                       -DgroupId=de.lichtflut.rh \
+                       -DartifactId=domain-model \
+                       -Dversion=1.0-SNAPSHOT \
+                       -Dpackaging=jar                     
+echo "Removing jar"
+rm -rf rbdmf.jar
+
 echo "Removing tmp dir: $tmp_dir"
 rm -rf $tmp_dir
