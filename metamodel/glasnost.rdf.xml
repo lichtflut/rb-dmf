@@ -36,21 +36,21 @@
         <rb:hasFieldLabel>Contains</rb:hasFieldLabel>
     </rdf:Description>
     
-    <rdf:Description rdf:about="http://glasnost.lichtflut.de/definitions/hostsMachine">
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#hostsMachine">
         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
         <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
         <rdfs:label>hosts machine</rdfs:label>
         <rb:hasFieldLabel>Hosts machine</rb:hasFieldLabel>
     </rdf:Description>
     
-    <rdf:Description rdf:about="http://glasnost.lichtflut.de/definitions/runsSoftware">
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#unsSoftware">
         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
         <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
         <rdfs:label>runs</rdfs:label>
         <rb:hasFieldLabel>Runs</rb:hasFieldLabel>
     </rdf:Description>
     
-    <rdf:Description rdf:about="http://glasnost.lichtflut.de/definitions/containsSoftwareModule">
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#containsSoftwareModule">
         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
         <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
         <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#dependsOn"/>        
