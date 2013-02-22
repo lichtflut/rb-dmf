@@ -1,4 +1,5 @@
 namespace "http://glasnost.lichtflut.de/definitions/" prefix "glasnost"
+namespace "http://rb.lichtflut.de/common#" prefix "common"
 
 schema for "glasnost:PerceptionCategory" {
 
