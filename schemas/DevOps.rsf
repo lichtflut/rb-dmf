@@ -1,9 +1,8 @@
 namespace "http://rb.lichtflut.de/common#" prefix "common"
 namespace "http://rb.lichtflut.de/public-constraints#" prefix "constraints"
 namespace "http://rb.lichtflut.de/eam#" prefix "eam"
-namespace "http://rb.lichtflut.de/devops#" prefix "devops"
 namespace "http://arastreju.org/kernel#" prefix "aras"
-
+namespace "http://rb.lichtflut.de/devops#" prefix "devops"
 
 schema for "devops:DataCenter" {
 
@@ -114,16 +113,6 @@ schema for "devops:VirtualMachine" {
         resource-constraint : "devops:SoftwareItem"
     }
 
-}
-
-schema for "devops:PerceptionCategory" {
-
-	label-rule : "common:hasName"
-
-	property "common:hasName" [1..1] {
-		field-label: "Name"
-		datatype : "String"
-	}
 }
 
 schema for "devops:SoftwareItem" {

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
 	xmlns:common="http://rb.lichtflut.de/common#"
-	xmlns:devops="http://rb.lichtflut.de/devops#"
 	xmlns:rb="http://rb.lichtflut.de/system#"
 	xmlns:aras="http://arastreju.org/kernel#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,17 +8,6 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
 	
     <!-- TYPES -->
-
-	<rdf:Description rdf:about="http://rb.lichtflut.de/devops#PerceptionCategory">
-        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-		<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/system#Entity"/>
-    </rdf:Description>
-    
-    
-    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#Perception">
-        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#TreeRootNode"/>
-    </rdf:Description>
     
     <!-- BASIC ITEM TYPES -->
     
@@ -39,7 +27,7 @@
 		<rb:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem" />
     </rdf:Description>
     
-    <!-- application level -->
+    <!-- Application level -->
     
     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#ExecutionEnvironment">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
@@ -59,7 +47,7 @@
 
 	<rdf:Description rdf:about="http://rb.lichtflut.de/devops#DataStore">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#SoftwareItem"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
     </rdf:Description>
     
     <!-- software module level -->
@@ -79,42 +67,4 @@
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#Library"/>
     </rdf:Description>
     
-    <!-- PROPERTIES -->
-    
-    <rdf:Description rdf:about="http://glasnost.lichtflut.de/definitions/belongsToPerception">
-        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-        <aras:inverseOf rdf:resource="http://glasnost.lichtflut.de/definitions/containsPerceptionItem"/>
-        <rdfs:label>belongs to</rdfs:label>
-        <rb:hasFieldLabel>Belongs to</rb:hasFieldLabel>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://glasnost.lichtflut.de/definitions/containsPerceptionItem">
-        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-        <aras:inverseOf rdf:resource="http://glasnost.lichtflut.de/definitions/belongsToPerception"/>
-        <rdfs:label>contains</rdfs:label>
-        <rb:hasFieldLabel>Contains</rb:hasFieldLabel>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#hostsMachine">
-        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
-        <rdfs:label>hosts machine</rdfs:label>
-        <rb:hasFieldLabel>Hosts machine</rb:hasFieldLabel>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#runsSoftware">
-        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
-        <rdfs:label>runs</rdfs:label>
-        <rb:hasFieldLabel>Runs</rb:hasFieldLabel>
-    </rdf:Description>
-    
-    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#containsSoftwareModule">
-        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
-        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#dependsOn"/>        
-        <rdfs:label>contains</rdfs:label>
-        <rb:hasFieldLabel>Contains</rb:hasFieldLabel>
-    </rdf:Description>
-
 </rdf:RDF>
