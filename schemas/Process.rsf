@@ -38,6 +38,12 @@ schema for "bpm:ManagementProcess" {
 		datatype : "String"
 	}
 
+	property "bpm:hasRegulation" [n..n] {
+		field-label : "Regulation(s)"
+		datatype : "Resource"
+		resource-constraint: "bpm:Regulation"
+	}
+
 	property "bpm:hasRisk" [n..n] {
 		field-label : "Risk(s)"
 		datatype : "Resource"
@@ -103,6 +109,12 @@ schema for "bpm:SubProcess" {
 	property "bpm:hasDefinition" [0..n] {
 		field-label : "Definition"
 		datatype : "String"
+	}
+
+	property "bpm:hasRegulation" [n..n] {
+		field-label : "Regulation(s)"
+		datatype : "Resource"
+		resource-constraint: "bpm:Regulation"
 	}
 
 	property "bpm:hasRisk" [n..n] {
@@ -178,6 +190,12 @@ schema for "bpm:ProcessStep" {
 		resource-constraint: "bpm:Risk"
 	}
 
+	property "bpm:hasRegulation" [n..n] {
+		field-label : "Regulation(s)"
+		datatype : "Resource"
+		resource-constraint: "bpm:Regulation"
+	}
+
 	property "bpm:hasDocument" [n..n] {
 		field-label : "Document(s)"
 		datatype : "File"
@@ -239,6 +257,12 @@ schema for "bpm:WorkSequence" {
 		datatype : "String"
 	}
 
+	property "bpm:hasRegulation" [n..n] {
+		field-label : "Regulation(s)"
+		datatype : "Resource"
+		resource-constraint: "bpm:Regulation"
+	}
+
 	property "bpm:hasRisk" [n..n] {
 		field-label : "Risk(s)"
 		datatype : "Resource"
@@ -269,6 +293,26 @@ schema for "bpm:Risk" {
 
 	property "common:hasName" [1..1] {
 		field-label : "Name"
+		datatype : "String"
+	}
+
+	property "bpm:hasDescription" [0..1] {
+		field-label : "Description"
+		datatype : "String"
+	}
+}
+
+schema for "bpm:Regulation" {
+	
+	label-rule: "common:hasName"
+
+	property "common:hasName" [1..1] {
+		field-label : "Name"
+		datatype : "String"
+	}
+
+	property "bpm:hasDescription" [0..1] {
+		field-label : "Description"
 		datatype : "String"
 	}
 

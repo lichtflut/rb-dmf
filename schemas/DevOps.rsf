@@ -8,6 +8,13 @@ schema for "devops:DataCenter" {
 
     label-rule : "common:hasName"
                     
+	quick-info{
+		common:hasID,
+		common:hasName,
+		aras:inheritsFrom
+		
+	}
+
     property "common:hasID" [1..1] {
         field-label : "ID"
         datatype : "String"
@@ -37,7 +44,7 @@ schema for "devops:DataCenter" {
         datatype : "Resource"
         resource-constraint : "devops:DataCenter"
     }
-    
+
 }
 
 schema for "devops:PhysicalMachine" {
