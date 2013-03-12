@@ -25,6 +25,7 @@
     <rdf:Description rdf:about="http://glasnost.lichtflut.de/definitions/belongsToPerception">
         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
         <aras:inverseOf rdf:resource="http://glasnost.lichtflut.de/definitions/containsPerceptionItem"/>
+        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasScope"/>
         <rdfs:label>belongs to</rdfs:label>
         <rb:hasFieldLabel>Belongs to</rb:hasFieldLabel>
     </rdf:Description>

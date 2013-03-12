@@ -188,6 +188,12 @@
 		<rb:hasFieldLabel>History</rb:hasFieldLabel>
 	</rdf:Description>
 	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasScope">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<rdfs:label>has scope</rdfs:label>
+		<rb:hasFieldLabel>Scope</rb:hasFieldLabel>
+	</rdf:Description>
+	
 	<!-- tree structures -->
 	
 	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasChildNode">
