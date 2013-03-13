@@ -1,0 +1,2017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:aras="http://arastreju.org/kernel#"
+	xmlns:ns1="http://rb.lichtflut.de/devops#"
+	xmlns:ns2="http://rb.lichtflut.de/system#"
+	xmlns:ns3="http://arasteju.org/uuid/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description rdf:about="http://arasteju.org/uuid/c3deb948-f3ad-49d1-918b-cb4a6a1956b4">
+	<ns2:hasSchemaIdentifyingType></ns2:hasSchemaIdentifyingType>
+	<rdf:type></rdf:type>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#SoftwareItem">
+	<ns1:hasID>SoftwareItem</ns1:hasID>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Software Item</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#applicationServer">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>applicationServer</ns1:hasID>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Application Server</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#buildTool">
+	<ns1:hasID>buildTool</ns1:hasID>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Build Tool</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#cat-app-server">
+	<ns1:hasID>cat-app-server</ns1:hasID>
+	<ns1:hasOberkategorie>Application Server</ns1:hasOberkategorie>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#cat-build-tool">
+	<ns1:hasID>cat-build-tool</ns1:hasID>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#cat-column-store">
+	<ns1:hasID>cat-column-store</ns1:hasID>
+	<ns1:hasKategorie>Column Store</ns1:hasKategorie>
+	<ns1:hasOberkategorie>Storage</ns1:hasOberkategorie>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#cat-graph-db">
+	<ns1:hasID>cat-graph-db</ns1:hasID>
+	<ns1:hasKategorie>Graph Database</ns1:hasKategorie>
+	<ns1:hasOberkategorie>Storage</ns1:hasOberkategorie>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#cat-jee-app-server">
+	<ns1:hasID>cat-jee-app-server</ns1:hasID>
+	<ns1:hasKategorie>Java Application Server</ns1:hasKategorie>
+	<ns1:hasOberkategorie>Application Server</ns1:hasOberkategorie>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#cat-jee-web">
+	<ns1:hasID>cat-jee-web</ns1:hasID>
+	<ns1:hasKategorie>Java Application Server</ns1:hasKategorie>
+	<ns1:hasOberkategorie>Application Server</ns1:hasOberkategorie>
+	<ns1:hasUnterkategorie>JEE Web Profile</ns1:hasUnterkategorie>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#cat-rdb">
+	<ns1:hasID>cat-rdb</ns1:hasID>
+	<ns1:hasKategorie>Relational Database</ns1:hasKategorie>
+	<ns1:hasOberkategorie>Storage</ns1:hasOberkategorie>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#database">
+	<ns1:hasID>database</ns1:hasID>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Database</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#lcs-apl2">
+	<ns1:hasID>lcs-apl2</ns1:hasID>
+	<ns1:hasName>Apache License 2.0</ns1:hasName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#operating-system">
+	<ns1:hasID>operating-system</ns1:hasID>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Operating System</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-ant">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-ant</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Ant</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#buildTool"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-ant-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-ant</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Ant 1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-ant"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-ant-1-8">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-ant</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Ant 1.8</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-ant-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-ant-1-8-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-ant</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Ant 1.8.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-ant-1-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-ant-1-8-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-ant</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Ant 1.8.1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-ant-1-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-ant-1-8-2">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-ant</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Ant 1.8.2</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-ant-1-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-ant-1-8-3">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-ant</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Ant 1.8.3</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-ant-1-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-ant-1-8-4">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-ant</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Ant 1.8.4</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-ant-1-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-ant-1-9">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-ant</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Ant 1.9</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-ant-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-ant-1-9-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-ant</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Ant 1.9.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-ant-1-9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-db2">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-db2</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-ibm"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>DB2</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#database"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-db2-10">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-db2</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-ibm"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>DB2 10</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-db2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-db2-10-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-db2</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-ibm"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>DB2 10.1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-db2-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-derby">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-derby</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Derby</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#database"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-derby-10">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-derby</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Derby 10</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-derby"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-derby-10-6">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-derby</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Derby 10.6</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-derby-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-derby-10-6-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-derby</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Derby 10.6.1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-derby-10-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-derby-10-7">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-derby</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Derby 10.7</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-derby-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-derby-10-7-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-derby</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Derby 10.7.1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-derby-10-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-derby-10-8">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-derby</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Derby 10.8</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-derby-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-derby-10-8-2">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-derby</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Derby 10.8.2</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-derby-10-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-derby-10-9">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-derby</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Derby 10.9</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-derby-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-derby-10-9-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-derby</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Derby 10.9.1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-derby-10-9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os-10">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS 10</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mac-os"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os-10-0 (Cheetah)">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS 10.0 (Cheetah)</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mac-os-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os-10-1 (Puma)">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS 10.1 (Puma)</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mac-os-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os-10-2 (Jaguar)">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS 10.2 (Jaguar)</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mac-os-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os-10-3 (Panther)">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS 10.3 (Panther)</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mac-os-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os-10-4 (Tiger)">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS 10.4 (Tiger)</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mac-os-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os-10-5 (Leopard)">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS 10.5 (Leopard)</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mac-os-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os-10-6 (Snow Leopard)">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS 10.6 (Snow Leopard)</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mac-os-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os-10-7 (Lion)">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS 10.7 (Lion)</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mac-os-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os-10-8 (Mountain Lion)">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS 10.8 (Mountain Lion)</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mac-os-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mac-os-10-Beta (Kodiak)">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-mac-os</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apple"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Mac OS 10.Beta (Kodiak)</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mac-os-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#buildTool"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-10">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.10</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-11">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.11</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-2">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.2</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-3">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.3</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-4">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.4</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-5">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.5</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-6">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.6</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-7">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.7</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-8">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.8</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-0-9">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.0.9</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-1-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.1.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-1-0-M1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.1.0-M1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-2">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.2</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-2-2-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 2.2.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-2-2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-3">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 3</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-3-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 3.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-3-0-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 3.0.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-3-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-3-0-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 3.0.1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-3-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-3-0-2">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 3.0.2</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-3-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-3-0-3">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 3.0.3</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-3-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-3-0-4">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 3.0.4</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-3-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-maven-3-0-5">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-build-tool"/>
+	<ns1:hasID>prd-maven</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Maven 3.0.5</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-maven-3-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-sql-server">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-microsoft-sql-server</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft SQL Server</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#database"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-10">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-microsoft-sql-server</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft SQL Server 10</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-sql-server"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-10-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-microsoft-sql-server</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft SQL Server 10.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-10-5">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-microsoft-sql-server</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft SQL Server 10.5</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-11">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-microsoft-sql-server</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft SQL Server 11</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-sql-server"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-11-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-microsoft-sql-server</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft SQL Server 11.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-8">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-microsoft-sql-server</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft SQL Server 8</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-sql-server"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-8-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-microsoft-sql-server</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft SQL Server 8.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-9">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-microsoft-sql-server</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft SQL Server 9</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-sql-server"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-9-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-microsoft-sql-server</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft SQL Server 9.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-sql-server-9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-windows">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-microsoft-windows</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft Windows</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-windows-Azure">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-microsoft-windows</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft Windows.Azure</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-windows"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-windows-Home Server">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-microsoft-windows</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft Windows.Home Server</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-windows"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-windows-Home Server 2011">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-microsoft-windows</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft Windows.Home Server 2011</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-windows"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-windows-Server 2003">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-microsoft-windows</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft Windows.Server 2003</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-windows"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-windows-Server 2008">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-microsoft-windows</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft Windows.Server 2008</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-windows"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-windows-Server 2012">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-microsoft-windows</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft Windows.Server 2012</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-windows"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-windows-Vista">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-microsoft-windows</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft Windows.Vista</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-windows"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-windows-Windows 7">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-microsoft-windows</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft Windows.Windows 7</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-windows"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-windows-Windows 8">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-microsoft-windows</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft Windows.Windows 8</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-windows"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-microsoft-windows-XP">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#operating-system"/>
+	<ns1:hasID>prd-microsoft-windows</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-microsoft"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Microsoft Windows XP</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-microsoft-windows"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#database"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-1-15">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.1.15</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-1-22 RC">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.1.22 RC</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-1-23">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.1.23</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-1-3">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.1.3</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-1-30 GA">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.1.30 GA</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-1-31">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.1.31</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-1-43">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.1.43</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-1-5">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.1.5</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-1-55">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.1.55</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-1-61">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.1.61</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-5">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.5</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-5-0 M2">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.5.0 M2</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-5-20">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.5.20</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-5-3 M3">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.5.3 M3</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-5-6 RC">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.5.6 RC</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-5-8 GA">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.5.8 GA</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-5-9">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.5.9</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-6">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.6</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-6-10">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.6.10</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-6-2 M5">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.6.2 M5</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-6-5">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.6.5</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-mysql-5-6-9">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-mysql</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>MySQL 5.6.9</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-mysql-5-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-oracle-database">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-oracle-database</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Oracle Database</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#database"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-oracle-database-10g Release">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-oracle-database</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Oracle Database 10g Release</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-oracle-database"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-oracle-database-10g Release-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-oracle-database</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Oracle Database 10g Release.1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-oracle-database-10g Release"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-oracle-database-10g Release-2">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-oracle-database</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Oracle Database 10g Release.2</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-oracle-database-10g Release"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-oracle-database-11g Release">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-oracle-database</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Oracle Database 11g Release</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-oracle-database"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-oracle-database-11g Release-1">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-oracle-database</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Oracle Database 11g Release.1</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-oracle-database-11g Release"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-oracle-database-11g Release-2">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-rdb"/>
+	<ns1:hasID>prd-oracle-database</ns1:hasID>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-oracle"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Oracle Database 11g Release.2</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-oracle-database-11g Release"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#applicationServer"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-10">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.10</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-13">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.13</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-14">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.14</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-16">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.16</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-18">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.18</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-20">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.20</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-24">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.24</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-26">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.26</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-28">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.28</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-29">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.29</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-30">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.30</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-32">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.32</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-33">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.33</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-35">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.35</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-6-0-36">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 6.0.36</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-6-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-10">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.10</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-11">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.11</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-12">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.12</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-14">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.14</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-16">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.16</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-19">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.19</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-20">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.20</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-21">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.21</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-22">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.22</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-23">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.23</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-25">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.25</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-26">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.26</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-27">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.27</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-28">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.28</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-29">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.29</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-30">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.30</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-32">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.32</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-33">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.33</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-34">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.34</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-35">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.35</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-37">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.37</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-4 beta">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.4 beta</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-5 beta">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.5 beta</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-6">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.6</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#prd-tomcat-7-0-8">
+	<ns1:hasCat-ID rdf:resource="http://rb.lichtflut.de/devops#cat-jee-web"/>
+	<ns1:hasID>prd-tomcat</ns1:hasID>
+	<ns1:hasLicense rdf:resource="http://rb.lichtflut.de/devops#lcs-apl2"/>
+	<ns1:hasVendor-ID rdf:resource="http://rb.lichtflut.de/devops#vnd-apache"/>
+	<ns2:hasPrototype rdf:resource="http://rb.lichtflut.de/devops#Application-Server-Prototype"/>
+	<ns2:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer"/>
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label>Apache Tomcat 7.0.8</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#prd-tomcat-7-0"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#vnd-apache">
+	<ns1:hasID>vnd-apache</ns1:hasID>
+	<ns1:hasName>Apache Foundation</ns1:hasName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#vnd-apple">
+	<ns1:hasID>vnd-apple</ns1:hasID>
+	<ns1:hasName>Apple</ns1:hasName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#vnd-ibm">
+	<ns1:hasID>vnd-ibm</ns1:hasID>
+	<ns1:hasName>IBM</ns1:hasName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#vnd-microsoft">
+	<ns1:hasID>vnd-microsoft</ns1:hasID>
+	<ns1:hasName>Mircosoft</ns1:hasName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#vnd-novell">
+	<ns1:hasID>vnd-novell</ns1:hasID>
+	<ns1:hasName>Novell</ns1:hasName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#vnd-oracle">
+	<ns1:hasID>vnd-oracle</ns1:hasID>
+	<ns1:hasName>Oracle</ns1:hasName>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://rb.lichtflut.de/devops#vnd-redhat">
+	<ns1:hasID>vnd-redhat</ns1:hasID>
+	<ns1:hasName>RedHat</ns1:hasName>
+</rdf:Description>
+
+</rdf:RDF>
