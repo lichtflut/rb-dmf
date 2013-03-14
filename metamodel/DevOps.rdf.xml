@@ -16,6 +16,11 @@
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#TreeNode"/>
     </rdf:Description>
     
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#InfrastructureItem">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#ConfigurationItem"/>
+    </rdf:Description>
+    
     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#HardwareItem">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#ConfigurationItem"/>
@@ -25,6 +30,24 @@
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#ConfigurationItem"/>
 		<rb:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem" />
+    </rdf:Description>
+    
+    <!-- Infrastructure level -->
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#DataCenter">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#InfrastructureItem"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#PhysicalMachine">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#InfrastructureItem"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#HardwareItem"/>        
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#VirtualMachine">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#InfrastructureItem"/>
     </rdf:Description>
     
     <!-- Application level -->

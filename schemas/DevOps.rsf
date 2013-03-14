@@ -33,7 +33,7 @@ schema for "devops:DataCenter" {
     
     property "devops:hostsMachine" [0..n] {
         field-label : "Hosts machines"
-        field-label[de] : "Hosted Maschinen"
+        field-label[de] : "Hostet Maschinen"
         datatype : "Resource"
         resource-constraint : "devops:PhysicalMachine"
     }
