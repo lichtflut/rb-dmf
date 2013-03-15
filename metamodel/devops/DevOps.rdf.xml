@@ -39,15 +39,20 @@
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#InfrastructureItem"/>
     </rdf:Description>
     
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#Machine">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#InfrastructureItem"/>    
+    </rdf:Description>
+    
     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#PhysicalMachine">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#InfrastructureItem"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#Machine"/>
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#HardwareItem"/>        
     </rdf:Description>
     
     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#VirtualMachine">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#InfrastructureItem"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#Machine"/>
     </rdf:Description>
     
     <!-- Application level -->
@@ -60,17 +65,22 @@
     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#JEEApplicationServer">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#ExecutionEnvironment"/>
-		<rb:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer" />
+        <rb:hasSchemaIdentifyingType rdf:resource="http://rb.lichtflut.de/devops#ApplicationServer" />
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#DataStore">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#Application">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
     </rdf:Description>
-
-	<rdf:Description rdf:about="http://rb.lichtflut.de/devops#DataStore">
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#WebApplication">
         <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareItem"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#Application"/>
     </rdf:Description>
     
     <!-- software module level -->
@@ -90,7 +100,19 @@
         <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#Library"/>
     </rdf:Description>
     
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#JavaWebApplicationArchive">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#SoftwareModule"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/devops#WebApplication"/>
+    </rdf:Description>
+    
     <!-- PROPERTIES -->
+    
+     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#hasVersion">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:label>version</rdfs:label>
+        <rb:hasFieldLabel>Version</rb:hasFieldLabel>
+    </rdf:Description>
     
     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#hostsMachine">
         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -108,8 +130,9 @@
         <rb:hasFieldLabel>Hosted at</rb:hasFieldLabel>
     </rdf:Description>
     
-    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#runsSoftware">
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#runs">
         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#contains"/>
         <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasChildNode"/>
         <aras:inverseOf rdf:resource="http://rb.lichtflut.de/devops#runsOn"/>
         <rdfs:label>runs</rdfs:label>
@@ -119,8 +142,48 @@
     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#runsOn">
         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
         <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasParentNode"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/devops#runs"/>
         <rdfs:label>runs on</rdfs:label>
         <rb:hasFieldLabel>Runs on</rb:hasFieldLabel>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#runsSoftware">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/devops#runs"/>
+        <rdfs:label>runs</rdfs:label>
+        <rb:hasFieldLabel>Runs</rb:hasFieldLabel>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#hasOperatingSystem">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:label>has OS</rdfs:label>
+        <rb:hasFieldLabel>OS</rb:hasFieldLabel>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#hasIPAddress">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:label>has IP</rdfs:label>
+        <rb:hasFieldLabel>IP</rb:hasFieldLabel>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#hasVendor">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/devops#isVendorOf"/>
+        <rdfs:label>has vendor</rdfs:label>
+        <rb:hasFieldLabel>Vendor</rb:hasFieldLabel>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#isVendorOf">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/devops#hasVendor"/>
+        <rdfs:label>vendor of</rdfs:label>
+        <rb:hasFieldLabel>Vendor of</rb:hasFieldLabel>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/devops#hasContact">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:label>has contacts</rdfs:label>
+        <rb:hasFieldLabel>Contacts</rb:hasFieldLabel>
     </rdf:Description>
     
     <rdf:Description rdf:about="http://rb.lichtflut.de/devops#containsSoftwareModule">

@@ -280,6 +280,22 @@
 		<rb:hasFieldLabel>Owns</rb:hasFieldLabel>
 	</rdf:Description>
 	
+	<!-- responsibilities -->
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#isResponsibleFor">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#hasResponsible"/>
+		<rdfs:label>responsible for</rdfs:label>
+		<rb:hasFieldLabel>Responsible for</rb:hasFieldLabel>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasResponsible">
+		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+		<aras:inverseOf rdf:resource="http://rb.lichtflut.de/common#isResponsibleFor"/>
+		<rdfs:label>in charge</rdfs:label>
+		<rb:hasFieldLabel>In charge</rb:hasFieldLabel>
+	</rdf:Description>
+	
 	<!-- organizational -->
 	
 	<rdf:Description rdf:about="http://rb.lichtflut.de/common#hasSuperordinate">

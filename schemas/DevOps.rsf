@@ -10,8 +10,7 @@ schema for "devops:DataCenter" {
                     
     quick-info{
         common:hasID,
-        common:hasName,
-        aras:inheritsFrom
+        common:hasName
     }
 
     property "common:hasID" [1..1] {
@@ -22,6 +21,20 @@ schema for "devops:DataCenter" {
     property "common:hasName" [1..1] {
         field-label : "Name"
         datatype : "String"
+    }
+    
+    property "common:hasResponsible" [0..n] {
+        field-label : "In charge"
+        field-label[de] : "Verantwortlich"
+        datatype : "Resource"
+        resource-constraint : "common:ConceptualPerson"
+    }
+    
+    property "common:hasContact" [0..n] {
+        field-label : "Contact"
+        field-label[de] : "Ansprechpartner"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
     }
     
     property "common:hasDescription" [0..1] {
@@ -36,13 +49,6 @@ schema for "devops:DataCenter" {
         datatype : "Resource"
         resource-constraint : "devops:PhysicalMachine"
     }
-    
-    property "aras:inheritsFrom" [0..n] {
-        field-label : "Inherits from"
-        field-label[de] : "Erbt von"
-        datatype : "Resource"
-        resource-constraint : "devops:DataCenter"
-    }
 
 }
 
@@ -53,8 +59,7 @@ schema for "devops:PhysicalMachine" {
     quick-info{
         common:hasID,
         common:hasName,
-        common:hasIPAddress,
-        devops:hostsMachine
+        devops:hasIPAddress
     }
        
     property "common:hasID" [1..1] {
@@ -67,13 +72,46 @@ schema for "devops:PhysicalMachine" {
         datatype : "String"
     }
     
+    property "devops:hasVendor" [0..1] {
+        field-label : "Vendor"
+        field-label[de] : "Anbieter"
+        datatype : "Resource"
+        resource-constraint : "common:ConceptualPerson"
+    }
+    
+    property "common:hasResponsible" [0..n] {
+        field-label : "In charge"
+        field-label[de] : "Verantwortlich"
+        datatype : "Resource"
+        resource-constraint : "common:ConceptualPerson"
+    }
+    
+    property "common:hasContact" [0..n] {
+        field-label : "Contact"
+        field-label[de] : "Ansprechpartner"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+    
     property "common:hasDescription" [0..1] {
         field-label : "Description"
         field-label[de] : "Beschreibung"
         datatype : "Text"
     }
     
-    property "common:hasIPAddress" [0..1] {
+    property "devops:hostedAt" [0..n] {
+        field-label : "Hosted at"
+        field-label[de] : "Gehostet bei"
+        datatype : "Resource"
+        resource-constraint : "devops:DataCenter"
+    }
+    
+    property "devops:hasOperatingSystem" [0..n] {
+        field-label : "OS"
+        datatype : "String"
+    }
+    
+    property "devops:hasIPAddress" [0..1] {
         field-label : "IP"
         datatype : "String"
     }
@@ -101,8 +139,7 @@ schema for "devops:VirtualMachine" {
     quick-info{
         common:hasID,
         common:hasName,
-        common:hasIPAddress,
-        devops:runsSoftware
+        devops:hasIPAddress
     }
 
     property "common:hasID" [1..1] {
@@ -114,14 +151,35 @@ schema for "devops:VirtualMachine" {
         field-label : "Name"
         datatype : "String"
     }
+    
+    property "common:hasResponsible" [0..n] {
+        field-label : "In charge"
+        field-label[de] : "Verantwortlich"
+        datatype : "Resource"
+        resource-constraint : "common:ConceptualPerson"
+    }
+    
+    property "common:hasContact" [0..n] {
+        field-label : "Contact"
+        field-label[de] : "Ansprechpartner"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
 
     property "common:hasDescription" [0..1] {
         field-label : "Description"
         field-label[de] : "Beschreibung"
         datatype : "Text"
     }
+    
+    property "devops:hostedAt" [0..n] {
+        field-label : "Hosted at"
+        field-label[de] : "Gehostet bei"
+        datatype : "Resource"
+        resource-constraint : "devops:DataCenter"
+    }
 
-    property "common:hasIPAddress" [0..1] {
+    property "devops:hasIPAddress" [0..n] {
         field-label : "IP"
         datatype : "String"
     }
@@ -229,6 +287,55 @@ schema for "devops:ApplicationServer"{
         field-label[de] : "Beschreibung"
         datatype : "Text"
     }
+    
+    property "devops:runsSoftware" [0..n] {
+        field-label : "Runs"
+        field-label[de] : "Führt aus"
+        datatype : "Resource"
+        resource-constraint : "devops:SoftwareItem"
+    }
+    
+}
+
+schema for "devops:JEEApplicationServer"{
+
+    label-rule : "common:hasName"
+                 
+    quick-info{
+        common:hasID,
+        common:hasName
+    }
+
+    property "common:hasID" [1..1] {
+        field-label : "ID"
+        datatype : "String"
+    }
+
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+    
+    property "devops:hasVendor" [0..1] {
+        field-label : "Vendor"
+        field-label[de] : "Anbieter"
+        datatype : "Resource"
+        resource-constraint : "common:ConceptualPerson"
+    }
+    
+    property "common:hasDescription" [0..1] {
+        field-label : "Description"
+        field-label[de] : "Beschreibung"
+        datatype : "Text"
+    }
+    
+    property "devops:runsSoftware" [0..n] {
+        field-label : "Runs"
+        field-label[de] : "Führt aus"
+        datatype : "Resource"
+        resource-constraint : "devops:JavaWebApplicationArchive"
+    }
+    
 }
 
 schema for "devops:DataStore"{
@@ -250,9 +357,62 @@ schema for "devops:DataStore"{
         datatype : "String"
     }
     
+    property "devops:hasVendor" [0..1] {
+        field-label : "Vendor"
+        field-label[de] : "Anbieter"
+        datatype : "Resource"
+        resource-constraint : "common:ConceptualPerson"
+    }
+    
     property "common:hasDescription" [0..1] {
         field-label : "Description"
         field-label[de] : "Beschreibung"
         datatype : "Text"
+    }
+}
+
+schema for "devops:JavaWebApplicationArchive"{
+
+    label-rule : "common:hasName"
+                    
+    quick-info{
+        common:hasID,
+        common:hasName,
+        devops:hasVersion
+    }
+
+    property "common:hasID" [1..1] {
+        field-label : "ID"
+        datatype : "String"
+    }
+
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+    
+    property "devops:hasVersion" [0..1] {
+        field-label : "Version"
+        datatype : "String"
+    }
+    
+    property "common:hasDescription" [0..1] {
+        field-label : "Description"
+        field-label[de] : "Beschreibung"
+        datatype : "Text"
+    }
+    
+    property "common:hasResponsible" [0..n] {
+        field-label : "In charge"
+        field-label[de] : "Verantwortlich"
+        datatype : "Resource"
+        resource-constraint : "common:ConceptualPerson"
+    }
+    
+    property "common:hasContact" [0..n] {
+        field-label : "Contact"
+        field-label[de] : "Ansprechpartner"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
     }
 }
