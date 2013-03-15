@@ -9,10 +9,9 @@ schema for "devops:DataCenter" {
     label-rule : "common:hasName"
                     
     quick-info{
-	common:hasID,
-	common:hasName,
-	aras:inheritsFrom
-		
+        common:hasID,
+        common:hasName,
+        aras:inheritsFrom
     }
 
     property "common:hasID" [1..1] {
@@ -52,10 +51,10 @@ schema for "devops:PhysicalMachine" {
     label-rule : "common:hasName"
              
     quick-info{
-	common:hasID,
-	common:hasName,
-	common:hasIPAddress,
-	devops:hostsMachine
+        common:hasID,
+        common:hasName,
+        common:hasIPAddress,
+        devops:hostsMachine
     }
        
     property "common:hasID" [1..1] {
@@ -100,10 +99,10 @@ schema for "devops:VirtualMachine" {
     label-rule : "common:hasName"
 
     quick-info{
-	common:hasID,
-	common:hasName,
-	common:hasIPAddress,
-	devops:runsSoftware
+        common:hasID,
+        common:hasName,
+        common:hasIPAddress,
+        devops:runsSoftware
     }
 
     property "common:hasID" [1..1] {
@@ -141,9 +140,9 @@ schema for "devops:SoftwareItem" {
     label-rule : "common:hasName"
                     
     quick-info{
-	common:hasID,
-	common:hasName,
-	common:containsSoftwareModule
+        common:hasID,
+        common:hasName,
+        common:containsSoftwareModule
     }
 
     property "common:hasID" [1..1] {
@@ -176,9 +175,9 @@ schema for "devops:ExecutionEnvironment" {
     label-rule : "common:hasName"
                     
     quick-info{
-	common:hasID,
-	common:hasName,
-	common:containsSoftwareModule
+        common:hasID,
+        common:hasName,
+        common:containsSoftwareModule
     }
 
     property "common:hasID" [1..1] {
@@ -211,8 +210,8 @@ schema for "devops:ApplicationServer"{
     label-rule : "common:hasName"
                  
     quick-info{
-	common:hasID,
-	common:hasName
+        common:hasID,
+        common:hasName
     }
 
     property "common:hasID" [1..1] {
@@ -237,8 +236,8 @@ schema for "devops:DataStore"{
     label-rule : "common:hasName"
                     
     quick-info{
-	common:hasID,
-	common:hasName
+        common:hasID,
+        common:hasName
     }
 
     property "common:hasID" [1..1] {
