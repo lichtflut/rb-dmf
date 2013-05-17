@@ -1,48 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-	xmlns:common="http://rb.lichtflut.de/common#"
-	xmlns:rb="http://rb.lichtflut.de/system#"
-	xmlns:aras="http://arastreju.org/kernel#"
-	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-	
-	<!-- TYPES -->
-	
-	<rdf:Description rdf:about="http://rb.lichtflut.de/system#Type">
-		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	</rdf:Description>
-	
-	<rdf:Description rdf:about="http://rb.lichtflut.de/system#Entity">
-		<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	</rdf:Description>
-	
-	<!-- PROPERTIES -->
-	
-	<rdf:Description rdf:about="http://rb.lichtflut.de/system#hasEmail">
-		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-		<rdfs:subPropertyOf rdf:resource="http://arastreju.org/kernel#isIdentifiedBy"/>
-		<rdfs:label>has email</rdfs:label>
-		<rb:hasFieldLabel>Email</rb:hasFieldLabel>
-	</rdf:Description>
-	
-	<rdf:Description rdf:about="http://rb.lichtflut.de/system#hasUsername">
-		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-		<rdfs:subPropertyOf rdf:resource="http://arastreju.org/kernel#isIdentifiedBy"/>
-		<rdfs:label>has username</rdfs:label>
-		<rb:hasFieldLabel>Username</rb:hasFieldLabel>
-	</rdf:Description>
-	
-	<rdf:Description rdf:about="http://rb.lichtflut.de/system#hasSchemaIdentifyingType">
-		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-		<rdfs:label>has schema identifying type</rdfs:label>
-		<rb:hasFieldLabel>Schema type</rb:hasFieldLabel>
-	</rdf:Description>
+    xmlns:common="http://rb.lichtflut.de/common#"
+    xmlns:rb="http://rb.lichtflut.de/system#"
+    xmlns:aras="http://arastreju.org/kernel#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    
+    <!-- TYPES -->
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/system#Type">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/system#Entity">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:Description>
+    
+     <rdf:Description rdf:about="http://rb.lichtflut.de/system#Perception">
+        <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+        <rdfs:subClassOf rdf:resource="http://rb.lichtflut.de/common#TreeRootNode"/>
+    </rdf:Description>
 
-	<rdf:Description rdf:about="http://rb.lichtflut.de/system#hasPrototype">
-		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-		<rdfs:label>has prototype</rdfs:label>
-		<rb:hasFieldLabel>Prototype</rb:hasFieldLabel>
-	</rdf:Description>
-	
+    <!-- PROPERTIES -->
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/system#hasEmail">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:subPropertyOf rdf:resource="http://arastreju.org/kernel#isIdentifiedBy"/>
+        <rdfs:label>has email</rdfs:label>
+        <rb:hasFieldLabel>Email</rb:hasFieldLabel>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/system#hasUsername">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:subPropertyOf rdf:resource="http://arastreju.org/kernel#isIdentifiedBy"/>
+        <rdfs:label>has username</rdfs:label>
+        <rb:hasFieldLabel>Username</rb:hasFieldLabel>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://rb.lichtflut.de/system#hasSchemaIdentifyingType">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:label>has schema identifying type</rdfs:label>
+        <rb:hasFieldLabel>Schema type</rb:hasFieldLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/system#hasPrototype">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <rdfs:label>has prototype</rdfs:label>
+        <rb:hasFieldLabel>Prototype</rb:hasFieldLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/system#belongsToPerception">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/system#containsPerceptionItem"/>
+        <rdfs:subPropertyOf rdf:resource="http://rb.lichtflut.de/common#hasScope"/>
+        <rdfs:label>belongs to</rdfs:label>
+        <rb:hasFieldLabel>Belongs to</rb:hasFieldLabel>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://rb.lichtflut.de/system#containsPerceptionItem">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+        <aras:inverseOf rdf:resource="http://rb.lichtflut.de/system#belongsToPerception"/>
+        <rdfs:label>contains</rdfs:label>
+        <rb:hasFieldLabel>Contains</rb:hasFieldLabel>
+    </rdf:Description>
+
 </rdf:RDF>

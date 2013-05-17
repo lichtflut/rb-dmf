@@ -2,428 +2,428 @@ namespace "http://rb.lichtflut.de/common#" prefix "common"
 namespace "http://rb.lichtflut.de/public-constraints#" prefix "constraint"
 
 constraint definition for "constraint:EmailConstraint" {
-	name : "Email-Constraint"
+    name : "Email-Constraint"
     literal-constraint : ".*@.*"
     applicable-datatypes : "string, text, rich_text"
 } 
 
 schema for "common:City" {
-	label-rule : "common:hasName <(> common:isInCountry <)>"
-					
-	property "common:hasName" [1..1] {
-		field-label : "Name"
-		datatype : "String"
-	}
-	
-	property "common:isInCountry" [1..1] {
-		field-label : "Country"
-		field-label[de] : "Land"
-		datatype : "Resource"
-		resource-constraint : "common:Country"
-	}
-	
-	property "common:hasPopulation" [1..1] {
-		field-label : "Population"
-		datatype : "Integer"
-	}
-	
+    label-rule : "common:hasName <(> common:isInCountry <)>"
+                    
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+    
+    property "common:isInCountry" [1..1] {
+        field-label : "Country"
+        field-label[de] : "Land"
+        datatype : "Resource"
+        resource-constraint : "common:Country"
+    }
+    
+    property "common:hasPopulation" [1..1] {
+        field-label : "Population"
+        datatype : "Integer"
+    }
+    
 }
 
 schema for "common:Country" {
-	label-rule : "common:hasName"
-					
-	property "common:hasName" [1..1] {
-		field-label : "Name"
-		datatype : "String"
-	}
-	
-	property "common:hasIsoAplpha2Code" [1..1] {
-		field-label : "ISO Alpha 2"
-		datatype : "String"
-	}
-	
-	property "common:hasIsoAplpha3Code" [1..1] {
-		field-label : "ISO Alpha 3"
-		datatype : "String"
-	}
-	
-	property "common:isInContinent" [1..1] {
-		field-label : "Continent"
-		field-label[de] : "Kontinent"
-		datatype : "Resource"
-		resource-constraint : "common:Continent"
-	}
-	
-	property "common:hasPopulation" [1..1] {
-		field-label : "Population"
-		datatype : "Integer"
-	}
-	
+    label-rule : "common:hasName"
+                    
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+    
+    property "common:hasIsoAplpha2Code" [1..1] {
+        field-label : "ISO Alpha 2"
+        datatype : "String"
+    }
+    
+    property "common:hasIsoAplpha3Code" [1..1] {
+        field-label : "ISO Alpha 3"
+        datatype : "String"
+    }
+    
+    property "common:isInContinent" [1..1] {
+        field-label : "Continent"
+        field-label[de] : "Kontinent"
+        datatype : "Resource"
+        resource-constraint : "common:Continent"
+    }
+    
+    property "common:hasPopulation" [1..1] {
+        field-label : "Population"
+        datatype : "Integer"
+    }
+    
 }
 
 schema for "common:Continent" {
-	label-rule : "common:hasName"
-					
-	property "common:hasName" [1..1] {
-		field-label : "Name"
-		datatype : "String"
-	}
-	
+    label-rule : "common:hasName"
+                    
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+    
 }
 
 schema for "common:Person" {
-	label-rule : "common:hasFirstname common:hasLastname"
-	
-	quick-info {
-		common:hasLastName,
-		common:hasImage
-	}
+    label-rule : "common:hasFirstname common:hasLastname"
+    
+    quick-info {
+        common:hasLastName,
+        common:hasImage
+    }
 
-	property "common:hasFirstname" [1..1] {
-		field-label : "First name"
-		field-label[de] : "Vorname"
-		datatype : "String"
-	}
-	
-	property "common:hasLastname" [1..1] {
-		field-label : "Last name"
-		field-label[de] : "Nachname"
-		datatype : "String"
-	}
-	
-	property "common:hasAddress" [0..1] {
-		field-label : "Address"
-		field-label[de] : "Adresse"
-		datatype : "Resource"
-		resource-constraint : "common:Address"
-		visualize { 
-			embedded : "false" 
-		}
-	}
-	
-	property "common:hasDateOfBirth" [0..1] {
-		field-label : "Birthdate"
-		field-label[de] : "Geburtstag"
-		datatype : "Date"
-	}
-	
-	property "common:hasEmail" [0..n] {
-		field-label : "E-Mail"
-		datatype : "string"
-		reference-constraint : "constraint:EmailConstraint"
-	}
-	
-	property "common:hasContactData" [0..n] {
-		field-label : "Phone contacts"
-		field-label[de] : "Kontaktdaten"
-		datatype : "Resource"
-		resource-constraint : "common:ContactData"
-	}
-	
-	property "common:hasSpouse" [0..1] {
-		field-label : "Spouse"
-		field-label[de] : "Partner/Gatte"
-		datatype : "Resource"
-		resource-constraint : "common:Person"
-	}
-	
-	property "common:hasChild" [0..n] {
-		field-label : "Children"
-		field-label[de] : "Kinder"
-		datatype : "Resource"
-		resource-constraint : "common:Person"
-	}
-	
-	property "common:hasLanguageSkill" [0..n] {
-		field-label : "Language skills"
-		field-label[de] : "Sprachen"
-		datatype : "Resource"
-		resource-constraint : "common:LanguageSkill"
-	}
-	
-	property "common:isEmployedBy" [0..n] {
-		field-label : "Embloyed by"
-		field-label[de] : "Angestellt bei"
-		datatype : "Resource"
-		resource-constraint : "common:Organization"
-	}
-	
-	property "common:hasExpertise" [0..n] {
-		field-label : "Expertise"
-		datatype : "Resource"
-		resource-constraint : "common:Expertise"
-	}
-	
+    property "common:hasFirstname" [1..1] {
+        field-label : "First name"
+        field-label[de] : "Vorname"
+        datatype : "String"
+    }
+    
+    property "common:hasLastname" [1..1] {
+        field-label : "Last name"
+        field-label[de] : "Nachname"
+        datatype : "String"
+    }
+    
+    property "common:hasAddress" [0..1] {
+        field-label : "Address"
+        field-label[de] : "Adresse"
+        datatype : "Resource"
+        resource-constraint : "common:Address"
+        visualize { 
+            embedded : "false" 
+        }
+    }
+    
+    property "common:hasDateOfBirth" [0..1] {
+        field-label : "Birthdate"
+        field-label[de] : "Geburtstag"
+        datatype : "Date"
+    }
+    
+    property "common:hasEmail" [0..n] {
+        field-label : "E-Mail"
+        datatype : "string"
+        reference-constraint : "constraint:EmailConstraint"
+    }
+    
+    property "common:hasContactData" [0..n] {
+        field-label : "Phone contacts"
+        field-label[de] : "Kontaktdaten"
+        datatype : "Resource"
+        resource-constraint : "common:ContactData"
+    }
+    
+    property "common:hasSpouse" [0..1] {
+        field-label : "Spouse"
+        field-label[de] : "Partner/Gatte"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+    
+    property "common:hasChild" [0..n] {
+        field-label : "Children"
+        field-label[de] : "Kinder"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+    
+    property "common:hasLanguageSkill" [0..n] {
+        field-label : "Language skills"
+        field-label[de] : "Sprachen"
+        datatype : "Resource"
+        resource-constraint : "common:LanguageSkill"
+    }
+    
+    property "common:isEmployedBy" [0..n] {
+        field-label : "Embloyed by"
+        field-label[de] : "Angestellt bei"
+        datatype : "Resource"
+        resource-constraint : "common:Organization"
+    }
+    
+    property "common:hasExpertise" [0..n] {
+        field-label : "Expertise"
+        datatype : "Resource"
+        resource-constraint : "common:Expertise"
+    }
+    
 }
 
 schema for "common:Address" {
-	label-rule : "common:hasStreet common:hasHouseNo <,> common:isInCity"
-	
-	property "common:hasStreet" [1..1] {
-		field-label : "Street"
-		field-label[de] : "Straße"
-		datatype : "String"
-	}
-	
+    label-rule : "common:hasStreet common:hasHouseNo <,> common:isInCity"
+    
+    property "common:hasStreet" [1..1] {
+        field-label : "Street"
+        field-label[de] : "Straße"
+        datatype : "String"
+    }
+    
     property "common:hasHouseNo" [0..1] {
-		field-label : "House No."
-		field-label[de] : "Hausnr."
-		datatype : "String"
-		visualize { 
-			floating : "yes"
-			style : "width:80px"
-		}
-	}
-	
-	property "common:hasZipcode" [1..1] {
-		field-label : "ZIP code"
-		field-label[de] : "PLZ"
-		datatype : "String"
-	}
-	
-	property "common:isInCity" [1..1] {
-		field-label : "City"
-		field-label[de] : "Stadt"
-		datatype : "Resource"
-		resource-constraint : "common:City"
-	}
-	
+        field-label : "House No."
+        field-label[de] : "Hausnr."
+        datatype : "String"
+        visualize { 
+            floating : "yes"
+            style : "width:80px"
+        }
+    }
+    
+    property "common:hasZipcode" [1..1] {
+        field-label : "ZIP code"
+        field-label[de] : "PLZ"
+        datatype : "String"
+    }
+    
+    property "common:isInCity" [1..1] {
+        field-label : "City"
+        field-label[de] : "Stadt"
+        datatype : "Resource"
+        resource-constraint : "common:City"
+    }
+    
 }
 
 schema for "common:Organization" {
-	label-rule : "common:hasName"
-	
-	property "common:hasName" [1..1] {
-		field-label : "Name"
-		datatype : "String"
-	}
-	
-	property "common:hasGeneralManager" [0..n] {
-		field-label : "General Manager"
-		field-label[de] : "Geschäftsführer"
-		datatype : "Resource"
-		resource-constraint : "common:Person"
-	}
-	
-	property "common:hasDomicile" [0..n] {
-		field-label : "Domicile"
-		field-label[de] : "Sitz"
-		datatype : "Resource"
-		resource-constraint : "common:City"
-	}
-	
-	property "common:hasAddress" [0..n] {
-		field-label : "Address"
-		field-label[de] : "Adresse"
-		datatype : "Resource"
-		resource-constraint : "common:Address"
-	}
+    label-rule : "common:hasName"
+    
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+    
+    property "common:hasGeneralManager" [0..n] {
+        field-label : "General Manager"
+        field-label[de] : "Geschäftsführer"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+    
+    property "common:hasDomicile" [0..n] {
+        field-label : "Domicile"
+        field-label[de] : "Sitz"
+        datatype : "Resource"
+        resource-constraint : "common:City"
+    }
+    
+    property "common:hasAddress" [0..n] {
+        field-label : "Address"
+        field-label[de] : "Adresse"
+        datatype : "Resource"
+        resource-constraint : "common:Address"
+    }
    
-   	property "common:isNPO" [0..1] {
-		field-label : "Is NPO"
-		datatype : "boolean"
-	}
-	
-	property "common:hasSubordinate" [0..n] {
-		field-label : "Sub units"
-		field-label[de] : "Org.-Einheiten"
-		datatype : "Resource"
-		resource-constraint : "common:OrganizationalUnit"
-	}
-	
-	property "common:hasDescription" [0..1] {
-		field-label : "Description"
-		field-label[de] : "Beschreibung"
-		datatype : "Text"
-	}
+       property "common:isNPO" [0..1] {
+        field-label : "Is NPO"
+        datatype : "boolean"
+    }
+    
+    property "common:hasSubordinate" [0..n] {
+        field-label : "Sub units"
+        field-label[de] : "Org.-Einheiten"
+        datatype : "Resource"
+        resource-constraint : "common:OrganizationalUnit"
+    }
+    
+    property "common:hasDescription" [0..1] {
+        field-label : "Description"
+        field-label[de] : "Beschreibung"
+        datatype : "Text"
+    }
 }
 
 schema for "common:OrganizationalUnit" {
-	label-rule : "common:hasName"
-	
-	property "common:hasName" [1..1] {
-		field-label : "Name"
-		datatype : "String"
-	}
-	
-	property "common:hasID" [1..1] {
-		field-label : "ID"
-		datatype : "String"
-	}
-	
-	property "common:hasLead" [0..n] {
-		field-label : "Chief/Manager"
-		field-label[de] : "Leiter"
-		datatype : "Resource"
-		resource-constraint : "common:Person"
-	}
-	
-	property "common:hasDeputy" [0..n] {
-		field-label : "Deputy"
-		field-label[de] : "Stellvertreter"
-		datatype : "Resource"
-		resource-constraint : "common:Person"
-	}
-	
-	property "common:hasMembers" [0..n] {
-		field-label : "Staff"
-		field-label[de] : "Mitarbeiter"
-		datatype : "Resource"
-		resource-constraint : "common:Person"
-	}
-	
-	property "common:hasSuperordinate" [0..1] {
-		field-label : "Superodinate unit"
-		field-label[de] : "Übergeordnete Einheit"
-		datatype : "Resource"
-		resource-constraint : "common:OrganizationalUnit"
-	}
-	
-	property "common:hasSubordinate" [0..n] {
-		field-label : "Sub units"
-		field-label[de] : "Org.-Einheiten"
-		datatype : "Resource"
-		resource-constraint : "common:OrganizationalUnit"
-	}
-	
-	property "common:hasDescription" [0..1] {
-		field-label : "Description"
-		field-label[de] : "Beschreibung"
-		datatype : "Text"
-	}
+    label-rule : "common:hasName"
+    
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        datatype : "String"
+    }
+    
+    property "common:hasID" [1..1] {
+        field-label : "ID"
+        datatype : "String"
+    }
+    
+    property "common:hasLead" [0..n] {
+        field-label : "Chief/Manager"
+        field-label[de] : "Leiter"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+    
+    property "common:hasDeputy" [0..n] {
+        field-label : "Deputy"
+        field-label[de] : "Stellvertreter"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+    
+    property "common:hasMembers" [0..n] {
+        field-label : "Staff"
+        field-label[de] : "Mitarbeiter"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+    
+    property "common:hasSuperordinate" [0..1] {
+        field-label : "Superodinate unit"
+        field-label[de] : "Übergeordnete Einheit"
+        datatype : "Resource"
+        resource-constraint : "common:OrganizationalUnit"
+    }
+    
+    property "common:hasSubordinate" [0..n] {
+        field-label : "Sub units"
+        field-label[de] : "Org.-Einheiten"
+        datatype : "Resource"
+        resource-constraint : "common:OrganizationalUnit"
+    }
+    
+    property "common:hasDescription" [0..1] {
+        field-label : "Description"
+        field-label[de] : "Beschreibung"
+        datatype : "Text"
+    }
 
 }
 
 schema for "common:Project" {
-	label-rule : "common:hasTitle <(> common:hasID <)>"
-	
-	property "common:hasTitle" [1..1] {
-		field-label : "Title"
-		field-label[de] : "Titel"
-		datatype : "String"
-	}
-	
-	property "common:hasID" [1..1] {
-		field-label : "ID"
-		datatype : "String"
-	}
-	
-	property "common:hasLead" [0..n] {
-		field-label : "Chief/Manager"
-		field-label[de] : "Leiter"
-		datatype : "Resource"
-		resource-constraint : "common:Person"
-	}
-	
-	property "common:hasStakeholder" [0..n] {
-		field-label : "Deputy"
-		field-label[de] : "Stellvertreter"
-		datatype : "Resource"
-		resource-constraint : "common:Person"
-	}
-	
-	property "common:hasMembers" [1..n] {
-		field-label : "Team"
-		datatype : "Resource"
-		resource-constraint : "common:Person"
-	}
-	
-	property "common:hasOwner" [0..n] {
-		field-label : "Owner"
-		datatype : "Resource"
-		resource-constraint : "common:ConceptualPerson"
-	}
-	
-	property "common:hasCostUnit" [1..n] {
-		field-label : "Sponsor"
-		field-label[de] : "Kostenstelle"
-		datatype : "Resource"
-		resource-constraint : "common:OrganizationalUnit"
-	}
-	
-	property "common:hasDescription" [1..1] {
-		field-label : "Description"
-		field-label[de] : "Beschreibung"
-		datatype : "Text"
-	}
+    label-rule : "common:hasTitle <(> common:hasID <)>"
+    
+    property "common:hasTitle" [1..1] {
+        field-label : "Title"
+        field-label[de] : "Titel"
+        datatype : "String"
+    }
+    
+    property "common:hasID" [1..1] {
+        field-label : "ID"
+        datatype : "String"
+    }
+    
+    property "common:hasLead" [0..n] {
+        field-label : "Chief/Manager"
+        field-label[de] : "Leiter"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+    
+    property "common:hasStakeholder" [0..n] {
+        field-label : "Deputy"
+        field-label[de] : "Stellvertreter"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+    
+    property "common:hasMembers" [1..n] {
+        field-label : "Team"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+    
+    property "common:hasOwner" [0..n] {
+        field-label : "Owner"
+        datatype : "Resource"
+        resource-constraint : "common:ConceptualPerson"
+    }
+    
+    property "common:hasCostUnit" [1..n] {
+        field-label : "Sponsor"
+        field-label[de] : "Kostenstelle"
+        datatype : "Resource"
+        resource-constraint : "common:OrganizationalUnit"
+    }
+    
+    property "common:hasDescription" [1..1] {
+        field-label : "Description"
+        field-label[de] : "Beschreibung"
+        datatype : "Text"
+    }
 
 }
 
 schema for "common:Vehicle" {
-	label-rule : "common:hasLicenseTag"
-	
-	property "common:hasLicenseTag" [1..1] {
-		field-label : "Numberplate"
-		field-label[de] : "Nummernschild"
-		datatype : "String"
-	}
-	
-	property "common:isProducedBy" [1..1] {
-		field-label : "Producer"
-		field-label[de] : "Hersteller"
-		datatype : "Resource"
-		resource-constraint : "common:Organization"
-	}
-	
-	property "common:isAssignedTo" [1..1] {
-		field-label : "Assigned to"
-		field-label[de] : "Zugewiesen zu"
-		datatype : "Resource"
-		resource-constraint : "common:Person"
-	}
-	
-	property "common:hasDescription" [1..1] {
-		field-label : "Description"
-		field-label[de] : "Beschreibung"
-		datatype : "Text"
-	}
-	
+    label-rule : "common:hasLicenseTag"
+    
+    property "common:hasLicenseTag" [1..1] {
+        field-label : "Numberplate"
+        field-label[de] : "Nummernschild"
+        datatype : "String"
+    }
+    
+    property "common:isProducedBy" [1..1] {
+        field-label : "Producer"
+        field-label[de] : "Hersteller"
+        datatype : "Resource"
+        resource-constraint : "common:Organization"
+    }
+    
+    property "common:isAssignedTo" [1..1] {
+        field-label : "Assigned to"
+        field-label[de] : "Zugewiesen zu"
+        datatype : "Resource"
+        resource-constraint : "common:Person"
+    }
+    
+    property "common:hasDescription" [1..1] {
+        field-label : "Description"
+        field-label[de] : "Beschreibung"
+        datatype : "Text"
+    }
+    
 }
  
 schema for "common:ContactData" {
-	label-rule : "common:hasValue <(> common:hasCategory <)>"
-	
-	property "common:hasCategory" [1..1] {
-		field-label : "Category"
-		field-label[de] : "Kategorie"
-		datatype : "Resource"
-		resource-constraint : "common:ContactDataCategory"
-	}
-	
-	property "common:hasValue" [1..1] {
-		field-label : "Number"
-		field-label[de] : "Nummer"
-		datatype : "String"
-	}
-	
+    label-rule : "common:hasValue <(> common:hasCategory <)>"
+    
+    property "common:hasCategory" [1..1] {
+        field-label : "Category"
+        field-label[de] : "Kategorie"
+        datatype : "Resource"
+        resource-constraint : "common:ContactDataCategory"
+    }
+    
+    property "common:hasValue" [1..1] {
+        field-label : "Number"
+        field-label[de] : "Nummer"
+        datatype : "String"
+    }
+    
 }
 
 schema for "common:LanguageSkill" {
-	label-rule : "common:hasName"
-	
-	property "common:hasName" [1..1] {
-		field-label : "Name"
-		field-label[de] : "Bezeichnung"
-		datatype : "String"
-	}
-	
+    label-rule : "common:hasName"
+    
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        field-label[de] : "Bezeichnung"
+        datatype : "String"
+    }
+    
 }
 
 schema for "common:Expertise" {
-	label-rule : "common:hasName"
-	
-	property "common:hasName" [1..1] {
-		field-label : "Name"
-		field-label[de] : "Bezeichnung"
-		datatype : "String"
-	}
-	
-	property "common:hasParent" [0..1] {
-		field-label : "Superordinate"
-		field-label[de] : "Übergeordnet"
-		datatype : "Resource"
-		resource-constraint : "common:Expertise"
-	}
-	
+    label-rule : "common:hasName"
+    
+    property "common:hasName" [1..1] {
+        field-label : "Name"
+        field-label[de] : "Bezeichnung"
+        datatype : "String"
+    }
+    
+    property "common:hasParent" [0..1] {
+        field-label : "Superordinate"
+        field-label[de] : "Übergeordnet"
+        datatype : "Resource"
+        resource-constraint : "common:Expertise"
+    }
+
 }
- 
+
