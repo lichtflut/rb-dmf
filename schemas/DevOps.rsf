@@ -22,27 +22,37 @@ schema for "devops:DataCenter" {
         field-label : "Name"
         datatype : "String"
     }
-    
+
+    property "common:hasAddress" [0..1] {
+        field-label : "Address"
+        field-label[de] : "Adresse"
+        datatype : "Resource"
+        resource-constraint : "common:Address"
+        visualize { 
+            embedded : "false" 
+        }
+    }
+
     property "common:hasResponsible" [0..n] {
         field-label : "In charge"
         field-label[de] : "Verantwortlich"
         datatype : "Resource"
         resource-constraint : "common:ConceptualPerson"
     }
-    
+
     property "common:hasContact" [0..n] {
         field-label : "Contact"
         field-label[de] : "Ansprechpartner"
         datatype : "Resource"
         resource-constraint : "common:Person"
     }
-    
+
     property "common:hasDescription" [0..1] {
         field-label : "Description"
         field-label[de] : "Beschreibung"
         datatype : "Text"
     }
-    
+
     property "devops:hostsMachine" [0..n] {
         field-label : "Hosts machines"
         field-label[de] : "Hostet Maschinen"
@@ -99,14 +109,14 @@ schema for "devops:PhysicalMachine" {
         datatype : "Text"
     }
     
-    property "devops:hostedAt" [0..n] {
+    property "devops:hostedAt" [0..1] {
         field-label : "Hosted at"
         field-label[de] : "Gehostet bei"
         datatype : "Resource"
         resource-constraint : "devops:DataCenter"
     }
     
-    property "devops:hasOperatingSystem" [0..n] {
+    property "devops:hasOperatingSystem" [0..1] {
         field-label : "OS"
         datatype : "String"
     }
