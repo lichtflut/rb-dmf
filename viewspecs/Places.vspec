@@ -1,0 +1,33 @@
+perspective "Places" {
+
+	title : "Places overview"
+
+	port {
+
+		widget {
+			title : "Countries"
+			display : "list"
+			action "http://rb.lichtflut.de/system#InstantiateAction" {
+			}
+			selection {
+				query : "'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'='http://rb.lichtflut.de/common#Country'"
+			}
+		}
+
+	}
+
+	port {
+
+		widget {
+			title : "Cities"
+			display : "list"
+			action "http://rb.lichtflut.de/system#InstantiateAction" {
+			}
+			selection {
+				query : "'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'='http://rb.lichtflut.de/common#City'"
+			}
+		}
+
+	}
+
+}

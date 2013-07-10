@@ -1,0 +1,27 @@
+perspective "People" {
+
+	title : "People overview"
+
+	port {
+
+		widget {
+			title : "All people"
+			display : "list"
+			action null {
+			}
+			selection {
+				query : "'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'='http://rb.lichtflut.de/common#Person'"
+			}
+		}
+
+	}
+
+	port {
+
+		widget {
+			implementing-class : "de.lichtflut.rb.webck.components.widgets.builtin.ThatsMeWidget"
+		}
+
+	}
+
+}

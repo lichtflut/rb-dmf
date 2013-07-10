@@ -1,0 +1,48 @@
+perspective "Organization" {
+
+	title : "Organizational overview"
+
+	port {
+
+		widget {
+			title : "My company"
+			implementing-class : "de.lichtflut.rb.webck.components.widgets.builtin.MyCompanyWidget"
+		}
+
+		widget {
+			title : "All organizations"
+			display : "list"
+			action null {
+			}
+			selection {
+				query : "'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'='http://rb.lichtflut.de/common#Organization'"
+			}
+		}
+
+	}
+
+	port {
+
+		widget {
+			title : "All processes"
+			display : "list"
+			action null {
+			}
+			selection {
+				query : "'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'='http://rb.lichtflut.de/bpm#BusinessProcess'"
+			}
+		}
+
+		widget {
+			title : "All projects"
+			display : "list"
+			action null {
+			}
+			selection {
+				query : "'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'='http://rb.lichtflut.de/common#Project'"
+			}
+		}
+
+	}
+
+}
